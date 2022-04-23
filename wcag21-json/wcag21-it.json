@@ -1,0 +1,1993 @@
+{
+    "principles": [
+        {
+            "id": "perceivable",
+            "alt_id": [
+                "x1-perceivable"
+            ],
+            "num": "1",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Percepibile",
+            "text": "Le informazioni e i componenti dell'interfaccia utente devono essere\n        presentati agli utenti in modi in cui essi possano percepirli.",
+            "guidelines": [
+                {
+                    "id": "text-alternatives",
+                    "alt_id": [
+                        "x1-1-text-alternatives"
+                    ],
+                    "num": "1.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Alternative testuali",
+                    "text": "Fornire alternative testuali per qualsiasi contenuto non di testo in\n          modo che questo possa essere trasformato in altre forme fruibili\n          secondo le necessità degli utenti come stampa a caratteri ingranditi,\n          Braille, sintesi vocale, simboli o un linguaggio più semplice.",
+                    "successcriteria": [
+                        {
+                            "id": "non-text-content",
+                            "alt_id": [
+                                "x1-1-1-non-text-content"
+                            ],
+                            "num": "1.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Contenuti non testuali",
+                            "text": "Tutti i contenuti non testuali presentati all'utente hanno un'alternativa testuale equivalente che serve allo stesso scopo, ad eccezione dei seguenti casi",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Controlli, input",
+                                            "text": "Se il contenuto non testuale è un controllo o accetta l'input degli utenti, allora ha un nome che ne descrive la finalità. (Fare riferimento al criterio di successo 4.1.2 per requisiti aggiuntivi per controlli e contenuti che accettano l'input dell'utente)."
+                                        },
+                                        {
+                                            "handle": "Media temporizzati",
+                                            "text": "Se il contenuto non testuale è un media temporizzato, allora le alternative testuali forniscono almeno una identificazione descrittiva per il contenuto non testuale. (Fare riferimento alla linea guida 1.2 per ulteriori requisiti per i media)."
+                                        },
+                                        {
+                                            "handle": "Test",
+                                            "text": "Se il contenuto non testuale è un test o un esercizio che potrebbe essere non valido se presentato come testo, allora le alternative testuali forniscono almeno una descrizione identificativa del contenuto non testuale."
+                                        },
+                                        {
+                                            "handle": "Esperienze sensoriali",
+                                            "text": "Se il contenuto non testuale ha lo scopo primario di creare una specifica esperienza sensoriale, allora le alternative testuali forniscono almeno una descrizione identificativa del contenuto non testuale."
+                                        },
+                                        {
+                                            "handle": "CAPTCHA",
+                                            "text": "Se la finalità del contenuto non testuale è confermare che il contenuto sia utilizzato da una persona e non da un computer, allora sono fornite alternative testuali che identifichino e descrivano lo scopo del contenuto non testuale, e forme alternative di CAPTCHA che usino diverse modalità di output per differenti tipologie di percezioni sensoriali al fine di soddisfare differenti disabilità."
+                                        },
+                                        {
+                                            "handle": "Decorazioni, formattazioni, contenuti invisibili",
+                                            "text": "Se il contenuto non testuale è puramente decorativo, è utilizzato solamente per formattazione visuale oppure non è presentato agli utenti, allora è implementato in modo da poter essere ignorato dalla tecnologia assistiva."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "time-based-media",
+                    "alt_id": [
+                        "x1-2-time-based-media"
+                    ],
+                    "num": "1.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Media temporizzati",
+                    "text": "Fornire alternative per i media temporizzati.",
+                    "successcriteria": [
+                        {
+                            "id": "audio-only-and-video-only-prerecorded",
+                            "alt_id": [
+                                "x1-2-1-audio-only-and-video-only-prerecorded"
+                            ],
+                            "num": "1.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Solo audio e solo video (preregistrati)",
+                            "text": "Per i tipi di media preregistrati di solo audio e di solo video, a meno che questi non costituiscano un tipo di media alternativo ad un contenuto testuale chiaramente etichettato come tale, sono soddisfatti i seguenti punti:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Solo audio preregistrato",
+                                            "text": "È fornita un'alternativa per il tipo di media temporizzato che presenti informazioni equivalenti al contenuto di solo audio preregistrato."
+                                        },
+                                        {
+                                            "handle": "Solo video preregistrato",
+                                            "text": "È fornita un'alternativa per il tipo di media temporizzato oppure una traccia audio che presenti informazioni equivalenti al contenuto di solo video preregistrato."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "captions-prerecorded",
+                            "alt_id": [
+                                "x1-2-2-captions-prerecorded"
+                            ],
+                            "num": "1.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sottotitoli (preregistrati)",
+                            "text": "Per tutti i contenuti audio preregistrati presenti in tipi di media sincronizzati sono forniti sottotitoli, eccetto quando tali contenuti sono alternativi ad un contenuto testuale e sono chiaramente etichettati come tali."
+                        },
+                        {
+                            "id": "audio-description-or-media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-3-audio-description-or-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Audiodescrizione o tipo di media alternativo (preregistrato)",
+                            "text": "Per i media sincronizzati è fornita un'alternativa ai media temporizzati, oppure una audiodescrizione dei contenuti video preregistrati, eccetto quando il contenuto audio o video è alternativo ad un contenuto testuale ed è chiaramente etichettato come tale."
+                        },
+                        {
+                            "id": "captions-live",
+                            "alt_id": [
+                                "x1-2-4-captions-live"
+                            ],
+                            "num": "1.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Sottotitoli (in tempo reale)",
+                            "text": "Per tutti i contenuti audio in tempo reale sotto forma di media sincronizzati sono forniti sottotitoli."
+                        },
+                        {
+                            "id": "audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-5-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Audiodescrizione (preregistrata)",
+                            "text": "Per tutti i contenuti video preregistrati sotto forma di media sincronizzati è fornita una audiodescrizione."
+                        },
+                        {
+                            "id": "sign-language-prerecorded",
+                            "alt_id": [
+                                "x1-2-6-sign-language-prerecorded"
+                            ],
+                            "num": "1.2.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Lingua dei segni (preregistrato)",
+                            "text": "Per tutti i contenuti audio preregistrati sotto forma di media sincronizzati è fornita l'interpretazione tramite lingua dei segni."
+                        },
+                        {
+                            "id": "extended-audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-7-extended-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Audiodescrizione estesa (preregistrata)",
+                            "text": "Per tutti i contenuti video preregistrati in media sincronizzati, se le pause nell'audio principale sono troppo brevi per consentire alle audiodescrizioni di comunicare il senso del video, sono fornite delle audiodescrizioni estese."
+                        },
+                        {
+                            "id": "media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-8-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tipo di media alternativo (preregistrato)",
+                            "text": "Per tutti i contenuti preregistrati di media sincronizzati e per tutti i tipi di media preregistrati di solo video è fornito un tipo di media alternativo."
+                        },
+                        {
+                            "id": "audio-only-live",
+                            "alt_id": [
+                                "x1-2-9-audio-only-live"
+                            ],
+                            "num": "1.2.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Solo audio (in tempo reale)",
+                            "text": "Per i media temporizzati che presentano informazioni equivalenti a contenuti solo audio in tempo reale è fornita un'alternativa."
+                        }
+                    ]
+                },
+                {
+                    "id": "adaptable",
+                    "alt_id": [
+                        "x1-3-adaptable"
+                    ],
+                    "num": "1.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Adattabile",
+                    "text": "Creare contenuti che possano essere rappresentati in modalità\n          differenti (ad esempio, con layout più semplici), senza perdere\n          informazioni o struttura.",
+                    "successcriteria": [
+                        {
+                            "id": "info-and-relationships",
+                            "alt_id": [
+                                "x1-3-1-info-and-relationships"
+                            ],
+                            "num": "1.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Informazioni e correlazioni",
+                            "text": "Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo."
+                        },
+                        {
+                            "id": "meaningful-sequence",
+                            "alt_id": [
+                                "x1-3-2-meaningful-sequence"
+                            ],
+                            "num": "1.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sequenza significativa",
+                            "text": "Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente."
+                        },
+                        {
+                            "id": "sensory-characteristics",
+                            "alt_id": [
+                                "x1-3-3-sensory-characteristics"
+                            ],
+                            "num": "1.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Caratteristiche sensoriali",
+                            "text": "Le istruzioni fornite per comprendere ed operare sui contenuti non si basano unicamente su caratteristiche sensoriali dei componenti quali forma, colore, dimensione, ubicazione visiva, orientamento o suono.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Per i requisiti relativi al colore, riferirsi alla linea guida 1.4."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "orientation",
+                            "alt_id": [
+                                "x1-3-4-orientation"
+                            ],
+                            "num": "1.3.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Orientamento",
+                            "text": "La visualizzazione e il funzionamento di un contenuto non dipendono dall'orientamento dello schermo, ad esempio verticale o orizzontale, a meno che questo non sia essenziale.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Esempi in cui un particolare orientamento del display può essere essenziale sono un assegno bancario, un'applicazione per pianoforte, delle diapositive per un proiettore o un televisore o un contenuto di realtà virtuale in cui un cambio di orientamento dello schermo non è applicabile."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-input-purpose",
+                            "alt_id": [
+                                "x1-3-5-identify-input-purpose"
+                            ],
+                            "num": "1.3.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Identificare lo scopo degli input",
+                            "text": "Lo scopo di ciascun campo di input per le informazioni sull'utente può essere determinato programmaticamente quando:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Il campo di input ha uno scopo noto, identificato nella sezione scopo dell'input per i componenti dell'interfaccia utente; e"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Il contenuto è implementato utilizzando tecnologie che supportino l'identificazione del significato atteso dei dati inseriti del modulo."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-purpose",
+                            "alt_id": [
+                                "x1-3-6-identify-purpose"
+                            ],
+                            "num": "1.3.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Identificare lo scopo",
+                            "text": "Nei contenuti implementati utilizzando i linguaggi di markup, è possibile determinare programmaticamente lo scopo dei componenti dell'interfaccia utente, delle icone e delle aree."
+                        }
+                    ]
+                },
+                {
+                    "id": "distinguishable",
+                    "alt_id": [
+                        "x1-4-distinguishable"
+                    ],
+                    "num": "1.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Distinguibile",
+                    "text": "Rendere più semplice agli utenti la visione e l'ascolto dei\n          contenuti, separando i contenuti in primo piano dallo sfondo.",
+                    "successcriteria": [
+                        {
+                            "id": "use-of-color",
+                            "alt_id": [
+                                "x1-4-1-use-of-color"
+                            ],
+                            "num": "1.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Uso del colore",
+                            "text": "Il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Questo criterio di successo è specifico per la percezione del colore. Altre modalità di percezione sono presenti nella linea guida 1.3, ivi incluso l'accesso programmatico al colore e ad altre codifiche visive della presentazione."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "audio-control",
+                            "alt_id": [
+                                "x1-4-2-audio-control"
+                            ],
+                            "num": "1.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Controllo del sonoro",
+                            "text": "Se un contenuto audio all'interno di una pagina Web è eseguito automaticamente per più di tre secondi o si fornisce una funzionalità per metterlo in pausa o interromperlo, oppure si fornisce una modalità per il controllo dell'audio che sia indipendente dal controllo predefinito del sistema.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Dal momento che qualsiasi contenuto che non soddisfi questo criterio di successo può interferire con la possibilità dell'utente di fruire l'intera pagina, tutto il contenuto della pagina Web (che sia utilizzato o meno per soddisfare altri criteri di successo), deve rispondere a tale criterio di successo. Consultare il requisito di conformità 5: non interferenza."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-minimum",
+                            "alt_id": [
+                                "x1-4-3-contrast-minimum"
+                            ],
+                            "num": "1.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Contrasto (minimo)",
+                            "text": "La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Testo grande",
+                                            "text": "Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 3:1;"
+                                        },
+                                        {
+                                            "handle": "Testo non essenziale",
+                                            "text": "Testo o immagini contenenti testo che siano parti inattive di componenti dell'interfaccia utente, che siano di pura decorazione, non visibili a nessuno, oppure che facciano parte di immagini contenenti contenuti visuali maggiormente significativi, non hanno alcun requisito di contrasto."
+                                        },
+                                        {
+                                            "handle": "Logotipi",
+                                            "text": "Un testo che sia parte di un logo o marchio non ha alcun requisito minimo di contrasto."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "resize-text",
+                            "alt_id": [
+                                "x1-4-4-resize-text"
+                            ],
+                            "num": "1.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Ridimensionamento del testo",
+                            "text": "Il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità."
+                        },
+                        {
+                            "id": "images-of-text",
+                            "alt_id": [
+                                "x1-4-5-images-of-text"
+                            ],
+                            "num": "1.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Immagini di testo",
+                            "text": "Se le tecnologie utilizzate consentono la rappresentazione visiva dei contenuti, per veicolare informazioni è usato il testo, e non le immagini di testo, ad eccezione dei seguenti casi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Personalizzabile",
+                                            "text": "L'immagine di testo può essere personalizzata visivamente per le esigenze dell'utente;"
+                                        },
+                                        {
+                                            "handle": "Essenziale",
+                                            "text": "Una particolare rappresentazione del testo è essenziale per il tipo di informazioni veicolate."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "I logotipi (testo che fa parte di un logo o di un marchio) sono considerati essenziali."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-enhanced",
+                            "alt_id": [
+                                "x1-4-6-contrast-enhanced"
+                            ],
+                            "num": "1.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Contrasto (avanzato)",
+                            "text": "La rappresentazione visiva del testo e immagini contenenti testo ha un rapporto di contrasto di almeno 7:1, fatta eccezione per i seguenti casi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Testo grande",
+                                            "text": "Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 4.5:1;"
+                                        },
+                                        {
+                                            "handle": "Testo non essenziale",
+                                            "text": "Testo o immagini contenenti testo che siano parti inattive di componenti dell'interfaccia utente, che siano di pura decorazione, non visibili a nessuno, oppure che facciano parte di immagini contenenti contenuti visuali maggiormente significativi, non hanno alcun requisito di contrasto."
+                                        },
+                                        {
+                                            "handle": "Logotipi",
+                                            "text": "Un testo che sia parte di un logo o marchio non ha alcun requisito minimo di contrasto."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "low-or-no-background-audio",
+                            "alt_id": [
+                                "x1-4-7-low-or-no-background-audio"
+                            ],
+                            "num": "1.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Sottofondo sonoro basso o non presente",
+                            "text": "Per i contenuti di solo audio preregistrato che (1) contengano principalmente parlato in primo piano (2) non siano CAPTCHA audio o loghi audio e (3) non siano una vocalizzazione intesa per essere principalmente espressione musicale come canto o rap, si applica almeno uno dei seguenti casi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Nessun sottofondo",
+                                            "text": "Il sonoro non contiene suoni di sottofondo."
+                                        },
+                                        {
+                                            "handle": "Spegnimento",
+                                            "text": "Il sottofondo sonoro può essere disattivato."
+                                        },
+                                        {
+                                            "handle": "20 dB",
+                                            "text": "Il sottofondo sonoro deve essere inferiore di almeno 20 decibel rispetto al parlato in primo piano, con l'eccezione di suoni occasionali di durata massima di uno o due secondi. Nota Secondo la definizione di \"decibel\", il sottofondo sonoro che soddisfa tale requisito sarà circa quattro volte più silenzioso del parlato in primo piano."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Secondo la definizione di \"decibel\", il sottofondo sonoro che soddisfa tale requisito sarà circa quattro volte più silenzioso del parlato in primo piano."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "visual-presentation",
+                            "alt_id": [
+                                "x1-4-8-visual-presentation"
+                            ],
+                            "num": "1.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Presentazione visiva",
+                            "text": "Per la presentazione visiva di blocchi di testo, è disponibile una modalità per conseguire i seguenti obiettivi:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "I colori del testo in primo piano e dello sfondo possono essere scelti dall'utente."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "La larghezza non supera gli 80 caratteri o glifi (40 se CJK)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Il testo non è giustificato (allineato sia al margine destro che al sinistro)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Lo spazio tra righe (interlinea) è almeno di uno spazio e mezzo all'interno del paragrafo e lo spazio tra paragrafi, è almeno una volta e mezzo l'interlinea."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Il testo può essere ridimensionato fino al 200 percento senza il supporto di tecnologie assistive in modo da non richiedere all'utente di dover scorrere orizzontalmente per leggere una riga di testo in una finestra a tutto schermo."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "images-of-text-no-exception",
+                            "alt_id": [
+                                "x1-4-9-images-of-text-no-exception"
+                            ],
+                            "num": "1.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Immagini di testo (senza eccezioni)",
+                            "text": "Le immagini contenenti testo sono utilizzate soltanto per pura decorazione o quando una particolare presentazione del testo sia essenziale per il tipo di informazione veicolata.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "I logotipi (testo che fa parte di un logo o di un marchio) sono considerati essenziali."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "reflow",
+                            "alt_id": [
+                                "x1-4-10-reflow"
+                            ],
+                            "num": "1.4.10",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Ricalcolo del flusso",
+                            "text": "Il contenuto può essere ripresentato senza perdita di informazioni o funzionalità e senza richiedere lo scorrimento in due dimensioni per:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Contenuto a scorrimento verticale con una larghezza equivalente a 320 CSS pixel;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Contenuto a scorrimento orizzontale ad un'altezza equivalente a 256 CSS pixel."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "320 CSS pixel equivalgono a una finestra iniziale di larghezza 1280 CSS pixel al 400% di ingrandimento. Per i contenuti Web progettati per lo scorrimento orizzontale (ad esempio con testo verticale), i 256 CSS pixel equivalgono a una finestra iniziale di altezza 1024 pixel al 400% di ingrandimento."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Esempi di contenuti che richiedono un layout bidimensionale sono immagini, mappe, diagrammi, video, giochi, presentazioni, tabelle di dati e interfacce in cui è necessario tenere in vista le barre degli strumenti mentre si gestisce il contenuto."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "non-text-contrast",
+                            "alt_id": [
+                                "x1-4-11-non-text-contrast"
+                            ],
+                            "num": "1.4.11",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Contrasto in contenuti non testuali",
+                            "text": "Nella presentazione visiva il rapporto di contrasto è di almeno 3:1 rispetto al colore o ai colori adiacenti per:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Componenti dell'interfaccia utente",
+                                            "text": "Le informazioni visive richieste per identificare i componenti dell'interfaccia utente e gli stati (ad eccezione dei componenti inattivi o dove l'aspetto del componente è determinato dal programma utente e non modificato dall'autore);"
+                                        },
+                                        {
+                                            "handle": "Oggetti grafici",
+                                            "text": "Parti di grafica necessarie per comprendere il contenuto, tranne quando una particolare presentazione di grafica sia essenziale per le informazioni trasmesse."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "text-spacing",
+                            "alt_id": [
+                                "x1-4-12-text-spacing"
+                            ],
+                            "num": "1.4.12",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Spaziatura del testo",
+                            "text": "Nei contenuti implementati utilizzando linguaggi di markup che supportano le seguenti proprietà di stile per il testo, non si verifica alcuna perdita di contenuto o funzionalità impostando quanto segue senza modificare altre proprietà di stile:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Altezza della linea (interlinea) di almeno 1,5 volte la dimensione del carattere;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Spaziatura dopo i paragrafi di almeno 2 volte la dimensione del carattere;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Spaziatura tra le lettere di almeno 0,12 volte la dimensione del carattere;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Spaziatura tra le parole di almeno 0,16 volte la dimensione del carattere."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "content-on-hover-or-focus",
+                            "alt_id": [
+                                "x1-4-13-content-on-hover-or-focus"
+                            ],
+                            "num": "1.4.13",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Contenuto con Hover o Focus",
+                            "text": "Nel caso in cui il passaggio del puntatore del mouse (hover) o il focus della tastiera rendono visibili e nascosti dei contenuti, sono soddisfatte le seguenti condizioni:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Congedabile",
+                                            "text": "È disponibile un meccanismo per eliminare il contenuto aggiuntivo senza spostare il puntatore del mouse o il focus della tastiera, a meno che il contenuto aggiuntivo non comunichi un errore di immissione dei dati o non oscuri o sostituisca altri contenuti;"
+                                        },
+                                        {
+                                            "handle": "Passabile",
+                                            "text": "Se il passaggio del puntatore del mouse sul contenuto può attivare il contenuto aggiuntivo, il puntatore può essere spostato sul contenuto aggiuntivo senza che questo scompaia;"
+                                        },
+                                        {
+                                            "handle": "Persistente",
+                                            "text": "Il contenuto aggiuntivo rimane visibile fino a quando l'evento hover o focus non viene rimosso, l'utente lo elimina o le sue informazioni non sono più valide."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Esempi di contenuti aggiuntivi controllati dal programma utente includono i suggerimenti del browser creati in HTML attraverso l'uso dell'attributo title."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Le descrizioni personalizzate, i sottomenu e altri popup non modali visualizzati al passaggio del mouse e al focus sono esempi di contenuti aggiuntivi a cui viene applicato questo criterio."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "operable",
+            "alt_id": [
+                "x2-operable"
+            ],
+            "num": "2",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Utilizzabile",
+            "text": "I componenti e la navigazione dell'interfaccia utente devono essere\n        utilizzabili.",
+            "guidelines": [
+                {
+                    "id": "keyboard-accessible",
+                    "alt_id": [
+                        "x2-1-keyboard-accessible"
+                    ],
+                    "num": "2.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Accessibile da tastiera",
+                    "text": "Rendere disponibili tutte le funzionalità tramite tastiera.",
+                    "successcriteria": [
+                        {
+                            "id": "keyboard",
+                            "alt_id": [
+                                "x2-1-1-keyboard"
+                            ],
+                            "num": "2.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tastiera",
+                            "text": "Tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per la pressione dei singoli tasti, salvo il caso in cui sia la funzionalità di fondo a richiedere un input che dipende dal percorso del movimento dell'utente e non solo dai suoi punti d'arrivo.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Questa eccezione si riferisce alla funzionalità di fondo, non alla tecnica di input. Per esempio, usando la scrittura a mano per immettere del testo, la tecnica di input (scrittura a mano) richiede un input che dipende dal percorso tracciato mentre la funzionalità di fondo (immissione di testo) non lo richiede."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Ciò non vieta e non dovrebbe scoraggiare l'utilizzo di input da mouse o di altri metodi di input in aggiunta all'utilizzo della tastiera."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-keyboard-trap",
+                            "alt_id": [
+                                "x2-1-2-no-keyboard-trap"
+                            ],
+                            "num": "2.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Nessun impedimento all'uso della tastiera",
+                            "text": "Se il focus di tastiera può essere spostato tramite una interfaccia di tastiera su un componente della pagina, deve anche poter essere tolto dallo stesso componente usando solo la stessa interfaccia e, se a tal fine non fosse sufficiente l'uso dei normali tasti freccia o tab o l'uso di altri metodi di uscita standard, l'utente deve essere informato sul metodo per spostare il focus.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Dal momento che qualsiasi contenuto che non rispetti questo criterio di successo può interferire con l'utilizzo da parte dell'utente dell'intera pagina, tutti i contenuti della pagina web (che siano usati per rispettare altri criteri di successo o meno) devono rispettare questo criterio di successo. Consultare il requisito di conformità 5: non interferenza."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "keyboard-no-exception",
+                            "alt_id": [
+                                "x2-1-3-keyboard-no-exception"
+                            ],
+                            "num": "2.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tastiera (nessuna eccezione)",
+                            "text": "Tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per la pressione dei singoli tasti."
+                        },
+                        {
+                            "id": "character-key-shortcuts",
+                            "alt_id": [
+                                "x2-1-4-character-key-shortcuts"
+                            ],
+                            "num": "2.1.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tasti di scelta rapida",
+                            "text": "Se nel contenuto viene implementata una scorciatoia da tastiera utilizzando sole lettere (maiuscole e minuscole), segni di punteggiatura, numeri o simboli, allora è vera almeno una delle seguenti condizioni:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Disattivazione",
+                                            "text": "È disponibile un meccanismo per disattivare la scorciatoia;"
+                                        },
+                                        {
+                                            "handle": "Rimappatura",
+                                            "text": "È disponibile un meccanismo per rimappare la scorciatoia in modo che usi uno o più caratteri non stampabili della tastiera (ad esempio Ctrl, Alt, ecc.);"
+                                        },
+                                        {
+                                            "handle": "Attivazione solo al focus",
+                                            "text": "La scorciatoia da tastiera per un componente dell'interfaccia utente è attiva solo quando questo è attivo."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "enough-time",
+                    "alt_id": [
+                        "x2-2-enough-time"
+                    ],
+                    "num": "2.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Adeguata disponibilità di tempo",
+                    "text": "Fornire agli utenti tempo sufficiente per leggere e utilizzare i\n          contenuti.",
+                    "successcriteria": [
+                        {
+                            "id": "timing-adjustable",
+                            "alt_id": [
+                                "x2-2-1-timing-adjustable"
+                            ],
+                            "num": "2.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Regolazione tempi di esecuzione",
+                            "text": "Per ogni temporizzazione presente nel contenuto, è soddisfatto almeno uno dei seguenti casi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Spegnimento",
+                                            "text": "All'utente è consentito disattivare il limite di tempo prima di raggiungerlo; oppure"
+                                        },
+                                        {
+                                            "handle": "Regolazione",
+                                            "text": "All'utente viene consentito di regolare il limite di tempo prima di raggiungerlo in un'ampia gamma che sia almeno dieci volte superiore alla durata dell'impostazione predefinita; oppure"
+                                        },
+                                        {
+                                            "handle": "Estensione",
+                                            "text": "L'utente viene avvisato prima dello scadere del tempo; gli sono dati almeno 20 secondi per estendere il limite tramite un'azione semplice (per esempio: \"premere la barra spaziatrice\") e gli è consentito di estendere il limite per almeno 10 volte; oppure"
+                                        },
+                                        {
+                                            "handle": "Eccezione per eventi in tempo reale",
+                                            "text": "Il limite di tempo è un elemento fondamentale di un evento in tempo reale (ad esempio, un'asta on line), e non è possibile eliminare questo vincolo; oppure"
+                                        },
+                                        {
+                                            "handle": "Eccezione di essenzialità",
+                                            "text": "Il limite di tempo è essenziale per l'attività (ad esempio: una verifica a tempo) ed estenderlo lo invaliderebbe; oppure"
+                                        },
+                                        {
+                                            "handle": "Eccezione delle 20 ore",
+                                            "text": "Il limite di tempo è superiore a 20 ore."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Questo criterio di successo aiuta a garantire che gli utenti possano completare gli obiettivi senza cambiamenti inaspettati nel contenuto o nel contesto che siano il risultato di un limite di tempo. Questo criterio di successo dovrebbe essere considerato in congiunzione con il criterio di successo 3.2.1, che pone limiti nelle modifiche di contenuto o contesto come risultato di un'azione dell'utente."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pause-stop-hide",
+                            "alt_id": [
+                                "x2-2-2-pause-stop-hide"
+                            ],
+                            "num": "2.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pausa, stop, nascondi",
+                            "text": "Nei casi di animazioni, lampeggiamenti, scorrimenti o auto-aggiornamenti di informazioni, sono soddisfatti tutti i seguenti punti:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Spostamento, lampeggiamento, scorrimento",
+                                            "text": "Per qualsiasi movimento, lampeggiamento o scorrimento di informazioni che (1) si avvia automaticamente, (2) dura più di cinque secondi e (3) è presentato in parallelo con altro contenuto, è presente un meccanismo per metterlo in pausa, interromperlo o nasconderlo, a meno che il movimento, il lampeggiamento o lo scorrimento siano parte essenziale dell'attività; e"
+                                        },
+                                        {
+                                            "handle": "Auto-aggiornamento",
+                                            "text": "Per qualsiasi auto-aggiornamento di informazioni che (1) si avvia automaticamente ed (2) è presentato in parallelo con altro contenuto, è presente un meccanismo per metterlo in pausa, interromperlo o nasconderlo o per controllare la frequenza dell'aggiornamento a meno che l'auto-aggiornamento sia parte essenziale dell'attività."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Per i requisiti relativi a lampeggiamenti e flash del contenuto, fare riferimento alla linea guida 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Poiché ogni contenuto che non soddisfi questo criterio di successo può interferire con la capacità dell'utente di usare l'intera pagina, tutto il contenuto della pagina Web (sia che sia utilizzato per soddisfare altri criteri di successo oppure non lo sia) deve soddisfare questo criterio. Consultare il requisito di conformità n. 5: non interferenza."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 3",
+                                    "text": "Il contenuto aggiornato periodicamente dal software o che è trasmesso in streaming al programma utente non ha l'obbligo di mantenere o presentare le informazioni generate o ricevute tra la pausa e la riattivazione della presentazione, dato che questo potrebbe non essere tecnicamente possibile, e in molti casi potrebbe anche essere fuorviante."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 4",
+                                    "text": "Per una fase di caricamento o un evento analogo, durante il quale sia interdetta qualsiasi altra interazione, un'animazione può considerarsi essenziale se non può verificarsi interazione durante quella fase da parte di tutti gli utenti e se la mancanza di quest'ultima ad indicare il progresso può confondere gli utenti o indurli a pensare che c'è stata un'interruzione nel caricamento o che questo non è andato a buon fine."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-timing",
+                            "alt_id": [
+                                "x2-2-3-no-timing"
+                            ],
+                            "num": "2.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Nessun tempo di esecuzione",
+                            "text": "Le temporizzazioni non sono parti essenziali dell'evento o dell'attività presentata dal contenuto, ad eccezione fatta dei tipi di media sincronizzati e degli eventi in tempo reale."
+                        },
+                        {
+                            "id": "interruptions",
+                            "alt_id": [
+                                "x2-2-4-interruptions"
+                            ],
+                            "num": "2.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Interruzioni",
+                            "text": "Le interruzioni possono essere rinviate o annullate dall'utente ad eccezione di quelle che riguardano un'emergenza."
+                        },
+                        {
+                            "id": "re-authenticating",
+                            "alt_id": [
+                                "x2-2-5-re-authenticating"
+                            ],
+                            "num": "2.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Riautenticazione",
+                            "text": "Quando una sessione autenticata scade, l'utente può continuare l'attività senza perdita di dati dopo essersi autenticato nuovamente."
+                        },
+                        {
+                            "id": "timeouts",
+                            "alt_id": [
+                                "x2-2-6-timeouts"
+                            ],
+                            "num": "2.2.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Termine del tempo",
+                            "text": "Gli utenti sono avvisati della durata di qualsiasi inattività che potrebbe causare la perdita di dati, a meno che i dati non vengano conservati per più di 20 ore quando l'utente non intraprende alcuna azione.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Le norme sulla privacy potrebbero richiedere il consenso esplicito dell'utente prima che questo sia identificato autenticandolo e prima che i dati dell'utente vengano conservati. Nei casi in cui l'utente sia un minore può essere possibile richiedere un consenso esplicito nella maggior parte delle giurisdizioni, paesi o regioni. Si consiglia la consulenza di professionisti della privacy e consulenti legali quando si prende in considerazione di soddisfare questo criterio di successo mediante la conservazione dei dati."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "seizures-and-physical-reactions",
+                    "alt_id": [
+                        "x2-3-seizures-and-physical-reactions"
+                    ],
+                    "num": "2.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Convulsioni e reazioni fisiche",
+                    "text": "Non sviluppare contenuti con tecniche che sia noto causino attacchi\n          epilettici o reazioni fisiche.",
+                    "successcriteria": [
+                        {
+                            "id": "three-flashes-or-below-threshold",
+                            "alt_id": [
+                                "x2-3-1-three-flashes-or-below-threshold"
+                            ],
+                            "num": "2.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tre lampeggiamenti o inferiore alla soglia",
+                            "text": "Le pagine Web non contengono nulla che lampeggi per più di tre volte in un secondo oppure il lampeggiamento è al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Dal momento che qualsiasi contenuto che non soddisfa questo criterio di successo può interferire con la capacità di un utente di utilizzare l'intera pagina, tutto il contenuto della pagina Web (sia che venga utilizzato o meno per soddisfare altri criteri di successo) deve rispondere a questo criterio di successo. Consultare il requisito di conformità 5: non interferenza."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "three-flashes",
+                            "alt_id": [
+                                "x2-3-2-three-flashes"
+                            ],
+                            "num": "2.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tre lampeggiamenti",
+                            "text": "Le pagine Web non contengono nulla che lampeggi per più di tre volte in un secondo."
+                        },
+                        {
+                            "id": "animation-from-interactions",
+                            "alt_id": [
+                                "x2-3-3-animation-from-interactions"
+                            ],
+                            "num": "2.3.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Animazione da interazioni",
+                            "text": "Un movimento animato innescato dall'interazione può essere disabilitato, a meno che l'animazione non sia essenziale per la funzionalità o le informazioni trasmesse."
+                        }
+                    ]
+                },
+                {
+                    "id": "navigable",
+                    "alt_id": [
+                        "x2-4-navigable"
+                    ],
+                    "num": "2.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Navigabile",
+                    "text": "Fornire delle funzionalità di supporto all'utente per navigare,\n          trovare contenuti e determinare la propria posizione.",
+                    "successcriteria": [
+                        {
+                            "id": "bypass-blocks",
+                            "alt_id": [
+                                "x2-4-1-bypass-blocks"
+                            ],
+                            "num": "2.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Salto di blocchi",
+                            "text": "È disponibile un meccanismo per saltare i blocchi di contenuto che si ripetono su più pagine Web."
+                        },
+                        {
+                            "id": "page-titled",
+                            "alt_id": [
+                                "x2-4-2-page-titled"
+                            ],
+                            "num": "2.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Titolazione della pagina",
+                            "text": "Le pagine Web hanno titoli che ne descrivono l'argomento o la finalità."
+                        },
+                        {
+                            "id": "focus-order",
+                            "alt_id": [
+                                "x2-4-3-focus-order"
+                            ],
+                            "num": "2.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ordine del focus",
+                            "text": "Se una pagina Web può essere navigata in modo sequenziale e le sequenze di navigazione influiscono sul suo significato e sul suo funzionamento, gli oggetti che possono ricevere il focus lo ricevono in un ordine che ne conserva il senso e l'operatività."
+                        },
+                        {
+                            "id": "link-purpose-in-context",
+                            "alt_id": [
+                                "x2-4-4-link-purpose-in-context"
+                            ],
+                            "num": "2.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Scopo del collegamento (nel contesto)",
+                            "text": "Lo scopo di ogni collegamento può essere determinato dal solo testo del collegamento oppure dal testo del collegamento insieme a dei contenuti contestuali che possono essere determinati programmaticamente, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per la gli utenti in generale."
+                        },
+                        {
+                            "id": "multiple-ways",
+                            "alt_id": [
+                                "x2-4-5-multiple-ways"
+                            ],
+                            "num": "2.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Differenti modalità",
+                            "text": "Rendere disponibili più modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione."
+                        },
+                        {
+                            "id": "headings-and-labels",
+                            "alt_id": [
+                                "x2-4-6-headings-and-labels"
+                            ],
+                            "num": "2.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Intestazioni ed etichette",
+                            "text": "Utilizzare intestazioni ed etichette per descrivere argomenti o finalità."
+                        },
+                        {
+                            "id": "focus-visible",
+                            "alt_id": [
+                                "x2-4-7-focus-visible"
+                            ],
+                            "num": "2.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Focus visibile",
+                            "text": "Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus."
+                        },
+                        {
+                            "id": "location",
+                            "alt_id": [
+                                "x2-4-8-location"
+                            ],
+                            "num": "2.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Posizione",
+                            "text": "Rendere disponibili informazioni sulla posizione dell'utente all'interno di un insieme di pagine Web."
+                        },
+                        {
+                            "id": "link-purpose-link-only",
+                            "alt_id": [
+                                "x2-4-9-link-purpose-link-only"
+                            ],
+                            "num": "2.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Scopo del collegamento (solo collegamento)",
+                            "text": "Rendere disponibile un meccanismo per comprendere lo scopo di ciascun collegamento basandosi sul solo testo del collegamento, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per gli utenti in generale."
+                        },
+                        {
+                            "id": "section-headings",
+                            "alt_id": [
+                                "x2-4-10-section-headings"
+                            ],
+                            "num": "2.4.10",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Intestazioni di sezione",
+                            "text": "Le intestazioni di sezione sono utilizzate per organizzare il contenuto.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "\"Intestazione\" è usato nel suo senso generale ed include titoli ed altri modi per aggiungere un'intestazione a differenti tipi di contenuto."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Questo criterio di successo riguarda le sezioni di testo, non i componenti dell'interfaccia utente. I componenti dell'interfaccia utente sono trattati nel criterio di successo 4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "input-modalities",
+                    "alt_id": [
+                        "x2-5-input-modalities"
+                    ],
+                    "num": "2.5",
+                    "handle": "Modalità di input",
+                    "text": "Rendere più facile agli utenti l'utilizzo di funzionalità attraverso\n          input diversi dalla tastiera.",
+                    "successcriteria": [
+                        {
+                            "id": "pointer-gestures",
+                            "alt_id": [
+                                "x2-5-1-pointer-gestures"
+                            ],
+                            "num": "2.5.1",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Movimenti del puntatore",
+                            "text": "Tutte le funzionalità che per il loro utilizzo richiedono gesti multi punto o basati su percorsi possono essere gestite con un puntatore singolo senza gesti basati sul percorso, a meno che questi non siano essenziali.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Questo requisito si applica al contenuto Web che interpreta le azioni del puntatore (ovvero non si applica alle azioni necessarie per il funzionamento del programma utente o della tecnologia assistiva)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pointer-cancellation",
+                            "alt_id": [
+                                "x2-5-2-pointer-cancellation"
+                            ],
+                            "num": "2.5.2",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Cancellazione delle azioni del puntatore",
+                            "text": "Per le funzionalità che possono essere gestite utilizzando un singolo puntatore, si verifica almeno una delle seguenti condizioni:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Nessun evento di selezione (down-event)",
+                                            "text": "L'evento di selezione (down-event) del puntatore non è usato per eseguire alcuna parte della funzione;"
+                                        },
+                                        {
+                                            "handle": "Interruzione o annullamento",
+                                            "text": "La funzione viene portata a termine sull'evento di rilascio (up-event) ed è disponibile un meccanismo per interrompere la funzione prima del completamento o per annullarla dopo il completamento;"
+                                        },
+                                        {
+                                            "handle": "Inversione",
+                                            "text": "L'evento di rilascio (up-event) inverte qualsiasi risultato dell'evento di selezione (down-event) precedente;"
+                                        },
+                                        {
+                                            "handle": "Essenziale",
+                                            "text": "È essenziale completare la funzione sull'evento di selezione (down-event)."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Le funzioni che emulano una tastiera o una tastiera numerica sono considerate essenziali."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 2",
+                                    "text": "Questo requisito si applica al contenuto Web che interpreta le azioni del puntatore: non si applica alle azioni necessarie per il funzionamento del programma utente o della tecnologia assistiva."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "label-in-name",
+                            "alt_id": [
+                                "x2-5-3-label-in-name"
+                            ],
+                            "num": "2.5.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Etichetta nel nome",
+                            "text": "Per i componenti dell'interfaccia utente con etichette che includono testo o immagini di testo, il nome contiene il testo che viene presentato visivamente.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Una buona pratica è quella di avere il testo dell'etichetta all'inizio del nome."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motion-actuation",
+                            "alt_id": [
+                                "x2-5-4-motion-actuation"
+                            ],
+                            "num": "2.5.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Azionamento da movimento",
+                            "text": "Le funzionalità che possono essere azionate dal movimento del dispositivo o dell'utente possono anche essere attivate dai componenti dell'interfaccia utente e la risposta al movimento può essere disabilitata per impedire l'attivazione accidentale, tranne quando:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Interfaccia supportata",
+                                            "text": "Il movimento viene utilizzato per attivare la funzionalità attraverso un'interfaccia compatibile con l'accessibilità;"
+                                        },
+                                        {
+                                            "handle": "Essenziale",
+                                            "text": "Il movimento è essenziale per la funzione e non farlo invaliderebbe l'attività."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "target-size",
+                            "alt_id": [
+                                "x2-5-5-target-size"
+                            ],
+                            "num": "2.5.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Dimensione dell'obiettivo",
+                            "text": "La dimensione dell'obiettivo per gli input tramite puntatore è di almeno 44 per 44 CSS pixel, tranne quando:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Equivalente",
+                                            "text": "L'obiettivo è disponibile attraverso un link o un controllo equivalenti sulla stessa pagina, di almeno 44 per 44 CSS pixel;"
+                                        },
+                                        {
+                                            "handle": "In linea",
+                                            "text": "L'obiettivo è in una frase o in un blocco di testo;"
+                                        },
+                                        {
+                                            "handle": "Sotto controllo del programma utente",
+                                            "text": "La dimensione dell'obiettivo è determinata dal programma utente e non viene modificata dall'autore;"
+                                        },
+                                        {
+                                            "handle": "Essenziale",
+                                            "text": "Una specifica presentazione dell'obiettivo è essenziale perché l'informazione venga trasmessa."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "concurrent-input-mechanisms",
+                            "alt_id": [
+                                "x2-5-6-concurrent-input-mechanisms"
+                            ],
+                            "num": "2.5.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Meccanismi di input simultanei",
+                            "text": "Il contenuto Web non limita l'uso delle modalità di input disponibili su una piattaforma, tranne nei casi in cui la limitazione è essenziale, necessaria per garantire la sicurezza del contenuto o per rispettare le impostazioni dell'utente."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "understandable",
+            "alt_id": [
+                "x3-understandable"
+            ],
+            "num": "3",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Comprensibile",
+            "text": "Le informazioni e le operazioni dell'interfaccia utente devono essere\n        comprensibili.",
+            "guidelines": [
+                {
+                    "id": "readable",
+                    "alt_id": [
+                        "x3-1-readable"
+                    ],
+                    "num": "3.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Leggibile",
+                    "text": "Rendere il testo leggibile e comprensibile.",
+                    "successcriteria": [
+                        {
+                            "id": "language-of-page",
+                            "alt_id": [
+                                "x3-1-1-language-of-page"
+                            ],
+                            "num": "3.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Lingua della pagina",
+                            "text": "L'impostazione della lingua predefinita di ogni pagina Web può essere determinata programmaticamente."
+                        },
+                        {
+                            "id": "language-of-parts",
+                            "alt_id": [
+                                "x3-1-2-language-of-parts"
+                            ],
+                            "num": "3.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Parti in lingua",
+                            "text": "La lingua di ogni passaggio o frase nel contenuto può essere determinata programmaticamente ad eccezione di nomi propri, termini tecnici, parole in lingue indeterminate e parole o frasi che sono diventate parte integrante del gergo del testo immediatamente circostante."
+                        },
+                        {
+                            "id": "unusual-words",
+                            "alt_id": [
+                                "x3-1-3-unusual-words"
+                            ],
+                            "num": "3.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Parole inusuali",
+                            "text": "È reso disponibile un meccanismo per identificare specifiche definizioni di parole o frasi usate in modo insolito o ristretto, compresi espressioni idiomatiche e gergali."
+                        },
+                        {
+                            "id": "abbreviations",
+                            "alt_id": [
+                                "x3-1-4-abbreviations"
+                            ],
+                            "num": "3.1.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Abbreviazioni",
+                            "text": "È reso disponibile un meccanismo per identificare la forma espansa o il significato delle abbreviazioni."
+                        },
+                        {
+                            "id": "reading-level",
+                            "alt_id": [
+                                "x3-1-5-reading-level"
+                            ],
+                            "num": "3.1.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Livello di lettura",
+                            "text": "Quando il testo richiede capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore dopo aver rimosso i nomi propri e i titoli, sono resi disponibili contenuti supplementari oppure una versione che non richieda la capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore."
+                        },
+                        {
+                            "id": "pronunciation",
+                            "alt_id": [
+                                "x3-1-6-pronunciation"
+                            ],
+                            "num": "3.1.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Pronuncia",
+                            "text": "È reso disponibile un meccanismo per identificare specifiche pronunce per le parole il cui significato, nel contesto, è ambiguo se non se ne conosce la pronuncia."
+                        }
+                    ]
+                },
+                {
+                    "id": "predictable",
+                    "alt_id": [
+                        "x3-2-predictable"
+                    ],
+                    "num": "3.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Prevedibile",
+                    "text": "Creare pagine Web che abbiano aspetto e funzionamento prevedibili.",
+                    "successcriteria": [
+                        {
+                            "id": "on-focus",
+                            "alt_id": [
+                                "x3-2-1-on-focus"
+                            ],
+                            "num": "3.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Al focus",
+                            "text": "Quando qualsiasi componente dell'interfaccia utente riceve il focus, non avvia un cambiamento del contesto."
+                        },
+                        {
+                            "id": "on-input",
+                            "alt_id": [
+                                "x3-2-2-on-input"
+                            ],
+                            "num": "3.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "All'input",
+                            "text": "Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente."
+                        },
+                        {
+                            "id": "consistent-navigation",
+                            "alt_id": [
+                                "x3-2-3-consistent-navigation"
+                            ],
+                            "num": "3.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Navigazione coerente",
+                            "text": "I meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web, appaiono nello stesso ordine relativo ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente."
+                        },
+                        {
+                            "id": "consistent-identification",
+                            "alt_id": [
+                                "x3-2-4-consistent-identification"
+                            ],
+                            "num": "3.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Identificazione coerente",
+                            "text": "I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo coerente."
+                        },
+                        {
+                            "id": "change-on-request",
+                            "alt_id": [
+                                "x3-2-5-change-on-request"
+                            ],
+                            "num": "3.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Cambiamenti su richiesta",
+                            "text": "I cambiamenti di contesto sono avviati solo su richiesta dell'utente, oppure è disponibile un meccanismo per disattivarli."
+                        }
+                    ]
+                },
+                {
+                    "id": "input-assistance",
+                    "alt_id": [
+                        "x3-3-input-assistance"
+                    ],
+                    "num": "3.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Assistenza nell'inserimento",
+                    "text": "Aiutare gli utenti a evitare gli errori e agevolarli nella loro\n          correzione.",
+                    "successcriteria": [
+                        {
+                            "id": "error-identification",
+                            "alt_id": [
+                                "x3-3-1-error-identification"
+                            ],
+                            "num": "3.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Identificazione di errori",
+                            "text": "Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e l'errore descritto tramite testo."
+                        },
+                        {
+                            "id": "labels-or-instructions",
+                            "alt_id": [
+                                "x3-3-2-labels-or-instructions"
+                            ],
+                            "num": "3.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Etichette o istruzioni",
+                            "text": "Sono fornite etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente."
+                        },
+                        {
+                            "id": "error-suggestion",
+                            "alt_id": [
+                                "x3-3-3-error-suggestion"
+                            ],
+                            "num": "3.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Suggerimenti per gli errori",
+                            "text": "Se viene identificato un errore di inserimento e sono noti dei suggerimenti per correggerlo, tali suggerimenti vengono forniti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto."
+                        },
+                        {
+                            "id": "error-prevention-legal-financial-data",
+                            "alt_id": [
+                                "x3-3-4-error-prevention-legal-financial-data"
+                            ],
+                            "num": "3.3.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Prevenzione degli errori (legali, finanziari, dati)",
+                            "text": "Per le pagine Web che contengono vincoli di tipo giuridico o transazioni finanziarie per l'utente che gestiscono la modifica o la cancellazione e gestione di dati controllabili dall'utente in un sistema di archiviazione oppure che inoltrano le risposte degli utenti a test, è soddisfatta almeno una delle seguenti condizioni:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Reversibilità",
+                                            "text": "Le azioni sono reversibili."
+                                        },
+                                        {
+                                            "handle": "Controllo",
+                                            "text": "I dati inseriti dall’utente vengono verificati e all’utente viene data l’opportunità di correggere gli errori."
+                                        },
+                                        {
+                                            "handle": "Conferma",
+                                            "text": "È disponibile un meccanismo per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "help",
+                            "alt_id": [
+                                "x3-3-5-help"
+                            ],
+                            "num": "3.3.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Aiuto",
+                            "text": "Fornire degli aiuti contestuali."
+                        },
+                        {
+                            "id": "error-prevention-all",
+                            "alt_id": [
+                                "x3-3-6-error-prevention-all"
+                            ],
+                            "num": "3.3.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Prevenzione degli errori (tutti)",
+                            "text": "Per le pagine Web che richiedano l'invio di informazioni da parte dell'utente, è soddisfatta almeno una delle seguenti condizioni:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Reversibilità",
+                                            "text": "Le azioni sono reversibili."
+                                        },
+                                        {
+                                            "handle": "Controllo",
+                                            "text": "I dati inseriti dall’utente vengono verificati e all’utente viene data l’opportunità di correggere gli errori."
+                                        },
+                                        {
+                                            "handle": "Conferma",
+                                            "text": "È disponibile un meccanismo per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "robust",
+            "alt_id": [
+                "x4-robust"
+            ],
+            "num": "4",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Robusto",
+            "text": "Il contenuto deve essere abbastanza robusto per essere interpretato in\n        maniera affidabile da una grande varietà di programmi utente, comprese\n        le tecnologie assistive.",
+            "guidelines": [
+                {
+                    "id": "compatible",
+                    "alt_id": [
+                        "x4-1-compatible"
+                    ],
+                    "num": "4.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Compatibile",
+                    "text": "Garantire la massima compatibilità con i programmi utente attuali e\n          futuri, comprese le tecnologie assistive.",
+                    "successcriteria": [
+                        {
+                            "id": "parsing",
+                            "alt_id": [
+                                "x4-1-1-parsing"
+                            ],
+                            "num": "4.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Analisi sintattica (parsing)",
+                            "text": "Nel contenuto implementato utilizzando linguaggi di marcatura gli elementi possiedono tag di apertura e chiusura completi, sono annidati in conformità alle proprie specifiche, non contengono attributi duplicati e tutti gli ID sono univoci, salvo i casi in cui le specifiche permettano eccezioni.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "I tag di apertura e chiusura nei quali manca un carattere fondamentale per la loro struttura, come una parentesi angolare chiusa mancante o virgolette diverse per l'apertura e la chiusura di un attributo, non possono essere giudicati completi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "name-role-value",
+                            "alt_id": [
+                                "x4-1-2-name-role-value"
+                            ],
+                            "num": "4.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Nome, ruolo, valore",
+                            "text": "Per tutti i componenti dell'interfaccia utente (inclusi ma non limitati a: elementi di un modulo, collegamenti e componenti generati da script), nome e ruolo possono essere determinati programmaticamente; stati, proprietà e valori che possono essere impostati dall'utente possono essere impostabili da programma; e le notifiche sui cambi di stato di questi elementi sono rese disponibili ai programmi utente, incluse le tecnologie assistive.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Nota 1",
+                                    "text": "Questo criterio di successo ha valenza soprattutto per gli autori Web che sviluppano o programmano con linguaggi di scripting i componenti delle proprie interfacce utente. Per esempio, se utilizzati in accordo alle specifiche i controlli HTML standard rispondono a questo criterio."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "status-messages",
+                            "alt_id": [
+                                "x4-1-3-status-messages"
+                            ],
+                            "num": "4.1.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Messaggi di stato",
+                            "text": "Nei contenuti implementati utilizzando i linguaggi di marcatura, i messaggi di stato possono essere determinati programmaticamente tramite ruolo o proprietà in modo tale che possano essere presentati all'utente mediante tecnologie assistive senza ricevere il focus."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

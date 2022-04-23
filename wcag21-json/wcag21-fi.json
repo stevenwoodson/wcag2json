@@ -1,0 +1,1993 @@
+{
+    "principles": [
+        {
+            "id": "perceivable",
+            "alt_id": [
+                "x1-perceivable"
+            ],
+            "num": "1",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Havaittava",
+            "text": "Informaatio ja käyttöliittymäkomponentit pitää esittää\n  tavoilla, jotka käyttäjä voi havaita.",
+            "guidelines": [
+                {
+                    "id": "text-alternatives",
+                    "alt_id": [
+                        "x1-1-text-alternatives"
+                    ],
+                    "num": "1.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tekstivastineet",
+                    "text": "Tarjoa tekstivastineet kaikelle ei-tekstuaaliselle sisällölle siten, että sisältö voidaan muuttaa muihin tarvittaviin muotoihin, kuten isokokoiseksi tekstiksi, pistekirjoitukseksi, puheeksi, symboleiksi tai yksinkertaisemmaksi kieleksi.",
+                    "successcriteria": [
+                        {
+                            "id": "non-text-content",
+                            "alt_id": [
+                                "x1-1-1-non-text-content"
+                            ],
+                            "num": "1.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ei-tekstuaalinen sisältö",
+                            "text": "Kaikki käyttäjälle esitettävä ei-tekstuaalinen sisältö on varustettu saman tarpeen täyttävällä tekstivastineella, pois lukien alla luetellut tapaukset.",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Käyttöliittymäkomponentit, syöte",
+                                            "text": "Ei-tekstuaalisella sisällöllä on sen tarkoituksen kuvaava nimi, jos se toimii käyttöliittymäkomponenttina tai vastaanottaa käyttäjän syötettä. (Katso onnistumiskriteeri 4.1.2, joka asettaa lisävaatimuksia käyttöliittymäkomponenteille ja käyttäjän syötettä vastaanottavalle sisällölle.)"
+                                        },
+                                        {
+                                            "handle": "Aikasidonnainen media",
+                                            "text": "Jos ei-tekstuaalinen sisältö on aikasidonnaista mediaa, tekstivastineet tarjoavat vähintään kuvailevan tunnistetiedon ei-tekstuaalisesta sisällöstä. (Katso ohje 1.2, joka asettaa lisävaatimuksia medialle.)"
+                                        },
+                                        {
+                                            "handle": "Testi",
+                                            "text": "Jos ei-tekstuaalinen sisältö on testi tai harjoitus, joka ei olisi tekstinä esitettynä pätevä, tekstivastineet vähintään kuvailevat tunnistettavasti ei-tekstuaalista sisältöä."
+                                        },
+                                        {
+                                            "handle": "Aistinvarainen",
+                                            "text": "Jos ei-tekstuaalinen sisältö on ensisijaisesti tarkoitettu aikaansaamaan tietty aistinvarainen kokemus, silloin tekstivastineet vähintään kuvailevat tunnistettavasti ei-tekstuaalista sisältöä."
+                                        },
+                                        {
+                                            "handle": "CAPTCHA",
+                                            "text": "Jos ei-tekstuaalisen sisällön tarkoitus on varmistaa, että sisältöä käyttää henkilö eikä tietokone, niin tarjolla on tekstivastineita, jotka tunnistavat ja kuvailevat ei-tekstuaalisen sisällön tarkoituksen. Lisäksi tarjolla on vaihtoehtoisia CAPTCHA-muotoja, jotka ottavat huomioon erilaiset vammat ja rajoitteet käyttäen eri aistinvaraisia havaintoja tukevia esitystapoja."
+                                        },
+                                        {
+                                            "handle": "Koristeet, muotoilu, näkymättömyys",
+                                            "text": "Jos ei-tekstuaalinen sisältö on yksinomaan koriste, jos sitä käytetään ainoastaan visuaaliseen muotoiluun tai jos se on käyttäjälle näkymätön, se toteutetaan siten, että avustava teknologia voi jättää sen huomioimatta."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "time-based-media",
+                    "alt_id": [
+                        "x1-2-time-based-media"
+                    ],
+                    "num": "1.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Aikasidonnainen media",
+                    "text": "Tarjoa vastine aikasidonnaiselle medialle.",
+                    "successcriteria": [
+                        {
+                            "id": "audio-only-and-video-only-prerecorded",
+                            "alt_id": [
+                                "x1-2-1-audio-only-and-video-only-prerecorded"
+                            ],
+                            "num": "1.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pelkkä audio tai pelkkä video (tallennettu)",
+                            "text": "Seuraava pätee tallennetulle pelkälle audiomedialle ja tallennetulle pelkälle videomedialle, paitsi kun audio tai video on tekstin mediavastine ja selvästi merkitty sellaiseksi:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Tallennettu pelkkä audio",
+                                            "text": "Tarjolla on vastine aikasidonnaiselle medialle, joka esittää vastaavan sisällön kuin tallennettu pelkkä audiosisältö."
+                                        },
+                                        {
+                                            "handle": "Tallennettu pelkkä video",
+                                            "text": "Tarjolla on joko vastine aikasidonnaiselle medialle tai audiotiedosto, joka esittää vastaavan informaation kuin tallennettu pelkkä videosisältö."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "captions-prerecorded",
+                            "alt_id": [
+                                "x1-2-2-captions-prerecorded"
+                            ],
+                            "num": "1.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tekstitys (tallennettu)",
+                            "text": "Kaikelle synkronoidussa mediassa olevalle tallennetulle audiosisällölle on tarjolla tekstitys, paitsi kun media on tekstin mediavastine ja selvästi merkitty sellaiseksi."
+                        },
+                        {
+                            "id": "audio-description-or-media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-3-audio-description-or-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Kuvailutulkkaus tai mediavastine (tallennettu)",
+                            "text": "Synkronoidulle medialle on tarjolla aikasidonnaisen median vastine tai tallennetun videosisällön kuvailutulkkaus, paitsi silloin, kun media on tekstin mediavastine ja selvästi merkitty sellaiseksi."
+                        },
+                        {
+                            "id": "captions-live",
+                            "alt_id": [
+                                "x1-2-4-captions-live"
+                            ],
+                            "num": "1.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstitys (suorissa lähetyksissä)",
+                            "text": "Kaikelle synkronoidussa mediassa olevalle suoralle audiosisällölle on tarjolla tekstitys."
+                        },
+                        {
+                            "id": "audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-5-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Kuvailutulkkaus (tallennettu)",
+                            "text": "Kaikelle synkronoidussa mediassa olevalle tallennetulle videosisällölle on tarjolla kuvailutulkkaus."
+                        },
+                        {
+                            "id": "sign-language-prerecorded",
+                            "alt_id": [
+                                "x1-2-6-sign-language-prerecorded"
+                            ],
+                            "num": "1.2.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Viittomakieli (tallennettu)",
+                            "text": "Kaikelle synkronoidussa mediassa olevalle tallennetulle audiosisällölle on tarjolla viittomakielinen tulkkaus."
+                        },
+                        {
+                            "id": "extended-audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-7-extended-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Pidennetty kuvailutulkkaus (tallennettu)",
+                            "text": "Kun tauot etualan äänissä (eli ei-taustaäänissä) ovat riittämättömiä videon tunnelman välittämiseen kuvailutulkkauksen avulla, kaikelle synkronoidussa mediassa olevalle tallennetulle videosisällölle tarjotaan pidennetty kuvailutulkkaus."
+                        },
+                        {
+                            "id": "media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-8-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Mediavastine (tallennettu)",
+                            "text": "Kaikelle tallennetulle synkronoidulle medialle ja kaikelle tallennetulle pelkälle videomedialle on tarjolla aikasidonnaisen median vastine."
+                        },
+                        {
+                            "id": "audio-only-live",
+                            "alt_id": [
+                                "x1-2-9-audio-only-live"
+                            ],
+                            "num": "1.2.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Pelkkä audio (suorissa lähetyksissä)",
+                            "text": "Tarjolla on vastine aikasidonnaiselle medialle, joka esittää vastaavan informaation kuin suorana lähetettävä pelkkä audiosisältö."
+                        }
+                    ]
+                },
+                {
+                    "id": "adaptable",
+                    "alt_id": [
+                        "x1-3-adaptable"
+                    ],
+                    "num": "1.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Mukautettava",
+                    "text": "Tuota sisältöä, joka voidaan esittää eri tavoin (esimerkiksi yksinkertaisemman asettelun avulla) ilman sisällön tai rakenteen menettämistä.",
+                    "successcriteria": [
+                        {
+                            "id": "info-and-relationships",
+                            "alt_id": [
+                                "x1-3-1-info-and-relationships"
+                            ],
+                            "num": "1.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Informaatio ja suhteet",
+                            "text": "Esitystavassa välittyvät informaatio, rakenne ja suhteet voidaan selvittää ohjelmallisesti tai ne ovat saatavilla tekstinä."
+                        },
+                        {
+                            "id": "meaningful-sequence",
+                            "alt_id": [
+                                "x1-3-2-meaningful-sequence"
+                            ],
+                            "num": "1.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Merkitykseen vaikuttava järjestys",
+                            "text": "Kun sisällön esitysjärjestys vaikuttaa sisällön merkitykseen, oikea lukemisjärjestys voidaan selvittää ohjelmallisesti."
+                        },
+                        {
+                            "id": "sensory-characteristics",
+                            "alt_id": [
+                                "x1-3-3-sensory-characteristics"
+                            ],
+                            "num": "1.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Aistinvaraiset ominaispiirteet",
+                            "text": "Ohjeet sisällön ymmärtämiseksi ja hallitsemiseksi eivät riipu yksinomaan komponenttien aistinvaraisista ominaispiirteistä kuten muoto, koko, visuaalinen sijainti, suunta tai ääni.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tutustuaksesi väriin liittyviin vaatimuksiin katso Ohje 1.4."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "orientation",
+                            "alt_id": [
+                                "x1-3-4-orientation"
+                            ],
+                            "num": "1.3.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Asento",
+                            "text": "Sisältöä ei ole rajoitettu vain tiettyyn näyttölaitteen asentoon kuten pysty- tai vaakasuuntaan, lukuun ottamatta tapausta, jossa tietty asento on olennainen.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tapauksia, joissa tietty näyttölaitteen asento on olennainen ovat esimerkiksi šekki, pianosovellus, esitysdiat projektoria tai televisiota varten tai virtuaalitodellisuuden sisältö, joihin kahdensuuntainen näyttölaitteen asento ei sovellu."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-input-purpose",
+                            "alt_id": [
+                                "x1-3-5-identify-input-purpose"
+                            ],
+                            "num": "1.3.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Määrittele syötteen tarkoitus",
+                            "text": "Käyttäjän tietojen keräämiseen tarkoitettujen syötekenttien tarkoitus voidaan selvittää ohjelmallisesti, kun",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "käyttötarkoitus on listattu Syötteen tarkoitukset käyttöliittymäkomponenteissa -osiossa ja"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "sisällön toteutuksessa on käytetty teknologiaa, joka mahdollistaa syöte-elementin tarkoituksen kuvaamisen."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-purpose",
+                            "alt_id": [
+                                "x1-3-6-identify-purpose"
+                            ],
+                            "num": "1.3.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Määrittele tarkoitus",
+                            "text": "Sisällössä, joka on toteutettu käyttäen merkkauskieltä, käyttöliittymäkomponenttien, kuvakkeiden ja alueiden tarkoitus voidaan selvittää ohjelmallisesti."
+                        }
+                    ]
+                },
+                {
+                    "id": "distinguishable",
+                    "alt_id": [
+                        "x1-4-distinguishable"
+                    ],
+                    "num": "1.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Erottuva",
+                    "text": "Helpota käyttäjiä näkemään ja kuulemaan sisältö sekä erota etuala taustasta.",
+                    "successcriteria": [
+                        {
+                            "id": "use-of-color",
+                            "alt_id": [
+                                "x1-4-1-use-of-color"
+                            ],
+                            "num": "1.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Värien käyttö",
+                            "text": "Väriä ei käytetä ainoana visuaalisena keinona informaation välittämisessä, toiminnon esittämisessä, vastauksen pyytämisessä tai visuaalisen elementin erottamisessa.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tämä onnistumiskriteeri käsittelee erityisesti värien havaitsemista. Havaitsemisen muut muodot käsitellään ohjeessa 1.3, mukaan lukien ohjelmallinen pääsy värien ja muiden visuaalisten esitystapojen koodaukseen."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "audio-control",
+                            "alt_id": [
+                                "x1-4-2-audio-control"
+                            ],
+                            "num": "1.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Audion kontrollointi",
+                            "text": "Jos jokin ääni verkkosivulla soi automaattisesti kauemmin kuin kolme sekuntia, käytettävissä on joko mekanismi äänen keskeyttämiseen tai pysäyttämiseen tai mekanismi äänen voimakkuuden säätämiseksi koko järjestelmän äänenvoimakkuuden tasosta riippumatta.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Koska mikä tahansa sisältö, joka ei täytä tätä onnistumiskriteeriä, voi haitata käyttäjän mahdollisuuksia käyttää koko sivua, täytyy kaiken verkkosivun sisällön (riippumatta siitä käytetäänkö sitä täyttämään muita onnistumiskriteereitä vai ei) täyttää tämä onnistumiskriteeri. Katso ohjeidenmukaisuuden vaatimus 5: Häiriöttömyys."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-minimum",
+                            "alt_id": [
+                                "x1-4-3-contrast-minimum"
+                            ],
+                            "num": "1.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Kontrasti (minimi)",
+                            "text": "Tekstin ja tekstiä esittävien kuvien visuaalisen esitystavan kontrastisuhde on vähintään 4,5:1, paitsi seuraavissa tapauksissa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Isokokoinen teksti",
+                                            "text": "Isokokoisessa tekstissä ja isokokoista tekstiä esittävissä kuvissa kontrastisuhde on vähintään 3:1."
+                                        },
+                                        {
+                                            "handle": "Oheissisältö",
+                                            "text": "Tekstille tai tekstiä esittäville kuville ei ole kontrastivaatimusta, jos ne ovat osa inaktiivista käyttöliittymäkomponenttia, yksinomaan koristeita, eivät ole näkyvissä kenellekään tai ovat osa kuvaa, jossa on muuta merkittävää visuaalista sisältöä."
+                                        },
+                                        {
+                                            "handle": "Logotyypit",
+                                            "text": "Tekstille, joka on osa logoa tai brändin nimeä, ei ole kontrastivaatimusta."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "resize-text",
+                            "alt_id": [
+                                "x1-4-4-resize-text"
+                            ],
+                            "num": "1.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstin koon muuttaminen",
+                            "text": "Lukuun ottamatta tekstitystä ja tekstiä esittäviä kuvia, tekstin kokoa voidaan muuttaa ilman avustavaa teknologiaa aina 200 prosenttiin asti ilman sisällön tai toiminnallisuuden menettämistä."
+                        },
+                        {
+                            "id": "images-of-text",
+                            "alt_id": [
+                                "x1-4-5-images-of-text"
+                            ],
+                            "num": "1.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstiä esittävät kuvat",
+                            "text": "Jos käytetty teknologia voi tuottaa visuaalisen esityksen, informaation välittämiseen käytetään ennemmin tekstiä kuin tekstiä esittäviä kuvia, paitsi seuraavissa tapauksissa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Mukautettava",
+                                            "text": "Tekstiä esittävä kuva voidaan visuaalisesti mukauttaa käyttäjän vaatimusten mukaisesti."
+                                        },
+                                        {
+                                            "handle": "Olennainen",
+                                            "text": "Tietty tekstin esitystapa on olennainen välitettävän informaation kannalta."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Logotyypit (teksti, joka on osa logoa tai brändin nimeä) tulkitaan olennaisiksi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-enhanced",
+                            "alt_id": [
+                                "x1-4-6-contrast-enhanced"
+                            ],
+                            "num": "1.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Kontrasti (parannettu)",
+                            "text": "Tekstin ja tekstiä esittävien kuvien visuaalisen esitystavan kontrastisuhde on vähintään 7:1, paitsi seuraavissa tapauksissa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Isokokoinen teksti",
+                                            "text": "Isokokoisessa tekstissä ja isokokoista tekstiä esittävissä kuvissa kontrastisuhde on vähintään 4,5:1."
+                                        },
+                                        {
+                                            "handle": "Oheissisältö",
+                                            "text": "Tekstille tai tekstiä esittäville kuville ei ole kontrastivaatimusta, jos ne ovat osa inaktiivista käyttöliittymäkomponenttia, yksinomaan koristeita, eivät ole näkyvissä kenellekään tai ovat osa kuvaa, jossa on muuta merkittävää visuaalista sisältöä."
+                                        },
+                                        {
+                                            "handle": "Logotyypit",
+                                            "text": "Tekstille, joka on osa logoa tai brändin nimeä, ei ole kontrastivaatimusta."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "low-or-no-background-audio",
+                            "alt_id": [
+                                "x1-4-7-low-or-no-background-audio"
+                            ],
+                            "num": "1.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Hiljainen taustaääni tai ei taustaääntä",
+                            "text": "Tallennetulle pelkälle audiosisällölle joka (1) sisältää ensisijaisesti puhetta äänimaiseman etualalla, (2) ei ole auditiivinen CAPTCHA tai audiologo ja joka (3) ei ole vokalisaatio, jonka tarkoitus on ensisijaisesti olla musiikillinen ilmaisu, kuten laulu tai rap, ainakin yksi seuraavista pitää paikkansa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ei taustaa",
+                                            "text": "Audio ei sisällä taustaääniä."
+                                        },
+                                        {
+                                            "handle": "Pois päältä",
+                                            "text": "Taustaäänet voidaan kytkeä pois päältä."
+                                        },
+                                        {
+                                            "handle": "20 dB",
+                                            "text": "Taustaäänet ovat vähintään 20 desibeliä hiljaisempia kuin äänimaiseman etualan puhesisältö, poikkeuksena satunnaiset, yksi tai kaksi sekuntia kestävät äänet. Huomautus \"Desibelin\" määritelmän mukaan taustaääni, joka täyttää tämän vaatimuksen, on noin neljä kertaa hiljaisempi kuin äänimaiseman etualan puhesisältö."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "\"Desibelin\" määritelmän mukaan taustaääni, joka täyttää tämän vaatimuksen, on noin neljä kertaa hiljaisempi kuin äänimaiseman etualan puhesisältö."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "visual-presentation",
+                            "alt_id": [
+                                "x1-4-8-visual-presentation"
+                            ],
+                            "num": "1.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Visuaalinen esitystapa",
+                            "text": "Tekstilohkojen visuaaliselle esitystavalle on olemassa mekanismi seuraaviin käyttötarkoituksiin:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Käyttäjä voi valita edustan ja taustan värit."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Leveys on enintään 80 merkkiä tai kuvaketta (40 CJK-kielissä)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekstiä ei ole tasattu molempiin reunoihin (tasattu sekä vasempaan että oikeaan marginaaliin)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Riviväli (rivin korkeus) on vähintään puolitoista riviä kappaleiden sisällä, ja kappaleiden väli on vähintään 1,5 kertaa suurempi kuin riviväli."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekstin kokoa voidaan muuttaa ilman avustavaa teknologiaa 200 prosenttiin asti tavalla, joka ei vaadi käyttäjää vierittämään tekstiä vaakasuunnassa rivin lukemiseksi koko näytön ikkunassa."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "images-of-text-no-exception",
+                            "alt_id": [
+                                "x1-4-9-images-of-text-no-exception"
+                            ],
+                            "num": "1.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tekstiä esittävät kuvat (ei poikkeusta)",
+                            "text": "Tekstiä esittäviä kuvia käytetään yksinomaan koristeena tai silloin, kun tietty tekstin esitystapa on olennainen välitettävän informaation kannalta.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Logotyypit (teksti, joka on osa logoa tai brändin nimeä) tulkitaan olennaisiksi."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "reflow",
+                            "alt_id": [
+                                "x1-4-10-reflow"
+                            ],
+                            "num": "1.4.10",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Responsiivisuus",
+                            "text": "Sisältö voidaan esittää ilman sisällön tai toiminnallisuuden menettämistä ja ilman kahdensuuntaista vierittämistä, kun",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "pystysuuntaan vieritettävän sisällön leveys on 320 CSS-pikseliä."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "vaakasuuntaan vieritettävän sisällön korkeus on 256 CSS-pikseliä."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "320 CSS-pikseliä vastaa 1280 CSS-pikselin levyistä selainikkunaa, joka on zoomattu 400 % kokoiseksi. Vaakasuuntaan vieritettävässä sisällössä (esim. pystysuuntainen kirjoitus), 256 CSS-pikseliä vastaa 1024 px korkeaa selainikkunaa, joka on zoomattu 400 % kokoiseksi."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Esimerkkejä sisällöstä, joissa vaaditaan kahdensuuntaista esitystapaa, ovat kuvat, kartat, diagrammit, videopelit, esitykset, taulukkomuotoinen data ja käyttöliittymät, joissa on tarpeellista pitää työkalupalkki näkyvissä, kun käsitellään sisältöä."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "non-text-contrast",
+                            "alt_id": [
+                                "x1-4-11-non-text-contrast"
+                            ],
+                            "num": "1.4.11",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Ei-tekstimuotoisen sisällön kontrasti",
+                            "text": "Seuraavanlaisten elementtien visuaalisessa esitystavassa kontrastisuhde viereiseen väriin/väreihin on vähintään 3:1:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Käyttöliittymäkomponentit",
+                                            "text": "Visuaalinen informaatio, joka vaaditaan käyttöliittymäkomponentin ja sen eri tilojen tunnistamiseen, lukuun ottamatta inaktiivisia komponentteja tai jos käyttäjäagentti määrittelee uuden sisällön visuaalisen esitystavan ja sisällön tuottaja ei ole sitä muokannut."
+                                        },
+                                        {
+                                            "handle": "Graafiset objektit",
+                                            "text": "Grafiikan osat, joita vaaditaan sisällön ymmärtämiseksi, lukuun ottamatta tapauksia, joissa ulkoasu on olennainen tietosisällön välittämiseksi."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "text-spacing",
+                            "alt_id": [
+                                "x1-4-12-text-spacing"
+                            ],
+                            "num": "1.4.12",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstin välistys",
+                            "text": "Sisällössä, joka on toteutettu käyttäen merkkauskieliä ja joka tukee seuraavia tekstin muotoilun ominaisuuksia, sisältöä tai toiminnallisuutta ei menetetä, jos asetetaan kaikki seuraavat muuttamatta mitään muuta tyylimääritystä:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Riviväliksi (rivin korkeudeksi) vähintään 1,5 kertaa kirjasinkoko."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Kappaleen jälkeisen tyhjän tilan kooksi vähintään 2 kertaa kirjasinkoko."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Kirjainväliksi vähintään 0,12 kertaa kirjasinkoko."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Sanojen väliksi vähintään 0,16 kertaa kirjasinkoko."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "content-on-hover-or-focus",
+                            "alt_id": [
+                                "x1-4-13-content-on-hover-or-focus"
+                            ],
+                            "num": "1.4.13",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Sisältö osoitettaessa tai kohdistettaessa",
+                            "text": "Jos osoittimen vieminen elementin päälle tai kohdistuksen siirtäminen elementtiin tuo näkyviin lisää sisältöä ja osoittimen tai kohdistuksen pois siirtäminen piilottaa sisällön, seuraavat ehdot pätevät:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Piilotettavissa",
+                                            "text": "On olemassa mekanismi, jolla näkyviin tulleen sisällön saa piilotettua siirtämättä osoitinta tai kohdistusta, lukuun ottamatta tapausta, jossa sisältö on syötevirheestä kertova teksti tai se ei peitä tai korvaa muuta sisältöä."
+                                        },
+                                        {
+                                            "handle": "Osoitettavissa",
+                                            "text": "Jos osoittimen vieminen elementin päälle tuo näkyviin uutta sisältöä, osoitin voidaan viedä ilmestyneen sisällön päälle aiheuttamatta sen katoamista."
+                                        },
+                                        {
+                                            "handle": "Pysyvä",
+                                            "text": "Uusi sisältö pysyy näkyvissä kunnes osoitin tai kohdistus on siirretty pois, käyttäjä on piilottanut sisällön tai sen sisältö ei enää päde."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Käyttäjäagentin määrittämä esitystapa on esimerkiksi selaimen työkaluvihjeet, jotka on toteutettu HTML:n title-attribuutin avulla."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Muokatut työkaluvihjeet, alavalikot ja muut ei-modaaliset ponnahdusikkunat ovat esimerkkejä sisällöstä, joka kuuluu tämän kriteerin alaan."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "operable",
+            "alt_id": [
+                "x2-operable"
+            ],
+            "num": "2",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Hallittava",
+            "text": "Käyttöliittymäkomponenttien ja navigoinnin pitää olla hallittavia.",
+            "guidelines": [
+                {
+                    "id": "keyboard-accessible",
+                    "alt_id": [
+                        "x2-1-keyboard-accessible"
+                    ],
+                    "num": "2.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Käytettävissä näppäimistöltä",
+                    "text": "Toteuta kaikki toiminnallisuus siten, että se on käytettävissä näppäimistöltä.",
+                    "successcriteria": [
+                        {
+                            "id": "keyboard",
+                            "alt_id": [
+                                "x2-1-1-keyboard"
+                            ],
+                            "num": "2.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Näppäimistö",
+                            "text": "Kaikki sisällön toiminnallisuus on hallittavissa näppäimistörajapinnan välityksellä ilman vaatimusta yksittäisten näppäinpainallusten erityisestä ajoittamisesta, paitsi kun taustalla oleva toiminnallisuus vaatii syötettä, joka riippuu käyttäjän liikkeiden reitistä eikä vain päätepisteistä.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tämä poikkeus liittyy sovelluksen toimintoon, ei syötetekniikkaan. Esimerkiksi käytettäessä käsinkirjoitettua tekstiä syötteenä, syötetekniikka (käsin kirjoittaminen) vaatii reitistä riippuvaa syötettä, kun taas sovelluksen toiminnallisuus (tekstin syöttö) ei sitä vaadi."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Tämä ei kiellä hiireen perustuvan syötteen tai muiden syötemenetelmien käyttämistä näppäimistön lisäksi, eikä tarkoitus ole kannustaa luopumaan niistä."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-keyboard-trap",
+                            "alt_id": [
+                                "x2-1-2-no-keyboard-trap"
+                            ],
+                            "num": "2.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ei näppäimistöansaa",
+                            "text": "Jos kohdistus voidaan siirtää sivun komponenttiin näppäimistörajapinnan kautta, niin kohdistus voidaan siirtää myös pois kyseiseltä komponentilta pelkästään näppäimistörajapintaa käyttämällä. Mikäli tämä vaatii muuta kuin pelkkien nuoli- tai tab-näppäimien tai muiden standardinmukaisten poistumismenetelmien käyttämistä, käyttäjälle neuvotaan menetelmä kohdistuksen poissiirtämiseksi.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Koska mikä tahansa sisältö, joka ei täytä tätä onnistumiskriteeriä, voi haitata käyttäjän mahdollisuuksia käyttää koko sivua, täytyy kaiken verkkosivun sisällön (riippumatta siitä käytetäänkö sitä täyttämään muita onnistumiskriteereitä vai ei) täyttää tämä onnistumiskriteeri. Katso ohjeidenmukaisuuden vaatimus 5: Häiriöttömyys."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "keyboard-no-exception",
+                            "alt_id": [
+                                "x2-1-3-keyboard-no-exception"
+                            ],
+                            "num": "2.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Näppäimistö (ei poikkeuksia)",
+                            "text": "Kaikki sisällön toiminnallisuus on käytettävissä näppäimistörajapinnan kautta ilman vaatimusta yksittäisten näppäinpainallusten erityisestä ajoittamisesta."
+                        },
+                        {
+                            "id": "character-key-shortcuts",
+                            "alt_id": [
+                                "x2-1-4-character-key-shortcuts"
+                            ],
+                            "num": "2.1.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Yhden merkin pikanäppäimet",
+                            "text": "Jos sisältöön on toteutettu näppäinoikotie, joka käyttää vain yhtä kirjain- (mukaan lukien pienet ja isot kirjaimet), välimerkki-, numero- tai symbolinäppäintä, vähintään yksi seuraavista pätee:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Pois päältä",
+                                            "text": "On olemassa mekanismi, jolla näppäinoikotien voi ottaa pois käytöstä."
+                                        },
+                                        {
+                                            "handle": "Uudelleenmäärittely",
+                                            "text": "On olemassa mekanismi, jolla näppäinoikotie voidaan määritellä uudelleen käyttämään yhtä tai useampaa komentonäppäintä (Ctrl, Alt jne.)."
+                                        },
+                                        {
+                                            "handle": "Aktiivinen vain kohdistettaessa",
+                                            "text": "Tietylle käyttöliittymäkomponentille tarkoitettu näppäinoikotie on käytössä vain, kun kohdistus on kyseisessä komponentissa."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "enough-time",
+                    "alt_id": [
+                        "x2-2-enough-time"
+                    ],
+                    "num": "2.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tarpeeksi aikaa",
+                    "text": "Anna käyttäjille tarpeeksi aikaa lukea ja käyttää sisältöä.",
+                    "successcriteria": [
+                        {
+                            "id": "timing-adjustable",
+                            "alt_id": [
+                                "x2-2-1-timing-adjustable"
+                            ],
+                            "num": "2.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Säädettävä ajoitus",
+                            "text": "Jokaiselle sisällön asettamalle aikarajalle ainakin yksi seuraavista pitää paikkansa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Pois päältä",
+                                            "text": "Käyttäjä voi kytkeä aikarajan pois päältä ennen sen täyttymistä."
+                                        },
+                                        {
+                                            "handle": "Säädä",
+                                            "text": "Käyttäjän sallitaan säätää aikarajaa ennen sen kohtaamista laajalla asteikolla, joka on vähintään kymmenen kertaa oletusasetuksen pituus."
+                                        },
+                                        {
+                                            "handle": "Jatka",
+                                            "text": "Käyttäjää varoitetaan ennen ajan loppumista, annetaan vähintään 20 sekuntia aikaa aikarajan jatkamiseen yksinkertaisen toiminnon avulla (esimerkiksi, \"paina välilyöntiä\") ja käyttäjän sallitaan jatkaa aikarajaa vähintään kymmenen kertaa."
+                                        },
+                                        {
+                                            "handle": "Reaaliaikainen poikkeus",
+                                            "text": "Aikaraja on reaaliaikaisen tapahtuman vaadittu osa (esimerkiksi huutokaupan), ja vaihtoehto aikarajalle ei ole mahdollinen."
+                                        },
+                                        {
+                                            "handle": "Olennainen poikkeus",
+                                            "text": "Aikaraja on olennainen, ja sen pidentäminen mitätöisi toiminnon."
+                                        },
+                                        {
+                                            "handle": "20 tunnin poikkeus",
+                                            "text": "Aikaraja on yli 20 tuntia."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tämä onnistumiskriteeri auttaa varmistamaan, että käyttäjät voivat saattaa tehtävät valmiiksi ilman odottamattomia aikarajasta johtuvia muutoksia sisällössä tai kontekstissa. Tätä onnistumiskriteeriä tulisi tarkastella yhdessä Onnistumiskriteerin 3.2.1:n kanssa, joka rajoittaa käyttäjän toiminnasta johtuvia sisällön tai kontekstin muutoksia."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pause-stop-hide",
+                            "alt_id": [
+                                "x2-2-2-pause-stop-hide"
+                            ],
+                            "num": "2.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tauota, pysäytä, piilota",
+                            "text": "Kaikki seuraavat pitävät paikkansa liikkuvalle, vilkkuvalle, vierivälle tai automaattisesti päivittyvälle informaatiolle:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Liikkuva, vilkkuva, vierivä",
+                                            "text": "Kaikelle liikkuvalle, vilkkuvalle tai vierivälle informaatiolle, joka (1) käynnistyy automaattisesti, (2) kestää yli viisi sekuntia ja (3) esitetään rinnakkain muun sisällön kanssa, on olemassa mekanismi, jonka avulla käyttäjä voi tauottaa, pysäyttää tai piilottaa sen, paitsi silloin kun liikkuminen, vilkkuminen tai vieriminen on olennainen osa toimintoa ja"
+                                        },
+                                        {
+                                            "handle": "Automaattisesti päivittyvä",
+                                            "text": "Kaikelle automaattisesti päivittyvälle informaatiolle, joka (1) käynnistyy automaattisesti ja (2) esitetään rinnakkain muun sisällön kanssa, on olemassa mekanismi, jonka avulla käyttäjä voi keskeyttää, pysäyttää tai piilottaa sen tai hallita sen päivitystiheyttä, paitsi silloin kun automaattinen päivittyminen on olennainen osa toimintoa."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tarkista vilkkuvaan tai välähtelevään sisältöön liittyvät vaatimukset ohjeesta 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Koska mikä tahansa sisältö, joka ei täytä tätä onnistumiskriteeriä, voi haitata käyttäjän mahdollisuuksia käyttää koko sivua, täytyy kaiken verkkosivun sisällön (riippumatta siitä käytetäänkö sitä täyttämään muita onnistumiskriteereitä vai ei) täyttää tämä onnistumiskriteeri. Katso ohjeidenmukaisuuden vaatimus 5: Häiriöttömyys."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 3",
+                                    "text": "Sellaisesta sisällöstä, jota ohjelmisto ajoittain päivittää tai jota käyttäjäagentti lataa syötevirrasta, ei vaadita tallentamaan tai esittämään informaatiota, joka on luotu tai vastaanotettu tauon ja jatkamisen välissä, koska tämä saattaisi olla teknisesti mahdotonta ja monessa tilanteessa harhaanjohtavaa."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 4",
+                                    "text": "Animaatiota, joka näytetään osana esilatausvaihetta tai vastaavaa tilannetta, voidaan pitää olennaisena, jos kyseisen vaiheen aikana ei voi tapahtua vuorovaikutusta kenenkään käyttäjän kanssa, ja jos toiminnon edistymistä osoittavan animaation poisjättäminen saattaisi hämätä käyttäjiä tai saada heidät ajattelemaan, että sisältö on jämähtänyt tai vioittunut."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-timing",
+                            "alt_id": [
+                                "x2-2-3-no-timing"
+                            ],
+                            "num": "2.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ei ajoitusta",
+                            "text": "Ajoitus ei ole olennainen osa sisällön esittämää tapahtumaa tai toimintoa, lukuun ottamatta ei-interaktiivista synkronoitua mediaa ja reaaliaikaisia tapahtumia."
+                        },
+                        {
+                            "id": "interruptions",
+                            "alt_id": [
+                                "x2-2-4-interruptions"
+                            ],
+                            "num": "2.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Keskeytykset",
+                            "text": "Käyttäjä voi lykätä tai estää keskeytykset, lukuun ottamatta hätätapauksiin liittyviä keskeytyksiä."
+                        },
+                        {
+                            "id": "re-authenticating",
+                            "alt_id": [
+                                "x2-2-5-re-authenticating"
+                            ],
+                            "num": "2.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Uudelleentunnistautuminen",
+                            "text": "Kun todennettu istunto vanhentuu, käyttäjä voi dataa menettämättä jatkaa toimintoa uudelleentunnistautumisen jälkeen."
+                        },
+                        {
+                            "id": "timeouts",
+                            "alt_id": [
+                                "x2-2-6-timeouts"
+                            ],
+                            "num": "2.2.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Aikakatkaisut",
+                            "text": "Käyttäjää varoitetaan, jos käyttäjän tietoja voi kadota käyttäjän inaktiivisuuden seurauksena, paitsi jos tietoja säilytetään yli 20 tuntia sen jälkeen, kun käyttäjä ei tee mitään.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tietosuojasäännökset saattavat vaatia käyttäjän nimenomaisen suostumuksen ennen kuin käyttäjän tunnistetiedot on todennettu ja ennen käyttäjän tietojen tallentamista. Useimmissa oikeuskäytännöissä, valtioissa tai hallintoalueilla nimenomaista suostumusta ei voida siirtää toiselle henkilölle, mikäli käyttäjä on alaikäinen. Kun käyttäjän tietojen tallentamista harkitaan keinona tämän onnistumiskriteerin täyttämiseksi, on suositeltavaa hyödyntää tietosuoja-asiantuntijoita sekä lainopillista neuvontaa."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "seizures-and-physical-reactions",
+                    "alt_id": [
+                        "x2-3-seizures-and-physical-reactions"
+                    ],
+                    "num": "2.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Sairauskohtaukset",
+                    "text": "Älä suunnittele sisältöä tavalla, jonka tiedetään aiheuttavan sairauskohtauksia.",
+                    "successcriteria": [
+                        {
+                            "id": "three-flashes-or-below-threshold",
+                            "alt_id": [
+                                "x2-3-1-three-flashes-or-below-threshold"
+                            ],
+                            "num": "2.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Kolme välähdystä tai alle raja-arvon",
+                            "text": "Verkkosivut eivät sisällä mitään, joka milloinkaan välähtäisi useammin kuin kolme kertaa sekunnissa, tai välähdys on alle yleisen välähdyksen ja punaisen välähdyksen raja-arvojen.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Koska mikä tahansa sisältö, joka ei täytä tätä onnistumiskriteeriä, voi haitata käyttäjän mahdollisuuksia käyttää koko sivua, täytyy kaiken verkkosivun sisällön (riippumatta siitä käytetäänkö sitä täyttämään muita onnistumiskriteereitä vai ei) täyttää tämä onnistumiskriteeri. Katso ohjeidenmukaisuuden vaatimus 5: Häiriöttömyys."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "three-flashes",
+                            "alt_id": [
+                                "x2-3-2-three-flashes"
+                            ],
+                            "num": "2.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Kolme välähdystä",
+                            "text": "Verkkosivut eivät sisällä mitään, joka milloinkaan välähtäisi useammin kuin kolme kertaa sekunnissa."
+                        },
+                        {
+                            "id": "animation-from-interactions",
+                            "alt_id": [
+                                "x2-3-3-animation-from-interactions"
+                            ],
+                            "num": "2.3.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Animaatio vuorovaikutuksen yhteydessä",
+                            "text": "Käyttäjän vuorovaikutuksesta käynnistyvät liikeanimaatiot voidaan ottaa pois päältä, paitsi tilanteissa, joissa animaatio on olennainen käytön tai välitettävän informaation kannalta."
+                        }
+                    ]
+                },
+                {
+                    "id": "navigable",
+                    "alt_id": [
+                        "x2-4-navigable"
+                    ],
+                    "num": "2.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Navigoitava",
+                    "text": "Tarjoa käyttäjille tapoja navigoida, etsiä sisältöä ja määrittää sijaintinsa.",
+                    "successcriteria": [
+                        {
+                            "id": "bypass-blocks",
+                            "alt_id": [
+                                "x2-4-1-bypass-blocks"
+                            ],
+                            "num": "2.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ohita lohkot",
+                            "text": "Tarjolla on mekanismi sellaisten sisällön lohkojen ohittamiseen, jotka toistuvat useilla verkkosivuilla."
+                        },
+                        {
+                            "id": "page-titled",
+                            "alt_id": [
+                                "x2-4-2-page-titled"
+                            ],
+                            "num": "2.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sivuotsikot",
+                            "text": "Verkkosivuilla on otsikot, jotka kuvailevat aiheen tai merkityksen."
+                        },
+                        {
+                            "id": "focus-order",
+                            "alt_id": [
+                                "x2-4-3-focus-order"
+                            ],
+                            "num": "2.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Kohdistusjärjestys",
+                            "text": "Jos verkkosivu voidaan navigoida järjestyksessä ja navigointijärjestys vaikuttaa merkitykseen tai toimintoon, kohdistettavissa olevat komponentit saavat kohdistuksen järjestyksessä, joka säilyttää merkityksen ja toimivuuden."
+                        },
+                        {
+                            "id": "link-purpose-in-context",
+                            "alt_id": [
+                                "x2-4-4-link-purpose-in-context"
+                            ],
+                            "num": "2.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Linkin tarkoitus (kontekstissa)",
+                            "text": "Jokaisen linkin tarkoitus voidaan selvittää yksin linkkitekstistä tai linkkitekstistä yhdessä ohjelmallisesti selvitettävissä olevan linkkikontekstin avulla, paitsi tilanteissa, joissa linkki olisi yleisesti ottaen epäselvä käyttäjille."
+                        },
+                        {
+                            "id": "multiple-ways",
+                            "alt_id": [
+                                "x2-4-5-multiple-ways"
+                            ],
+                            "num": "2.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Useita tapoja",
+                            "text": "Käytettävissä on enemmän kuin yksi tapa paikallistaa yksi verkkosivu verkkosivujen joukosta, paitsi silloin kun verkkosivu on prosessin lopputulos tai vaihe."
+                        },
+                        {
+                            "id": "headings-and-labels",
+                            "alt_id": [
+                                "x2-4-6-headings-and-labels"
+                            ],
+                            "num": "2.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Otsikot ja nimilaput",
+                            "text": "Otsikot ja nimilaput kuvailevat aiheen tai merkityksen."
+                        },
+                        {
+                            "id": "focus-visible",
+                            "alt_id": [
+                                "x2-4-7-focus-visible"
+                            ],
+                            "num": "2.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Näkyvä kohdistus",
+                            "text": "Kaikilla näppäimistöltä käytettävillä käyttöliittymillä on käyttötila, jossa näppäimistön kohdistuksen ilmaisin on näkyvissä."
+                        },
+                        {
+                            "id": "location",
+                            "alt_id": [
+                                "x2-4-8-location"
+                            ],
+                            "num": "2.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Sijainti",
+                            "text": "Saatavilla on informaatiota käyttäjän sijainnista verkkosivujen joukossa."
+                        },
+                        {
+                            "id": "link-purpose-link-only",
+                            "alt_id": [
+                                "x2-4-9-link-purpose-link-only"
+                            ],
+                            "num": "2.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Linkin tarkoitus (vain linkistä)",
+                            "text": "Jokaisen linkin tarkoituksen tunnistamiseen yksinomaan linkkitekstin perusteella on saatavilla mekanismi, paitsi tilanteissa, joissa linkin tarkoitus olisi yleisesti ottaen epäselvä käyttäjille."
+                        },
+                        {
+                            "id": "section-headings",
+                            "alt_id": [
+                                "x2-4-10-section-headings"
+                            ],
+                            "num": "2.4.10",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Osioiden otsikot",
+                            "text": "Sisällön organisoimiseen käytetään osioiden otsikoita.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Termiä \"otsikko\" käytetään tässä yleisessä mielessä, ja sillä tarkoitetaan otsikkotekstejä ja muita tapoja lisätä otsikoita erityyppiseen sisältöön."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Tämä onnistumiskriteeri kattaa osiot kirjoitetussa tekstissä, ei käyttöliittymäkomponenteissa. Käyttöliittymäkomponentit käsitellään onnistumiskriteerissä 4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "input-modalities",
+                    "alt_id": [
+                        "x2-5-input-modalities"
+                    ],
+                    "num": "2.5",
+                    "handle": "Syötetavat",
+                    "text": "Tee toimintojen käyttämisestä käyttäjille helpompaa erilaisilla syötetavoilla näppäimistön lisäksi.",
+                    "successcriteria": [
+                        {
+                            "id": "pointer-gestures",
+                            "alt_id": [
+                                "x2-5-1-pointer-gestures"
+                            ],
+                            "num": "2.5.1",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Osoitineleet",
+                            "text": "Kaikkia toimintoja, joissa hyödynnetään monipiste- tai reittiin perustuvia ohjauseleitä, voidaan käyttää myös yhdellä osoittimella ja ilman reittiin perustuvaa elettä, paitsi jos kyseinen ohjaustapa on olennainen.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tämä vaatimus koskee verkkosisältöä, joka vastaanottaa ja tulkitsee osoitinlaitteen toimintoja (ts. tämä ei koske toimintoja, joilla ohjataan käyttäjäagenttia tai avustavaa teknologiaa)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pointer-cancellation",
+                            "alt_id": [
+                                "x2-5-2-pointer-cancellation"
+                            ],
+                            "num": "2.5.2",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Osoitinlaitteella tehdyn valinnan peruuttaminen",
+                            "text": "Toimintoihin, joita voidaan käyttää yhden osoittimen avulla, pätee vähintään yksi seuraavista:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ei alas-tapahtumaa",
+                                            "text": "Mikään osa toiminnallisuudesta ei tapahdu alas-tapahtuman yhteydessä."
+                                        },
+                                        {
+                                            "handle": "Keskeytä tai kumoa",
+                                            "text": "Toiminnon päättäminen tapahtuu ylös-tapahtuman yhdeydessä, ja on olemassa mekanismi, jolla toiminto voidaan perua ennen päättämistä tai kumota päättämisen jälkeen."
+                                        },
+                                        {
+                                            "handle": "Vastakkaisuus",
+                                            "text": "Ylös-tapahtuma kumoaa edeltävän alas-tapahtuman aiheuttaman toiminnon."
+                                        },
+                                        {
+                                            "handle": "Olennainen",
+                                            "text": "Toiminnon päättäminen alas-tapahtuman yhteydessä on olennaista."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Toimintoja, jotka jäljittelevät näppäimistön tai numeronäppäimistön painalluksia pidetään olennaisina."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 2",
+                                    "text": "Tämä vaatimus koskee verkkosisältöä, joka vastaanottaa ja tulkitsee osoitinlaitteen toimintoja (ts. tämä ei koske toimintoja, joilla ohjataan käyttäjäagenttia tai avustavaa teknologiaa)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "label-in-name",
+                            "alt_id": [
+                                "x2-5-3-label-in-name"
+                            ],
+                            "num": "2.5.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Nimilappu nimessä",
+                            "text": "Tapauksissa, joissa käyttöliittymäkomponentin nimilapussa on tekstiä tai tekstiä esittävä kuva, komponentin nimi sisältää sen tekstin, joka on visuaalisesti näkyvissä.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Hyvä käytäntö on sijoittaa nimilapun teksti nimen alkuun."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motion-actuation",
+                            "alt_id": [
+                                "x2-5-4-motion-actuation"
+                            ],
+                            "num": "2.5.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Käyttö liikkeen avulla",
+                            "text": "Toiminnallisuus, jota voidaan käyttää liikuttamalla laitetta, voidaan käyttää myös käyttöliittymäkomponenttien avulla, ja liikeaktivointi voidaan ottaa pois päältä, jotta vältetään toiminnan aktivoiminen vahingossa. Tämä ei koske seuraavia tapauksia:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Tuettu rajapinta",
+                                            "text": "Liikeaktivointi on toteutettu sellaisen rajapinnan kautta, joka on saavutettavuudeltaan tuettu."
+                                        },
+                                        {
+                                            "handle": "Olennainen",
+                                            "text": "Liike on toiminnon kannalta olennainen, ja sen poistaminen mitätöisi toiminnon."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "target-size",
+                            "alt_id": [
+                                "x2-5-5-target-size"
+                            ],
+                            "num": "2.5.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Kohteen koko",
+                            "text": "Osoitinlaitteella aktivoitavan kohteen koko on vähintään 44 kertaa 44 CSS-pikseliä, lukuun ottamatta tapauksia, joissa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Vastaava",
+                                            "text": "kohde on saatavilla vastaavan, samalla sivulla olevan, vähintään 44 kertaa 44 CSS-pikselin kokoisen linkin tai komponentin kautta."
+                                        },
+                                        {
+                                            "handle": "Tekstin sisällä",
+                                            "text": "Kohde on lauseen tai tekstilohkon sisällä."
+                                        },
+                                        {
+                                            "handle": "Käyttäjäagentin määrittelemä",
+                                            "text": "Käyttäjäagentti määrittelee kohteen koon, eikä sisällön tuottaja ole muokannut kokoa."
+                                        },
+                                        {
+                                            "handle": "Olennainen",
+                                            "text": "Tietynlainen esitystapa on olennainen välitettävän informaation kannalta."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "concurrent-input-mechanisms",
+                            "alt_id": [
+                                "x2-5-6-concurrent-input-mechanisms"
+                            ],
+                            "num": "2.5.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Rinnakkaiset syötemekanismit",
+                            "text": "Verkkosisältö ei rajoita käytettävissä olevien ohjaintapojen käyttämistä, paitsi jos rajoitus on olennainen, pakollista sisällön turvallisuuden vuoksi tai välttämätön käyttäjän asetusten noudattamiseksi."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "understandable",
+            "alt_id": [
+                "x3-understandable"
+            ],
+            "num": "3",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Ymmärrettävä",
+            "text": "Informaation ja käyttöliittymän toiminnan pitää olla ymmärrettävää.",
+            "guidelines": [
+                {
+                    "id": "readable",
+                    "alt_id": [
+                        "x3-1-readable"
+                    ],
+                    "num": "3.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Luettava",
+                    "text": "Tee tekstisisällöstä luettavaa ja ymmärrettävää.",
+                    "successcriteria": [
+                        {
+                            "id": "language-of-page",
+                            "alt_id": [
+                                "x3-1-1-language-of-page"
+                            ],
+                            "num": "3.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sivun kieli",
+                            "text": "Jokaisen verkkosivun oletusarvoinen luonnollinen kieli voidaan selvittää ohjelmallisesti."
+                        },
+                        {
+                            "id": "language-of-parts",
+                            "alt_id": [
+                                "x3-1-2-language-of-parts"
+                            ],
+                            "num": "3.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Osien kieli",
+                            "text": "Sisällön jokaisen tekstikatkelman tai ilmaisun luonnollinen kieli voidaan selvittää ohjelmallisesti, paitsi seuraavien osalta: erisnimet, tekniset termit, määrittämättömän kielen sanat sekä sanat tai ilmaisut, jotka ovat muuttuneet läheisen tekstiympäristön kielen murteelliseksi osaksi."
+                        },
+                        {
+                            "id": "unusual-words",
+                            "alt_id": [
+                                "x3-1-3-unusual-words"
+                            ],
+                            "num": "3.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Epätavalliset sanat",
+                            "text": "Tarjolla on mekanismi, jolla voi selvittää sanojen tai lauseiden tarkat määritelmät, jos niitä käytetään poikkeavalla tai tarkkaan rajatulla tavalla, mukaan lukien idiomit ja jargon."
+                        },
+                        {
+                            "id": "abbreviations",
+                            "alt_id": [
+                                "x3-1-4-abbreviations"
+                            ],
+                            "num": "3.1.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Lyhenteet",
+                            "text": "Tarjolla on mekanismi, jolla voi selvittää lyhenteiden laajennetun muodon tai merkityksen."
+                        },
+                        {
+                            "id": "reading-level",
+                            "alt_id": [
+                                "x3-1-5-reading-level"
+                            ],
+                            "num": "3.1.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tekstin vaikeustaso",
+                            "text": "Jos teksti edellyttää 2. perusasteen opetuksen vaatimukset ylittävää lukutaitoa sen jälkeen, kun erisnimet ja otsikot on poistettu, tarjolla on täydentävää sisältöä tai versio, joka ei vaadi 2. perusasteen opetuksen tasoa edistyneempää lukutaitoa."
+                        },
+                        {
+                            "id": "pronunciation",
+                            "alt_id": [
+                                "x3-1-6-pronunciation"
+                            ],
+                            "num": "3.1.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ääntämys",
+                            "text": "Käytettävissä on mekanismi sanojen täsmällisen ääntämistavan selvittämiseksi silloin, kun sanojen merkitys kontekstissaan olisi monitulkintainen, jos ääntämistapa ei ole tiedossa."
+                        }
+                    ]
+                },
+                {
+                    "id": "predictable",
+                    "alt_id": [
+                        "x3-2-predictable"
+                    ],
+                    "num": "3.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Ennakoitava",
+                    "text": "Tee verkkosivuista sellaisia, että niiden ilmiasu ja toiminta ovat ennakoitavia.",
+                    "successcriteria": [
+                        {
+                            "id": "on-focus",
+                            "alt_id": [
+                                "x3-2-1-on-focus"
+                            ],
+                            "num": "3.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Kohdistaminen",
+                            "text": "Kun mikä tahansa käyttöliittymäkomponentti saa kohdistuksen, se ei aiheuta kontekstin muutosta."
+                        },
+                        {
+                            "id": "on-input",
+                            "alt_id": [
+                                "x3-2-2-on-input"
+                            ],
+                            "num": "3.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Syöte",
+                            "text": "Minkään käyttöliittymäkomponentin asetuksen muuttaminen ei automaattisesti aiheuta kontekstin muutosta, ellei käyttäjää ole ohjeistettu tällaisesta toiminnosta ennen komponentin käyttöä."
+                        },
+                        {
+                            "id": "consistent-navigation",
+                            "alt_id": [
+                                "x3-2-3-consistent-navigation"
+                            ],
+                            "num": "3.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Johdonmukainen navigointi",
+                            "text": "Verkkosivujen joukon useilla verkkosivuilla toistuvat navigointimekanismit esiintyvät aina samassa järjestyksessä suhteessa toisiinsa, ellei käyttäjä toisin valitse."
+                        },
+                        {
+                            "id": "consistent-identification",
+                            "alt_id": [
+                                "x3-2-4-consistent-identification"
+                            ],
+                            "num": "3.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Johdonmukainen merkitseminen",
+                            "text": "Komponentit, joilla on sama toiminnallisuus verkkosivujen joukossa, merkitään johdonmukaisesti."
+                        },
+                        {
+                            "id": "change-on-request",
+                            "alt_id": [
+                                "x3-2-5-change-on-request"
+                            ],
+                            "num": "3.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Muutos pyydettäessä",
+                            "text": "Kontekstin muutokset tapahtuvat ainoastaan käyttäjän pyynnöstä tai tarjolla on mekanismi tämän tyyppisten muutoksien poiskytkemiseksi."
+                        }
+                    ]
+                },
+                {
+                    "id": "input-assistance",
+                    "alt_id": [
+                        "x3-3-input-assistance"
+                    ],
+                    "num": "3.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Syötteen avustaminen",
+                    "text": "Auta käyttäjiä välttämään ja korjaamaan virheitä.",
+                    "successcriteria": [
+                        {
+                            "id": "error-identification",
+                            "alt_id": [
+                                "x3-3-1-error-identification"
+                            ],
+                            "num": "3.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Virheen tunnistaminen",
+                            "text": "Jos syötevirhe havaitaan automaattisesti, virheellinen kohta osoitetaan ja virhe kuvataan käyttäjälle tekstimuotoisena."
+                        },
+                        {
+                            "id": "labels-or-instructions",
+                            "alt_id": [
+                                "x3-3-2-labels-or-instructions"
+                            ],
+                            "num": "3.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Nimilaput tai ohjeet",
+                            "text": "Kun sisältö edellyttää käyttäjän syötettä, tarjolla on nimilappuja tai ohjeita."
+                        },
+                        {
+                            "id": "error-suggestion",
+                            "alt_id": [
+                                "x3-3-3-error-suggestion"
+                            ],
+                            "num": "3.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Virheen korjausehdotus",
+                            "text": "Jos syötevirhe havaitaan automaattisesti ja korjausehdotuksia tiedetään, ehdotukset esitetään käyttäjälle, paitsi jos tämä vaarantaisi tietoturvan tai sisällön merkityksen."
+                        },
+                        {
+                            "id": "error-prevention-legal-financial-data",
+                            "alt_id": [
+                                "x3-3-4-error-prevention-legal-financial-data"
+                            ],
+                            "num": "3.3.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Virheiden ennaltaehkäisy (oikeudellinen, taloudellinen, data)",
+                            "text": "Verkkosivuille, joista seuraa käyttäjälle oikeudellisia sitoumuksia tai taloudellisia transaktioita, jotka muokkaavat tai poistavat käyttäjän hallinnoimaa dataa tietovarastossa tai jotka lähettävät käyttäjän koevastauksia, ainakin yksi seuraavista pitää paikkansa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Peruttavissa",
+                                            "text": "Lähetykset ovat peruttavissa."
+                                        },
+                                        {
+                                            "handle": "Tarkastettu",
+                                            "text": "Käyttäjän syöttämä data tarkastetaan syötevirheiden varalta ja käyttäjälle tarjotaan mahdollisuus virheiden korjaamiseen."
+                                        },
+                                        {
+                                            "handle": "Vahvistettu",
+                                            "text": "Käytettävissä on mekanismi informaation tarkistamiseen, vahvistamiseen ja korjaamiseen ennen lopullista lähettämistä."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "help",
+                            "alt_id": [
+                                "x3-3-5-help"
+                            ],
+                            "num": "3.3.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ohjeet",
+                            "text": "Saatavilla on kontekstisidonnaisia ohjeita."
+                        },
+                        {
+                            "id": "error-prevention-all",
+                            "alt_id": [
+                                "x3-3-6-error-prevention-all"
+                            ],
+                            "num": "3.3.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Virheiden ennaltaehkäisy (kaikki)",
+                            "text": "Verkkosivuille, jotka vaativat käyttäjää lähettämään informaatiota, ainakin yksi seuraavista pitää paikkansa:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Peruttavissa",
+                                            "text": "Lähetykset ovat peruttavissa."
+                                        },
+                                        {
+                                            "handle": "Tarkastettu",
+                                            "text": "Käyttäjän syöttämä data tarkastetaan syötevirheiden varalta ja käyttäjälle tarjotaan mahdollisuus virheiden korjaamiseen."
+                                        },
+                                        {
+                                            "handle": "Vahvistettu",
+                                            "text": "Käytettävissä on mekanismi informaation tarkistamiseen, vahvistamiseen ja korjaamiseen ennen lopullista lähettämistä."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "robust",
+            "alt_id": [
+                "x4-robust"
+            ],
+            "num": "4",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Toimintavarma",
+            "text": "Sisällön pitää olla riittävän toimintavarmaa, jotta se voidaan luotettavasti tulkita laajalla joukolla käyttäjäagentteja, mukaan lukien avustavilla teknologioilla.",
+            "guidelines": [
+                {
+                    "id": "compatible",
+                    "alt_id": [
+                        "x4-1-compatible"
+                    ],
+                    "num": "4.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Yhteensopiva",
+                    "text": "Maksimoi yhteensopivuus nykyisten ja tulevien käyttäjäagenttien, mukaan lukien avustavien teknologioiden, kanssa.",
+                    "successcriteria": [
+                        {
+                            "id": "parsing",
+                            "alt_id": [
+                                "x4-1-1-parsing"
+                            ],
+                            "num": "4.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Jäsentäminen",
+                            "text": "Kun sisältö on toteutettu merkkauskieliä käyttämällä, elementeillä on täydelliset alku- ja lopputagit, elementit on järjestetty sisäkkäin spesifikaation mukaisesti, samaa attribuuttia ei ole annettu elementeille moneen kertaan ja kaikki ID-tunnisteet ovat yksilöllisiä, paitsi tilanteissa, joissa määritykset sallivat tämänkaltaiset ominaisuudet.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Alku- ja lopputagit, joiden muotoilusta puuttuu jokin kriittinen merkki, kuten päättävä \"suurempi kuin\" -merkki tai sopiva lainausmerkki attribuutin arvosta, eivät ole täydellisiä."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "name-role-value",
+                            "alt_id": [
+                                "x4-1-2-name-role-value"
+                            ],
+                            "num": "4.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Nimi, rooli, arvo",
+                            "text": "Kaikkien käyttöliittymäkomponenttien (mm. lomake-elementit, linkit ja skriptien luomat komponentit) nimi ja rooli voidaan selvittää ohjelmallisesti tilat, ominaisuudet ja arvot, jotka käyttäjä voi asettaa, voidaan myös asettaa ohjelmallisesti ja tieto näiden muutoksista on käyttäjäagenttien, mukaan lukien avustavien teknologioiden, saatavissa.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Huomautus 1",
+                                    "text": "Tämä onnistumiskriteeri on ensisijaisesti web-kehittäjille, jotka toteuttavat tai koodaavat itse käyttöliittymäkomponentteja. Esimerkiksi standardinmukaiset HTML-elementit täyttävät tämän onnistumiskriteerin, kun niitä käytetään spesifikaation mukaisesti."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "status-messages",
+                            "alt_id": [
+                                "x4-1-3-status-messages"
+                            ],
+                            "num": "4.1.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tilasta kertovat viestit",
+                            "text": "Sisällössä, joka on toteutettu käyttäen merkkauskieliä, tilasta kertovat viestit voidaan selvittää ohjelmallisesti sellaisen roolin tai ominaisuuksien avulla, jotka mahdollistavat viestin esittämisen käyttäjälle avustavan teknologian avulla ilman kohdistuksen siirtämistä."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1993 @@
+{
+    "principles": [
+        {
+            "id": "perceivable",
+            "alt_id": [
+                "x1-perceivable"
+            ],
+            "num": "1",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Mulig å oppfatte",
+            "text": "Informasjon og brukergrensesnittkomponenter må presenteres for brukere på måter de kan oppfatte.",
+            "guidelines": [
+                {
+                    "id": "text-alternatives",
+                    "alt_id": [
+                        "x1-1-text-alternatives"
+                    ],
+                    "num": "1.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tekstalternativer",
+                    "text": "Gi tekstalternativer til alt ikke-tekstlig innhold, slik at det kan konverteres til formater som brukerne har behov for, for eksempel stor skrift, punktskrift, tale, symboler eller enklere språk.",
+                    "successcriteria": [
+                        {
+                            "id": "non-text-content",
+                            "alt_id": [
+                                "x1-1-1-non-text-content"
+                            ],
+                            "num": "1.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ikke-tekstlig innhold",
+                            "text": "Al ikke-tekstlig innhold som presenteres for brukeren, har et tekstalternativ med samme formål, med unntak av situasjonene som er beskrevet nedenfor.",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Kontroller, inndata",
+                                            "text": "Dersom det ikke-tekstlige innholdet er en kontroll, eller dersom det godtar inndata fra brukere, har det et navn som beskriver formålet. (Under suksesskriterium 4.1.2 finnes informasjon om ytterligere krav til kontroller og innhold som godtar inndata fra brukere.)."
+                                        },
+                                        {
+                                            "handle": "Tidsbaserte medier",
+                                            "text": "Dersom det ikke-tekstlige innholdet er tidsbaserte medier, må tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet. (Under retningslinje 1.2  er det informasjon om ytterligere krav til medier.)."
+                                        },
+                                        {
+                                            "handle": "Test",
+                                            "text": "Dersom det ikke-tekstlige innholdet er en test eller øvelse som ikke ville gitt mening dersom den ble presentert med tekstmå tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet."
+                                        },
+                                        {
+                                            "handle": "Sanseinntrykk",
+                                            "text": "Dersom formålet med det ikke-tekstlige innholdet først og fremst er å skape et spesifikt sanseinntrykk må tekstalternativene som et minimum gi en beskrivende identifikasjon av det ikke-tekstlige innholdet."
+                                        },
+                                        {
+                                            "handle": "CAPTCHA",
+                                            "text": "Dersom formålet med det ikke-tekstlige innholdet er å bekrefte at innholdet brukes av en person, og ikke av en datamaskin, skal det gis tekstalternativer som identifiserer og beskriver hensikten med det ikke-tekstlige innholdet. Det skal dessuten legges til rette for ulike funksjonsnedsettelser ved at det finnes alternative former for CAPTCHA som bruker utdataformater beregnet på ulike typer sensorisk persepsjon."
+                                        },
+                                        {
+                                            "handle": "Dekorasjon, formatering, usynlig: Dersom det ikke-tekstlige innholdet er",
+                                            "text": "If non-text content is ren dekorasjon, brukes utelukkende til visuell formatering eller ikke presenteres for brukerne, skal det implementeres på en slik måte at det kan ignoreres av hjelpemiddelteknologi."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "time-based-media",
+                    "alt_id": [
+                        "x1-2-time-based-media"
+                    ],
+                    "num": "1.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tidsbaserte medier",
+                    "text": "Gi alternativer til tidsbaserte medier.",
+                    "successcriteria": [
+                        {
+                            "id": "audio-only-and-video-only-prerecorded",
+                            "alt_id": [
+                                "x1-2-1-audio-only-and-video-only-prerecorded"
+                            ],
+                            "num": "1.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bare lyd og bare video (forhåndsinnspilt)",
+                            "text": "For forhåndsinnspilt innhold som bare er\t\tlyd eller video , gjelder følgende, bortsett fra når lyden eller videoen er et mediealternativ til tekst og er tydelig merket som det:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Forhåndsinnspilt lyd (bare lyd)",
+                                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier som presenterer informasjon som tilsvarer det forhåndsinnspilte lydinnholdet."
+                                        },
+                                        {
+                                            "handle": "Forhåndsinnspilt video (bare video)",
+                                            "text": "Det gis tilgang til enten et alternativ til tidsbaserte medier eller et lydspor som presenterer informasjon som tilsvarer det forhåndsinnspilte videoinnholdet."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "captions-prerecorded",
+                            "alt_id": [
+                                "x1-2-2-captions-prerecorded"
+                            ],
+                            "num": "1.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Teksting (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til teksting for alt for alt forhåndsinnspilt lydinnhold i synkroniserte medier, bortsett fra når mediene fungerer som mediealternativer til tekst og er tydelig merket som det."
+                        },
+                        {
+                            "id": "audio-description-or-media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-3-audio-description-or-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Synstolking eller mediealternativ (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til et alternativ til tidsbaserte medier eller synstolking av forhåndsinnspilt videoinnhold i synkroniserte medier, bortsett fra når mediene fungerer som mediealternativer til tekst og er tydelig merket som det."
+                        },
+                        {
+                            "id": "captions-live",
+                            "alt_id": [
+                                "x1-2-4-captions-live"
+                            ],
+                            "num": "1.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Teksting (direkte)",
+                            "text": "Det gis tilgang til teksting for alt direktesendt\t\tlydinnhold i synkroniserte medier."
+                        },
+                        {
+                            "id": "audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-5-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Synstolking (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til synstolking for alt forhåndsinnspilt\t\tvideoinnhold i synkroniserte medier."
+                        },
+                        {
+                            "id": "sign-language-prerecorded",
+                            "alt_id": [
+                                "x1-2-6-sign-language-prerecorded"
+                            ],
+                            "num": "1.2.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tegnspråk (forhåndsinnspilt)",
+                            "text": "Det gis tilgang tiltegnspråkstolking for alt forhåndsinnspilt\t\tlydinnhold i synkroniserte medier."
+                        },
+                        {
+                            "id": "extended-audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-7-extended-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Utvidet synstolking (forhåndsinnspilt)",
+                            "text": "Dersom pausene i forgrunnslyden ikke er lange nok til at synstolking kan formidle innholdet i videoen, gis det tilgang til utvidet synstolking for alt forhåndsinnspilt\t\tvideoinnhold i synkroniserte medier."
+                        },
+                        {
+                            "id": "media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-8-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Mediealternativ (forhåndsinnspilt)",
+                            "text": "Det gis tilgang til et alternative for time-based media for alle forhåndsinnspilte\t\tsynkroniserte medier og for alle forhåndsinnspilte medier som er bare video."
+                        },
+                        {
+                            "id": "audio-only-live",
+                            "alt_id": [
+                                "x1-2-9-audio-only-live"
+                            ],
+                            "num": "1.2.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Bare lyd (direkte)",
+                            "text": "Det gis tilgang til et  alternativ til tidsbaserte medier som presenterer informasjon som tilsvarer direktesendt innhold som er\t\tbare lyd."
+                        }
+                    ]
+                },
+                {
+                    "id": "adaptable",
+                    "alt_id": [
+                        "x1-3-adaptable"
+                    ],
+                    "num": "1.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Mulig å tilpasse",
+                    "text": "Lag innhold som kan presenteres på forskjellige måter (for eksempel med enklere layout) uten at informasjon eller struktur går tapt.",
+                    "successcriteria": [
+                        {
+                            "id": "info-and-relationships",
+                            "alt_id": [
+                                "x1-3-1-info-and-relationships"
+                            ],
+                            "num": "1.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Informasjon og relasjoner",
+                            "text": "Informasjon, struktur og relasjoner som formidles via presentasjonen kan bestemmes programmatisk eller gjøres tilgjengelig(e) som tekst."
+                        },
+                        {
+                            "id": "meaningful-sequence",
+                            "alt_id": [
+                                "x1-3-2-meaningful-sequence"
+                            ],
+                            "num": "1.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Meningsbærende rekkefølge",
+                            "text": "Når rekkefølgen som innholdet presenteres i, påvirker meningsinnholdet, kan en korrekt leserekkefølge bestemmes programmatisk."
+                        },
+                        {
+                            "id": "sensory-characteristics",
+                            "alt_id": [
+                                "x1-3-3-sensory-characteristics"
+                            ],
+                            "num": "1.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sensoriske egenskaper",
+                            "text": "Instruksjoner som gjelder for forståelse og betjening av innhold, er ikke utelukkende avhengige av komponentenes sensoriske egenskaper, som for eksempel form, farge, størrelse, visuell plassering, orientering eller lyd.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Mer informasjon om krav som gjelder farge, finnes under retningslinje 1.4."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "orientation",
+                            "alt_id": [
+                                "x1-3-4-orientation"
+                            ],
+                            "num": "1.3.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Visningsretning",
+                            "text": "Innholdet begrenser ikke visning og bruk til en bestemt visningsretning, som stående eller liggende, med mindre en bestemt visningsretning er avgjørende.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Eksempler på at en bestemt visningsretning kan være avgjørende er en sjekk (bank), en piano-app, lysark for en projektor eller TV, eller innhold i virtuell virkelighet der endring av visningsmodus ikke er aktuelt."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-input-purpose",
+                            "alt_id": [
+                                "x1-3-5-identify-input-purpose"
+                            ],
+                            "num": "1.3.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Identifiser formål med inndata",
+                            "text": "Formålet med hvert skjemaelement som samler inn informasjon om brukeren, kan bestemmes programmatisk når:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "skjemaelementet tjener et formål som er en del av punktet inndataformål for brukergrensesnittkomponenter, og"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "innholdet er implementert ved hjelp av teknologier med støtet til identifikasjon av det forventede meningsinnholdet til inndata i skjema."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-purpose",
+                            "alt_id": [
+                                "x1-3-6-identify-purpose"
+                            ],
+                            "num": "1.3.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Identifiser formål",
+                            "text": "I innhold som er implementert ved hjelp av oppmerkingsspråk, kan formålet med  brukergrensesnittkomponenter, ikoner og regioner  bestemmes programmatisk."
+                        }
+                    ]
+                },
+                {
+                    "id": "distinguishable",
+                    "alt_id": [
+                        "x1-4-distinguishable"
+                    ],
+                    "num": "1.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Mulig å skille fra hverandre",
+                    "text": "Gjør det enklere for brukerne å se og høre innhold, blant annet ved å skille forgrunnen fra bakgrunnen.",
+                    "successcriteria": [
+                        {
+                            "id": "use-of-color",
+                            "alt_id": [
+                                "x1-4-1-use-of-color"
+                            ],
+                            "num": "1.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bruk av farge",
+                            "text": "Farge blir ikke benyttet som det eneste visuelle virkemidlet for å formidle informasjon, angi en handling, be om respons eller skille ut et visuelt element.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Dette suksesskriteriet handler spesifikt om fargepersepsjon. Andre former for persepsjon omtales under retningslinje 1.3, blant annet programmatisk tilgang til koder for farger og annen visuell presentasjon."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "audio-control",
+                            "alt_id": [
+                                "x1-4-2-audio-control"
+                            ],
+                            "num": "1.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Styring av lyd",
+                            "text": "Dersom lyd på en nettside spilles av automatisk i mer enn 3 sekunder, finnes det enten en mekanisme for å stoppe lyden helt eller midlertidig, eller en mekanisme som kan regulere lydstyrken uavhengig av det generelle systemvolumet.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Ettersom enhver form for innhold som ikke oppfyller dette suksesskriteriet kan hindre brukeren i å bruke hele siden, må alt innhold på nettsiden oppfylle dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier). Se Forutsetninger for overholdelse av krav, punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-minimum",
+                            "alt_id": [
+                                "x1-4-3-contrast-minimum"
+                            ],
+                            "num": "1.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Kontrast (minimum)",
+                            "text": "Den visuelle presentasjonen av tekst og bilder av tekst har et kontrastforhold på minst 4.5:1, unntatt i følgende tilfeller:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Stor tekst",
+                                            "text": "Stor skriftstørrelse og bilder av stor skriftstørrelse har et kontrastforhold på minst 3:1."
+                                        },
+                                        {
+                                            "handle": "Uvesentlig",
+                                            "text": "Tekst eller bilder av tekst som utgjør en del av en inaktiv brukergrensesnittkomponent, som er ren dekorasjon, som ikke er synlig(e) for noen, eller som utgjør en del av et bilde som inneholder annet vesentlig visuelt innhold, er ikke underlagt kontrastkrav."
+                                        },
+                                        {
+                                            "handle": "Logoer",
+                                            "text": "Tekst som utgjør en del av en logo eller et varemerkenavn, er ikke underlagt kontrastkrav."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "resize-text",
+                            "alt_id": [
+                                "x1-4-4-resize-text"
+                            ],
+                            "num": "1.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Endring av tekststørrelse",
+                            "text": "Med unntak av teksting og bilder av tekst kan tekst forstørres opp til 200 % uten bruk av hjelpemiddelteknologi og uten at innhold eller funksjonalitet går tapt."
+                        },
+                        {
+                            "id": "images-of-text",
+                            "alt_id": [
+                                "x1-4-5-images-of-text"
+                            ],
+                            "num": "1.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Bilder av tekst",
+                            "text": "Dersom teknologien som brukes kan håndtere den visuelle presentasjonen, brukes det tekst i stedet bilder av tekst til å formidle informasjon, unntatt i følgende tilfeller:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Kan tilpasses",
+                                            "text": "Bildet av tekst kan visuelt tilpasses til brukerens krav."
+                                        },
+                                        {
+                                            "handle": "Avgjørende",
+                                            "text": "En bestemt presentasjon av tekst er  avgjørende for informasjonen som formidles."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Logoer (tekst som utgjør en del av en logo eller et varemerkenavn) anses som avgjørende."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-enhanced",
+                            "alt_id": [
+                                "x1-4-6-contrast-enhanced"
+                            ],
+                            "num": "1.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Kontrast (forbedret)",
+                            "text": "Den visuelle presentasjonen av tekst og bilder av tekst har et kontrastforhold på minst 7:1, unntatt i følgende tilfeller:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Stor tekst",
+                                            "text": "Stor skriftstørrelse og bilder av stor skriftstørrelse har et kontrastforhold på minst 4,5:1."
+                                        },
+                                        {
+                                            "handle": "Uvesentlig",
+                                            "text": "Tekst eller bilder av tekst som utgjør en del av en inaktiv brukergrensesnittkomponent, som er ren dekorasjon, som ikke er synlig(e) for noen, eller som utgjør en del av et bilde som inneholder annet vesentlig visuelt innhold, er ikke underlagt kontrastkrav."
+                                        },
+                                        {
+                                            "handle": "Logoer",
+                                            "text": "Tekst som utgjør en del av en logo eller et varemerkenavn, er ikke underlagt kontrastkrav."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "low-or-no-background-audio",
+                            "alt_id": [
+                                "x1-4-7-low-or-no-background-audio"
+                            ],
+                            "num": "1.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Lav eller ingen bakgrunnslyd",
+                            "text": "For forhåndsinnspilt\t\tlydinnhold (bare lyd)  som (1) primært inneholder tale i forgrunnen, (2) ikke er en lydbasert\t\tCAPTCHA-test eller lydbasert logo og (3) ikke er vokalisering med et primært musikalsk uttrykk, for eksempel sang eller rapping, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ingen bakgrunn",
+                                            "text": "Lydbildet inneholder ikke bakgrunnslyd."
+                                        },
+                                        {
+                                            "handle": "Slå av",
+                                            "text": "Bakgrunnslyden kan slås av."
+                                        },
+                                        {
+                                            "handle": "20 dB",
+                                            "text": "Lydstyrken på bakgrunnslyden er minst 20 desibel lavere enn taleinnholdet i forgrunnen, med unntak av tilfeldige lyder som bare varer i 1 til 2 sekunder.\t\t \t\t \t\t MerknadIfølge definisjonen av «desibel» vil bakgrunnslyd som oppfyller dette kravet, være ca. en fjerdedel av lydstyrken til taleinnholdet i forgrunnen."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Ifølge definisjonen av «desibel» vil bakgrunnslyd som oppfyller dette kravet, være ca. en fjerdedel av lydstyrken til taleinnholdet i forgrunnen."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "visual-presentation",
+                            "alt_id": [
+                                "x1-4-8-visual-presentation"
+                            ],
+                            "num": "1.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Visuell presentasjon",
+                            "text": "For visuell presentasjon av tekstblokker  finnes det en  mekanisme  for å oppnå følgende:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Brukeren kan velge forgrunns- og bakgrunnsfarger."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Bredden er ikke mer enn 80 tegn (40 for kinesisk, japansk og koreansk)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Teksten er ikke blokkjustert (justert etter både høyre og venstre marg)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Linjeavstanden er minst 1,5 innenfor avsnitt, og avstanden mellom avsnitt er minst 1,5 ganger større enn linjeavstanden."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekst kan forstørres opptil 200 % uten bruk av hjelpemiddelteknologi og uten at brukeren må rulle vannrett for å lese en tekstlinje når vinduet dekker hele skjermen."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "images-of-text-no-exception",
+                            "alt_id": [
+                                "x1-4-9-images-of-text-no-exception"
+                            ],
+                            "num": "1.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Bilder av tekst (ingen unntak)",
+                            "text": "Bilder av tekst brukes bare som ren dekorasjon eller dersom en bestemt presentasjon av tekst er avgjørende for formidling av informasjonen.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Logoer (tekst som utgjør en del av en logo eller et varemerkenavn) anses som avgjørende."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "reflow",
+                            "alt_id": [
+                                "x1-4-10-reflow"
+                            ],
+                            "num": "1.4.10",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Dynamisk tilpasning (Reflow)",
+                            "text": "Innholdet kan presenteres uten tap av informasjon eller funksjonalitet og uten at brukeren må rulle i to dimensjoner ved:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "innhold som ruller loddrett med en bredde som tilsvarer 320 CSS-piksler"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "innhold som ruller vannrett med en høyde som tilsvarer 256 CSS-piksler"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "320 CSS-piksler tilsvarer en presentasjonsramme som er 1280 CSS-piksler bred ved 400 prosent forstørrelse. For nettinnhold som er utformet for å rulle vannrett (for eksempel med vannrett tekst), tilsvarer 256 CSS-piksler en presentasjonsramme som er 1024 piksler høy ved 400 prosent forstørrelse."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Eksempler på innhold som krever todimensjonalt layout er bilder, kart, diagram, video, spill, presentasjoner, datatabeller og grensesnitt der det er nødvendig med synlige verktøylinjer mens brukeren endrer på innholdet."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "non-text-contrast",
+                            "alt_id": [
+                                "x1-4-11-non-text-contrast"
+                            ],
+                            "num": "1.4.11",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Kontrast for ikke-tekstlig innhold",
+                            "text": "Den visuelle presentasjonen av det følgende har et kontrastforhold på minst 3:1 mot farge(r) som ligger ved siden av.",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Brukergrensesnittkomponenter",
+                                            "text": "Visuell informasjon som kreves for å identifisere brukergrensesnittkomponenter og tilstander, unntatt inaktive komponenter eller der utseendet på komponenten er bestemt av brukeragenten og ikke endret av produsenter av nettinnhold."
+                                        },
+                                        {
+                                            "handle": "Grafiske objekter",
+                                            "text": "Deler av grafikk som kreves for å forstå innholdet, unntatt tilfeller der en bestemt presentasjon av grafikk er avgjørende for informasjonen som blir formidlet."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "text-spacing",
+                            "alt_id": [
+                                "x1-4-12-text-spacing"
+                            ],
+                            "num": "1.4.12",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstavstand",
+                            "text": "For innhold som implementeres ved hjelp av oppmerkingsspråk som støtter de følgende tekstegenskapene (text style properties), oppstår det ikke noe tap av innhold eller funksjonalitet ved å angi alle de følgende egenskapene og uten å endre andre stilegenskaper.",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Linjehøyde (linjeavstand) angis til minst 1,5 ganger skriftstørrelsen"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Avstand etter avsnitt angis til minst 2 ganger skriftstørrelsen."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Avstanden mellom bokstaver i blokker av tekst (sperring) angis til minst 0,12 ganger skriftstørrelsen."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Avstanden mellom ord angis til minst 0,16 ganger skriftstørrelsen."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "content-on-hover-or-focus",
+                            "alt_id": [
+                                "x1-4-13-content-on-hover-or-focus"
+                            ],
+                            "num": "1.4.13",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Pekerfølsomt innhold eller innhold ved tastaturfokus",
+                            "text": "Når innhold kommer til syne og så forsvinner ved at man holder musepekeren over innholdet og så flytter musepekeren vekk, eller ved at man flytter tastaturfokus til innholdet og deretter flytter fokus vekk, gjelder alle de følgende punktene:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Mulig å avvise",
+                                            "text": "Det finnes en mekanisme ifor å avvise, eller lukke, det ekstra innholdet uten å flytte musepekeren eller tastaturfokuset, unntatt der det ekstra innholdet formidler en inndatafeil eller det ikke forstyrrer eller erstatter annet innhold."
+                                        },
+                                        {
+                                            "handle": "Mulig å bruke ved å holde musepekeren over innholdet",
+                                            "text": "Dersom ekstra innhold kommer til syne ved at man holder musepekeren over innholdet, kan pekeren flyttes over det ekstra innholdet uten at det ekstra innholdet forsvinner."
+                                        },
+                                        {
+                                            "handle": "Vedvarende",
+                                            "text": "Det ekstra innholdet forblir synlig helt til brukeren flytter musepekeren eller fokus, brukeren avviser innholdet eller informasjonen ikke lenger er gyldig."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Eksempel på ekstra innhold som er kontrollert av brukeragenten, omfatter verktøytips (tooltip) som kommer av bruk av tittel-attributtet."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Egendefinerte verktøytips, undermenyer og annet ekstra innhold som ikke er modalvindu (nonmodal popups) som er pekerfølsomt eller kommer til syne ved tastaturfokus, er eksempler på innhold som er omfattet av dette kriteriet."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "operable",
+            "alt_id": [
+                "x2-operable"
+            ],
+            "num": "2",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Mulig å betjene",
+            "text": "Det må være mulig å betjene brukergrensesnittkomponenter og navigeringsfunksjoner.",
+            "guidelines": [
+                {
+                    "id": "keyboard-accessible",
+                    "alt_id": [
+                        "x2-1-keyboard-accessible"
+                    ],
+                    "num": "2.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tilgjengelig med tastatur",
+                    "text": "Gjør det mulig å bruke all funksjonalitet med tastatur.",
+                    "successcriteria": [
+                        {
+                            "id": "keyboard",
+                            "alt_id": [
+                                "x2-1-1-keyboard"
+                            ],
+                            "num": "2.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Tastatur",
+                            "text": "All funksjonalitet i innholdet kan betjenes via et tastaturgrensesnitt uten at det er behov for tidsberegning av de enkelte tastetrykkene, unntatt dersom den underliggende funksjonen krever inndata som er avhengige av rekkefølgen på brukerens bevegelser, og ikke bare av sluttpunktene.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Dette unntaket gjelder den underliggende funksjonen, ikke inndatateknikken. Dersom teksten for eksempel skrives inn med håndskrift, krever inndatateknikken (håndskrift) inndata i en bestemt rekkefølge, men den underliggende funksjonen (tekstlige inndata) gjør det ikke."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Dette er ikke et forbud mot og bør ikke hindre bruk av mus eller andre inndatametoder i tillegg til tastatur."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-keyboard-trap",
+                            "alt_id": [
+                                "x2-1-2-no-keyboard-trap"
+                            ],
+                            "num": "2.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ingen tastaturfelle",
+                            "text": "Dersom tastaturfokus kan flyttes til en av komponentene på siden ved hjelp av et tastaturgrensesnitt, kan fokus flyttes fra den aktuelle komponenten bare ved hjelp av tastaturgrensesnittet. Dersom det er behov for noe annet enn standard pil- eller tabulatortaster eller andre standardmetoder for navigering, får brukeren informasjon om hvilken metode som må benyttes for å flytte fokus.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Alt innhold på nettsiden må overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier eller ikke) fordi enhver form for innhold som ikke oppfyller dette suksesskriteriet, kan hindre brukeren i å bruke hele siden. Se Forutsetninger for samsvar med krav, punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "keyboard-no-exception",
+                            "alt_id": [
+                                "x2-1-3-keyboard-no-exception"
+                            ],
+                            "num": "2.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tastatur (ingen unntak)",
+                            "text": "All funksjonalitet i innholdet kan betjenes via et tastaturgrensesnitt uten at det er behov for tidsberegning av de enkelte tastetrykkene."
+                        },
+                        {
+                            "id": "character-key-shortcuts",
+                            "alt_id": [
+                                "x2-1-4-character-key-shortcuts"
+                            ],
+                            "num": "2.1.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Hurtigtaster som består av ett tegn",
+                            "text": "Dersom en hurtigtast er implementert i innholdet ved å bruke kun en bokstav (inklusive store og små bokstaver), tegnsetting, siffer eller symboltegn, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Slå av",
+                                            "text": "Det finnes en mekanisme for å slå av hurtigtasten."
+                                        },
+                                        {
+                                            "handle": "Omadressere",
+                                            "text": "Det finnes en mekanisme for å omadressere hurtigtasten til å bruke en eller flere modifiseringstaster (for eksempel Ctrl eller Alt)."
+                                        },
+                                        {
+                                            "handle": "Aktiv kun ved fokus",
+                                            "text": "Hurtigtasten for en brukergrensesnittkomponent er kun aktiv når komponenten kommer i fokus."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "enough-time",
+                    "alt_id": [
+                        "x2-2-enough-time"
+                    ],
+                    "num": "2.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Nok tid",
+                    "text": "Gi brukerne nok tid til å lese og bruke innhold.",
+                    "successcriteria": [
+                        {
+                            "id": "timing-adjustable",
+                            "alt_id": [
+                                "x2-2-1-timing-adjustable"
+                            ],
+                            "num": "2.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Justerbar hastighet",
+                            "text": "For hver tidsbegrensning som er angitt av innholdet, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Slå av",
+                                            "text": "Brukeren kan slå av tidsbegrensningen før den gjør seg gjeldende, eller"
+                                        },
+                                        {
+                                            "handle": "Justere",
+                                            "text": "Brukeren kan justere tidsbegrensningen før den gjør seg gjeldende, ved hjelp av en skala som er minst ti ganger varigheten av standardinnstillingen, eller"
+                                        },
+                                        {
+                                            "handle": "Forlenge",
+                                            "text": "Brukeren varsles før tiden utløper, og får minst 20 sekunder til å forlenge tidsbegrensningen ved hjelp av en enkel handling (for eksempel «trykk på mellomromstasten»), og brukeren kan forlenge tidsbegrensningen minst ti ganger, eller"
+                                        },
+                                        {
+                                            "handle": "Unntak i sanntid",
+                                            "text": "Tidsbegrensningen er en nødvendig del av en hendelse i sanntid (for eksempel en auksjon), og det finnes ikke noe alternativ til tidsbegrensningen, eller"
+                                        },
+                                        {
+                                            "handle": "Avgjørende unntak",
+                                            "text": "Tidsbegrensningen er avgjørende, og en forlengelse vil gjøre handlingen ugyldig, eller"
+                                        },
+                                        {
+                                            "handle": "20-timers unntak",
+                                            "text": "Tidsbegrensningen varer lenger enn 20 timer."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "TDette suksesskriteriet bidrar til å sikre at brukerne kan utføre oppgaver uten at det oppstår uforutsette endringer i innhold eller kontekst som er forårsaket av en tidsbegrensning. Dette suksesskriteriet bør ses i sammenheng med suksesskriterium 3.2.1, som setter begrensninger på endringer i innhold eller kontekst forårsaket av brukerhandlinger."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pause-stop-hide",
+                            "alt_id": [
+                                "x2-2-2-pause-stop-hide"
+                            ],
+                            "num": "2.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pause, stopp, skjul",
+                            "text": "For bevegelse, blinking, rulling eller automatisk oppdatering av informasjon gjelder begge de følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Bevegelse, blinking, rulling",
+                                            "text": "Ved enhver form for bevegelse, blinking eller rulling av informasjon som (1) starter automatisk, (2) varer i mer enn 5 sekunder, og (3) presenteres samtidig med annet innhold, finnes det en mekanisme som brukeren kan benytte til å sette den på pause, stoppe eller skjule den, med mindre bevegelsen, blinkingen eller rullingen er del av en handling der den er avgjørende."
+                                        },
+                                        {
+                                            "handle": "Automatisk oppdatering",
+                                            "text": "Ved enhver form for automatisk oppdatering av informasjon som (1) starter automatisk og (2) presenteres samtidig med annet innhold, finnes det en mekanisme som brukeren kan benytte til å sette den på pause, stoppe eller skjule den, eller til å styre oppdateringsfrekvensen, med mindre den automatiske oppdateringen er del av en handling der den er avgjørende."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Informasjon om krav som gjelder flimrende eller blinkende innhold, omtales i retningslinje 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Alt innhold på nettsiden må overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier eller ikke) fordi enhver form for innhold som ikke oppfyller dette suksesskriteriet, kan hindre brukeren i å bruke hele siden. Se Forutsetninger for samsvar med krav, punkt 5: Ingen interferens."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 3",
+                                    "text": "Innhold som oppdateres regelmessig av programvare, eller som spilles av direkte til brukeragenten, behøver ikke å kunne lagre eller presentere informasjon som genereres eller mottas fra pausen begynner til presentasjonen gjenopptas fordi dette ikke alltid er teknisk mulig og fordi det i mange situasjoner ville vært misvisende."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 4",
+                                    "text": "En animasjon som inngår i forhåndsinnlasting eller lignende, kan anses som avgjørende dersom det ikke kan forekomme interaksjon for noen brukere i denne fasen, og dersom mangel på en framdriftsindikator kunne forvirre brukerne og skape inntrykk av at innholdet er enten frosset eller ødelagt."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-timing",
+                            "alt_id": [
+                                "x2-2-3-no-timing"
+                            ],
+                            "num": "2.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ingen tidsberegning",
+                            "text": "Tidsberegning er ikke en avgjørende del av hendelsen eller aktiviteten som presenteres i innholdet, med unntak av ikke-interaktive\t\tsynkroniserte medier og hendelser i sanntid."
+                        },
+                        {
+                            "id": "interruptions",
+                            "alt_id": [
+                                "x2-2-4-interruptions"
+                            ],
+                            "num": "2.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Avbrytelser",
+                            "text": "Avbrytelser kan utsettes eller undertrykkes av brukeren, med unntak av avbrytelser som skyldes en\t\tan nødsituasjon."
+                        },
+                        {
+                            "id": "re-authenticating",
+                            "alt_id": [
+                                "x2-2-5-re-authenticating"
+                            ],
+                            "num": "2.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ny autentisering",
+                            "text": "Når en autentisert økt utløper, kan brukeren autentisere seg på nytt og fortsette aktiviteten uten tap av data."
+                        },
+                        {
+                            "id": "timeouts",
+                            "alt_id": [
+                                "x2-2-6-timeouts"
+                            ],
+                            "num": "2.2.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tidsavbrudd",
+                            "text": "Brukere advares om varigheten av enhver periode uten brukeraktivitet  som kan resultere i tap av data, med mindre dataene blir bevart i mer enn 20 timer uten at brukeren utfører en handling.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Lovgivning om personvern kan kreve uttrykkelig samtykke fra brukeren før brukeridentifikasjon utføres og brukerdata lagres. Dersom brukeren er mindreårig, kan det ikke anmodes om uttrykkelig samtykke i de fleste jurisdiksjoner, land eller regioner. Det anbefales å rådføre seg med personverneksperter og søke juridisk bistand når det vurderes å bruke datalagring som en måte å oppfylle dette suksesskriteriet på."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "seizures-and-physical-reactions",
+                    "alt_id": [
+                        "x2-3-seizures-and-physical-reactions"
+                    ],
+                    "num": "2.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Anfall og andre fysiske reaksjoner",
+                    "text": "Ikke utform innhold på en måte som er kjent for å forårsake anfall og andre fysiske reaksjoner.",
+                    "successcriteria": [
+                        {
+                            "id": "three-flashes-or-below-threshold",
+                            "alt_id": [
+                                "x2-3-1-three-flashes-or-below-threshold"
+                            ],
+                            "num": "2.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Terskelverdi på maksimalt tre glimt",
+                            "text": "Nettsider har ikke innhold som glimter mer enn tre ganger i løpet av ett sekund, eller glimt er under terskelverdiene for generelle glimt og røde glimt..",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Ettersom enhver form for innhold som ikke oppfyller dette suksesskriteriet kan hindre brukeren i å bruke hele siden, må alt innhold på nettsiden overholde dette suksesskriteriet (uansett om det brukes til å oppfylle andre suksesskriterier). Se Forutsetninger for samsvar med krav, punkt 5: Ingen interferens."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "three-flashes",
+                            "alt_id": [
+                                "x2-3-2-three-flashes"
+                            ],
+                            "num": "2.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Tre glimt",
+                            "text": "Nettsider har ikke innhold som  glimter mer enn tre ganger i løpet av ett sekund."
+                        },
+                        {
+                            "id": "animation-from-interactions",
+                            "alt_id": [
+                                "x2-3-3-animation-from-interactions"
+                            ],
+                            "num": "2.3.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Animasjon ved interaksjon",
+                            "text": "Bevegelsesanimasjon som er utløst av interaksjon, kan deaktiveres, med mindre animasjonen er avgjørende  for funksjonaliteten eller informasjonen som formidles."
+                        }
+                    ]
+                },
+                {
+                    "id": "navigable",
+                    "alt_id": [
+                        "x2-4-navigable"
+                    ],
+                    "num": "2.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Navigerbar",
+                    "text": "Gjør det mulig for brukerne å navigere, finne innhold og vite hvor de befinner seg.",
+                    "successcriteria": [
+                        {
+                            "id": "bypass-blocks",
+                            "alt_id": [
+                                "x2-4-1-bypass-blocks"
+                            ],
+                            "num": "2.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Hoppe over blokker",
+                            "text": "Det finnes en mekanisme ifor å omgå blokker med innhold som gjentas på flere nettsider."
+                        },
+                        {
+                            "id": "page-titled",
+                            "alt_id": [
+                                "x2-4-2-page-titled"
+                            ],
+                            "num": "2.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Sidetitler",
+                            "text": "Nettsider har titler som beskriver den aktuelle sidens emne eller formål."
+                        },
+                        {
+                            "id": "focus-order",
+                            "alt_id": [
+                                "x2-4-3-focus-order"
+                            ],
+                            "num": "2.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Fokusrekkefølge",
+                            "text": "Dersom en nettside kan navigeres sekvensielt og navigeringssekvensen påvirker betydning eller betjening, får fokuserbare komponenter fokus i en rekkefølge som ivaretar betydningen og betjeningen."
+                        },
+                        {
+                            "id": "link-purpose-in-context",
+                            "alt_id": [
+                                "x2-4-4-link-purpose-in-context"
+                            ],
+                            "num": "2.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Formål med lenke (i kontekst)",
+                            "text": "The Formålet med hver lenke kan fastslås ut fra bare selve lenken eller ut fra lenketeksten kombinert med\t\tprogrammatisk bestemt lenkekontekst. Unntaket er dersom formålet med lenken ville vært flertydig for alle brukere."
+                        },
+                        {
+                            "id": "multiple-ways",
+                            "alt_id": [
+                                "x2-4-5-multiple-ways"
+                            ],
+                            "num": "2.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Flere måter",
+                            "text": "Det finnes mer enn én måte å finne fram til en nettside på innenfor et sett av nettsider. Unntaket er dersom nettsiden utgjør resultatet av, eller et trinn i, en prosess."
+                        },
+                        {
+                            "id": "headings-and-labels",
+                            "alt_id": [
+                                "x2-4-6-headings-and-labels"
+                            ],
+                            "num": "2.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Overskrifter og ledetekster",
+                            "text": "Overskrifter og ledetekster beskriver emne eller formål."
+                        },
+                        {
+                            "id": "focus-visible",
+                            "alt_id": [
+                                "x2-4-7-focus-visible"
+                            ],
+                            "num": "2.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Synlig fokus",
+                            "text": "Tastaturbetjente brukergrensesnitt har en bruksmåte der fokusindikatoren for tastaturet er synlig."
+                        },
+                        {
+                            "id": "location",
+                            "alt_id": [
+                                "x2-4-8-location"
+                            ],
+                            "num": "2.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Plassering",
+                            "text": "Det gis informasjon om hvor brukeren befinner seg innenfor et sett av nettsider."
+                        },
+                        {
+                            "id": "link-purpose-link-only",
+                            "alt_id": [
+                                "x2-4-9-link-purpose-link-only"
+                            ],
+                            "num": "2.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Formål med lenke (bare lenke)",
+                            "text": "Det finnes en mekanisme som gjør det mulig å identifisere formålet med en lenke ut fra bare selve lenketeksten. Unntaket er dersom formålet med lenken ville vært flertydig for alle brukere."
+                        },
+                        {
+                            "id": "section-headings",
+                            "alt_id": [
+                                "x2-4-10-section-headings"
+                            ],
+                            "num": "2.4.10",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Deloverskrifter",
+                            "text": "Deloverskrifter brukes til å organisere innholdet i seksjoner.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "«Overskrift» brukes i generell betydning og omfatter både titler og andre måter å sette inn overskrifter til ulike typer innhold på."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Dette suksesskriteriet omfatter tekst, ikke brukergrensesnittkomponenter. Brukergrensesnittkomponenter omtales under suksesskriterium 4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "input-modalities",
+                    "alt_id": [
+                        "x2-5-input-modalities"
+                    ],
+                    "num": "2.5",
+                    "handle": "Inndatametode",
+                    "text": "Gjør det enklere for brukerne å betjene funksjonalitet gjennom andre inndatametoder enn tastatur.",
+                    "successcriteria": [
+                        {
+                            "id": "pointer-gestures",
+                            "alt_id": [
+                                "x2-5-1-pointer-gestures"
+                            ],
+                            "num": "2.5.1",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pekerbevegelser",
+                            "text": "All funksjonalitet som bruker flerpunkt eller stibaserte gester for betjening, kan betjenes med en enkelt peker uten stibasert gest, med mindre flerpunkt eller en stibasert gest er avgjørende.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Dette kravet gjelder nettinnhold som tolker pekerbevegelser (det vil si at dette kravet gjelder ikke handlinger som er nødvendige for å betjene brukeragenten eller hjelpemiddelteknologi)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pointer-cancellation",
+                            "alt_id": [
+                                "x2-5-2-pointer-cancellation"
+                            ],
+                            "num": "2.5.2",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pekeravbrytelse",
+                            "text": "For funksjonalitet som kan betjenes med en enkelt pekerbevegelse, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ingen trykkhandling",
+                                            "text": "Trykkhandlingen for pekerbevegelsen brukes ikke til å utføre noen del av funksjonen."
+                                        },
+                                        {
+                                            "handle": "Avbryte eller angre",
+                                            "text": "Funksjonen utføres på slipphandlingen, og det finnes en mekanisme for å avbryte funksjonen før den utføres, eller for å angre funksjonen etter at den er utført."
+                                        },
+                                        {
+                                            "handle": "Slipphandling medfører reversering",
+                                            "text": "Slipphandlingen opphever resultatet av den foregående trykkhandlingen."
+                                        },
+                                        {
+                                            "handle": "Avgjørende",
+                                            "text": "Det er avgjørende å utføre funksjonen på trykkhandlingen."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Funksjoner som etterligner et tastatur eller talltastatur, regnes som avgjørende."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 2",
+                                    "text": "Dette kravet gjelder nettinnhold som tolker pekerhandlinger (dvs. at dette kravet gjelder ikke handlinger som er nødvendige for å betjene brukeragenten eller hjelpemiddelteknologi)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "label-in-name",
+                            "alt_id": [
+                                "x2-5-3-label-in-name"
+                            ],
+                            "num": "2.5.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ledetekst i navn",
+                            "text": "For brukergrensesnittkomponenter med ledetekster som inneholder tekst eller bilder av tekst, inneholder navnet teksten som presenteres visuelt.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Beste praksis er at navnet starter med teksten som står i ledeteksten."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motion-actuation",
+                            "alt_id": [
+                                "x2-5-4-motion-actuation"
+                            ],
+                            "num": "2.5.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bevegelsesaktivering",
+                            "text": "Funksjonalitet som kan betjenes med å bevege enheten eller gjennom brukerbevegelser, kan også betjenes med brukergrensesnittkomponenter og kan slås av for å forhindre utilsiktet aktivering, unntatt ved følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Støttet grensesnitt",
+                                            "text": "Bevegelsen er brukt for å betjene funksjonalitet gjennom et grensesnitt som er tilgjengelighetsstøttende."
+                                        },
+                                        {
+                                            "handle": "Avgjørende",
+                                            "text": "Bevegelsen er avgjørende for funksjonaliteten, og det vil gjøre aktiviteten ugyldig."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "target-size",
+                            "alt_id": [
+                                "x2-5-5-target-size"
+                            ],
+                            "num": "2.5.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Målstørrelse",
+                            "text": "Størrelsen på målet for pekerinndata er minst 44 ganger 44 CSS-piksler unntatt i følgende tilfeller:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Tilsvarende",
+                                            "text": "Målet er tilgjengelig via en tilsvarende lenke eller en kontroll på samme side som er minst 44 ganger 44 CSS-piksler."
+                                        },
+                                        {
+                                            "handle": "Innebygd",
+                                            "text": "Målet er i en setning eller tekstblokk."
+                                        },
+                                        {
+                                            "handle": "Kontroll styrt av brukeragenten",
+                                            "text": "Størrelsen på målet er bestemt av brukeragenten, og er ikke blitt endret av produsenten av nettinnhold."
+                                        },
+                                        {
+                                            "handle": "Avgjørende",
+                                            "text": "En bestemt presentasjon av målet er avgjørende  for informasjonen som formidles."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "concurrent-input-mechanisms",
+                            "alt_id": [
+                                "x2-5-6-concurrent-input-mechanisms"
+                            ],
+                            "num": "2.5.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Samtidige inndatamekanismer",
+                            "text": "Nettinnhold begrenser ikke bruken av de inndatametoder som er tilgjengelige på en plattform, unntatt når begrensningen er avgjørende påkrevd av hensyn til innholdets sikkerhet, eller nødvendig for å respektere brukerens innstillinger."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "understandable",
+            "alt_id": [
+                "x3-understandable"
+            ],
+            "num": "3",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Forståelig",
+            "text": "Det må være mulig å forstå informasjon og betjening av brukergrensesnitt.",
+            "guidelines": [
+                {
+                    "id": "readable",
+                    "alt_id": [
+                        "x3-1-readable"
+                    ],
+                    "num": "3.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Leselig",
+                    "text": "Gjør innholdet leselig og forståelig.",
+                    "successcriteria": [
+                        {
+                            "id": "language-of-page",
+                            "alt_id": [
+                                "x3-1-1-language-of-page"
+                            ],
+                            "num": "3.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Språk på siden",
+                            "text": "Standard menneskelig språk  på hver nettside kan bli programmatisk bestemt."
+                        },
+                        {
+                            "id": "language-of-parts",
+                            "alt_id": [
+                                "x3-1-2-language-of-parts"
+                            ],
+                            "num": "3.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Språk på deler av innhold",
+                            "text": "Menneskelig språk i de enkelte avsnittene eller setningene som innholdet består av, kan bli programmatisk bestemt. Unntaket er egennavn, tekniske termer, ord av ubestemmelig språklig opphav samt ord eller uttrykk som har blitt en del av språket i den omkringliggende teksten."
+                        },
+                        {
+                            "id": "unusual-words",
+                            "alt_id": [
+                                "x3-1-3-unusual-words"
+                            ],
+                            "num": "3.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Uvanlige ord",
+                            "text": "Det finnes en mekanisme som gjør det mulig å identifisere spesifikke definisjoner av ord eller uttrykk som brukes på en uvanlig eller begrenset måte, blant annet idiomer og sjargong."
+                        },
+                        {
+                            "id": "abbreviations",
+                            "alt_id": [
+                                "x3-1-4-abbreviations"
+                            ],
+                            "num": "3.1.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Forkortelser",
+                            "text": "Det finnes en mekanisme for å identifisere den fullstendige formen eller betydningen av forkortelser."
+                        },
+                        {
+                            "id": "reading-level",
+                            "alt_id": [
+                                "x3-1-5-reading-level"
+                            ],
+                            "num": "3.1.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Nivå for leseferdighet",
+                            "text": "Når en tekst krever leseferdigheter på et nivå som er høyere enn det som forventes etter norsk ungdomsskole aetter at egennavn og titler er fjernet, finnes det  supplerende innhold eller en versjon som ikke krever leseferdigheter på et nivå som er høyere enn det som forventes etter norsk ungdomsskole."
+                        },
+                        {
+                            "id": "pronunciation",
+                            "alt_id": [
+                                "x3-1-6-pronunciation"
+                            ],
+                            "num": "3.1.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Uttale",
+                            "text": "Det finnes en mekanisme for å identifisere den nøyaktige uttalen av ord dersom betydningen av ordene i kontekst er flertydig dersom uttalen ikke er kjent."
+                        }
+                    ]
+                },
+                {
+                    "id": "predictable",
+                    "alt_id": [
+                        "x3-2-predictable"
+                    ],
+                    "num": "3.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Forutsigbar",
+                    "text": "Sørg for at nettsider presenteres og fungerer på forutsigbare måter.",
+                    "successcriteria": [
+                        {
+                            "id": "on-focus",
+                            "alt_id": [
+                                "x3-2-1-on-focus"
+                            ],
+                            "num": "3.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Fokus",
+                            "text": "Når en brukergrensesnittkomponent kommer i fokus, medfører det ikke kontekstendring."
+                        },
+                        {
+                            "id": "on-input",
+                            "alt_id": [
+                                "x3-2-2-on-input"
+                            ],
+                            "num": "3.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Inndata",
+                            "text": "Endring av innstillingene til en  brukergrensesnittkomponent  medfører ikke automatisk kontekstendring med mindre brukeren er blitt varslet om det før bruk av komponenten."
+                        },
+                        {
+                            "id": "consistent-navigation",
+                            "alt_id": [
+                                "x3-2-3-consistent-navigation"
+                            ],
+                            "num": "3.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Konsekvent navigering",
+                            "text": "Navigeringsmekanismer som gjentas på flere nettsider innenfor et sett av nettsider, opptrer i samme relative rekkefølge hver gang de gjentas, med mindre brukeren selv foretar en endring."
+                        },
+                        {
+                            "id": "consistent-identification",
+                            "alt_id": [
+                                "x3-2-4-consistent-identification"
+                            ],
+                            "num": "3.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Konsekvent identifikasjon",
+                            "text": "Komponenter som har samme funksjonalitet  innenfor et sett av nettsider, identifiseres på en konsekvent måte."
+                        },
+                        {
+                            "id": "change-on-request",
+                            "alt_id": [
+                                "x3-2-5-change-on-request"
+                            ],
+                            "num": "3.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Endring på anmodning",
+                            "text": "Kontekstendringer foretas bare på anmodning fra en bruker. Eventuelt finnes det en mekanisme for å slå av slike endringer."
+                        }
+                    ]
+                },
+                {
+                    "id": "input-assistance",
+                    "alt_id": [
+                        "x3-3-input-assistance"
+                    ],
+                    "num": "3.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Inndatahjelp",
+                    "text": "Hjelp brukere med å unngå feil og å korrigere feil.",
+                    "successcriteria": [
+                        {
+                            "id": "error-identification",
+                            "alt_id": [
+                                "x3-3-1-error-identification"
+                            ],
+                            "num": "3.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Identifikasjon av feil",
+                            "text": "Dersom en inndatafeil oppdages automatisk, identifiseres elementet som feilen berører, og brukeren får en tekstbeskrivelse av feilen."
+                        },
+                        {
+                            "id": "labels-or-instructions",
+                            "alt_id": [
+                                "x3-3-2-labels-or-instructions"
+                            ],
+                            "num": "3.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ledetekster eller instruksjoner",
+                            "text": "Der vises ledetekster eller instruksjoner når innholdet krever inndata fra brukeren."
+                        },
+                        {
+                            "id": "error-suggestion",
+                            "alt_id": [
+                                "x3-3-3-error-suggestion"
+                            ],
+                            "num": "3.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Forslag ved feil",
+                            "text": "Dersom en inndatafeil oppdages automatisk og det finnes forslag til hvordan den kan korrigeres, presenteres forslagene for brukeren, med mindre dette innebærer risiko for sikkerheten eller formålet med innholdet."
+                        },
+                        {
+                            "id": "error-prevention-legal-financial-data",
+                            "alt_id": [
+                                "x3-3-4-error-prevention-legal-financial-data"
+                            ],
+                            "num": "3.3.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Forhindring av feil (juridiske feil, økonomiske feil, datafeil)",
+                            "text": "For nettsider som medfører juridiske forpliktelser eller krever økonomiske transaksjoner fra brukeren, som endrer eller sletter brukerstyrte data i datalagringssystemer, eller som sender svar på tester utført av brukeren, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Reverserbarhet",
+                                            "text": "Sendeprosesser kan reverseres."
+                                        },
+                                        {
+                                            "handle": "Kontroll",
+                                            "text": "Det kontrolleres om data som angis av brukeren, inneholder inndatafeil, og brukeren gis mulighet til å korrigere eventuelle feil."
+                                        },
+                                        {
+                                            "handle": "Bekreftelse",
+                                            "text": "Det finnes en mekanisme for gjennomgang, bekreftelse og korrigering av informasjon før den sendes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "help",
+                            "alt_id": [
+                                "x3-3-5-help"
+                            ],
+                            "num": "3.3.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Hjelp",
+                            "text": "Det finnes kontekstavhengig hjelp."
+                        },
+                        {
+                            "id": "error-prevention-all",
+                            "alt_id": [
+                                "x3-3-6-error-prevention-all"
+                            ],
+                            "num": "3.3.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Forhindring av feil (alle)",
+                            "text": "For nettsider som krever at brukeren sender informasjon, gjelder minst ett av følgende punkter:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Reverserbarhet",
+                                            "text": "Sendeprosesser kan reverseres."
+                                        },
+                                        {
+                                            "handle": "Kontroll",
+                                            "text": "Det kontrolleres om data som angis av brukeren, inneholder inndatafeil, og brukeren gis mulighet til å korrigere eventuelle feil."
+                                        },
+                                        {
+                                            "handle": "Bekreftelse",
+                                            "text": "Det finnes en mekanisme for gjennomgang, bekreftelse og korrigering av informasjon før den sendes."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "robust",
+            "alt_id": [
+                "x4-robust"
+            ],
+            "num": "4",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Robust",
+            "text": "Innholdet må være robust nok til at det kan tolkes på en pålitelig måte av et bredt utvalg av brukeragenter, herunder hjelpemiddelteknologi.",
+            "guidelines": [
+                {
+                    "id": "compatible",
+                    "alt_id": [
+                        "x4-1-compatible"
+                    ],
+                    "num": "4.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Kompatibel",
+                    "text": "Sørg for best mulig kompatibilitet med aktuelle og framtidige brukeragenter, herunder hjelpemiddelteknologi.",
+                    "successcriteria": [
+                        {
+                            "id": "parsing",
+                            "alt_id": [
+                                "x4-1-1-parsing"
+                            ],
+                            "num": "4.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Parsing (oppdeling)",
+                            "text": "I innhold som implementeres ved hjelp av oppmerkingsspråk, har elementene fullstendige start- og sluttkoder, elementene er nøstet i henhold til spesifikasjonene, elementene inneholder ikke dupliserte attributter, og eventuelle ID-er er unike. Unntaket er dersom spesifikasjonene tillater disse egenskapene.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Start- og sluttmarkører som mangler et nødvendig tegn, for eksempel avsluttende hakeparentes, eller som har feil angivelse av anførselstegn for attributtverdier, er ikke fullstendige. complete."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "name-role-value",
+                            "alt_id": [
+                                "x4-1-2-name-role-value"
+                            ],
+                            "num": "4.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Navn, rolle, verdi",
+                            "text": "For alle brukergrensesnittkomponenter  (blant annet skjemaelementer, lenker og komponenter som genereres ved hjelp av skript), kan navn og rolle bestemmes programmatisk. Tilstander, egenskaper og verdier som kan angis av brukeren, kan angis programmatisk, og informasjon om endringer i disse elementene er tilgjengelig for brukeragenter, herunder hjelpemiddelteknologi.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Merknad 1",
+                                    "text": "Dette suksesskriteriet er primært beregnet på produsenter av nettinnhold som utvikler eller lager skript til egne brukergrensesnittkomponenter. For eksempel, standard HTML-kontroller oppfyller allerede dette suksesskriteriet når de brukes i henhold til spesifikasjonen."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "status-messages",
+                            "alt_id": [
+                                "x4-1-3-status-messages"
+                            ],
+                            "num": "4.1.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Statusbeskjeder",
+                            "text": "I innhold som implementeres ved hjelp av oppmerkingsspråk, kan statusbeskjeder bestemmes programmatisk gjennom rolle eller egenskaper, slik at de kan presenteres for brukeren med hjelpemiddelteknologi uten å få fokus."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

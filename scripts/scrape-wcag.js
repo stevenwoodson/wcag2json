@@ -2,15 +2,17 @@
 
 // Import libraries
 let request   = require('request');
-let cheerio   = require('cheerio');
 let fs        = require('fs');
-let parseWcag = require('../lib/parseWcag');
+let parseWcag20 = require('../lib/parseWcag20');
+let parseWcag21 = require('../lib/parseWcag21');
 
 // Set up some data
 let translationUrls = require('../translations.json');
 let currLang        = process.argv[2] || 'en';
-let htmlFilePath    = './wcag2-html/wcag2-' + currLang + '.html';
-let jsonFilePath    = './wcag2-json/wcag2-' + currLang + '.json';
+let currVersion     = process.argv[3] || '21';
+let htmlFilePath    = './wcag' + currVersion + '-html/wcag' + currVersion + '-' + currLang + '.html';
+let jsonFilePath    = './wcag' + currVersion + '-json/wcag' + currVersion + '-' + currLang + '.json';
+let parseHtml       = currVersion === 21 ? parseWcag21.parseHtml : parseWcag20.parseHtml
 
 
 // Check if we know the file already
@@ -32,7 +34,7 @@ new Promise(function (resolve, reject) {
 
         } else {
             // Load from URL and store locally
-            let url = translationUrls[currLang];
+            let url = translationUrls[currVersion][currLang];
             console.log('loading ' + url);
 
             request(url, function (error, response, html) {
@@ -53,11 +55,11 @@ new Promise(function (resolve, reject) {
     });
 
 // Scrape the HTML
-}).then(parseWcag.parseHtml)
+}).then(parseHtml)
 // Save the JSON data
 .then(function (json) {
     let data = JSON.stringify(json, null, '    ');
-    
+
     console.log('Creating ' + jsonFilePath);
     fs.writeFile(jsonFilePath, data, 'utf8', function (error) {
         if (error) {

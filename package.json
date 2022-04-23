@@ -1,13 +1,13 @@
 {
   "name": "wcag2json",
-  "version": "0.1.0",
-  "description": "JSON versions of WCAG 2 and it's translations",
+  "version": "0.2.0",
+  "description": "JSON versions of WCAG 2.0 & 2.1 and it's translations",
   "scripts": {
     "scrape": "node scripts/scrape-wcag.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/WilcoFiers/wcag2json.git"
+    "url": "git://github.com/stevenwoodson/wcag2json.git"
   },
   "keywords": [
     "a11y",
@@ -18,13 +18,20 @@
     "javascript"
   ],
   "author": "Wilco Fiers",
+  "contributors": [
+    {
+      "name": "Steve Woodson",
+      "email": "steve@beinclusive.app",
+      "url": "https://beinclusive.app"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WilcoFiers/wcag2json/issues"
+    "url": "https://github.com/stevenwoodson/wcag2json/issues"
   },
-  "homepage": "https://github.com/WilcoFiers/wcag2json#readme",
+  "homepage": "https://github.com/stevenwoodson/wcag2json#readme",
   "dependencies": {
-    "cheerio": "^0.19.0",
+    "cheerio": "^0.22.0",
     "request": "^2.65.0"
   }
 }

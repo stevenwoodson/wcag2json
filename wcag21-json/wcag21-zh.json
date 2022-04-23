@@ -1,0 +1,1993 @@
+{
+    "principles": [
+        {
+            "id": "perceivable",
+            "alt_id": [
+                "x1-perceivable"
+            ],
+            "num": "1",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "可感知性",
+            "text": "信息和用户界面组件必须以可感知的方式呈现给用户。",
+            "guidelines": [
+                {
+                    "id": "text-alternatives",
+                    "alt_id": [
+                        "x1-1-text-alternatives"
+                    ],
+                    "num": "1.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "替代文本",
+                    "text": "为所有非文本内容提供替代文本，使其可以转化为人们需要的其他形式，如大字体印刷，盲文，语音，符号或更简单的语言。",
+                    "successcriteria": [
+                        {
+                            "id": "non-text-content",
+                            "alt_id": [
+                                "x1-1-1-non-text-content"
+                            ],
+                            "num": "1.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "非文本内容",
+                            "text": "为所有呈现给用户的非文本内容都提供相同目的替代文本以下情况例外：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "控件，输入",
+                                            "text": "如果非文本内容是一个控件或接受用户输入，则应有一个描述其目的名称。(请参阅成功标准 4.1.2以了解关于控件和接受用户输入的内容的额外要求)"
+                                        },
+                                        {
+                                            "handle": "时基媒体",
+                                            "text": "如果非文本内容是时基媒体，这时替代文本至少要提供非文本内容的描述标识。 (请参阅准则 1.2以了解关于媒体的额外要求)"
+                                        },
+                                        {
+                                            "handle": "测试",
+                                            "text": "如果非文本内容是以一个以文本呈现会失效的测试或练习, 则替代文本至少要提供非文本内容的描述标识。"
+                                        },
+                                        {
+                                            "handle": "感官",
+                                            "text": "如果非文本内容的主要目的是创建一种特殊感官体验, 则替代文本至少要提供非文本内容的描述标识。"
+                                        },
+                                        {
+                                            "handle": "验证码",
+                                            "text": "如果非文本内容的目的是为了确认内容正在被一个人访问，而不是计算机访问，则要提供识别和描述非文本内容目的的替代文本，并提供适应针对不同类型感官知觉的输出模型的验证码替代方式， 以适应不同的残障人群。"
+                                        },
+                                        {
+                                            "handle": "装饰，格式，不可见",
+                                            "text": "如果非文本内容是纯粹的装饰, 或只用于视觉格式、或不呈现给用户，则应以辅助技术可忽略的方式进行实现。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "time-based-media",
+                    "alt_id": [
+                        "x1-2-time-based-media"
+                    ],
+                    "num": "1.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "时基媒体",
+                    "text": "为时基媒体提供替代。",
+                    "successcriteria": [
+                        {
+                            "id": "audio-only-and-video-only-prerecorded",
+                            "alt_id": [
+                                "x1-2-1-audio-only-and-video-only-prerecorded"
+                            ],
+                            "num": "1.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "纯音频和纯视频（预录）",
+                            "text": "对于预录的，纯音频和预录的纯视频, 以下情况为真，除非音频或视频就是文本的替代媒体并已明确标记:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "预录的纯音频",
+                                            "text": "对于预录的纯音频内容，给出时基媒体的替代以呈现等同信息。"
+                                        },
+                                        {
+                                            "handle": "预录的纯视频",
+                                            "text": "对于预录的纯视频内容，给出时基媒体的替代，或者给出音轨，以呈现等同信息。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "captions-prerecorded",
+                            "alt_id": [
+                                "x1-2-2-captions-prerecorded"
+                            ],
+                            "num": "1.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "字幕（预录）",
+                            "text": "所有预录的音频内容，要提供同步媒体的字幕, 除非媒体就是文本的替代媒体并已明确标记。"
+                        },
+                        {
+                            "id": "audio-description-or-media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-3-audio-description-or-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "音频描述或媒体替代（预录）",
+                            "text": "要为同步媒体提供时基媒体的替代或预录的视频内容的音频描述 ，除非媒体就是文本的替代媒体并已明确标记。"
+                        },
+                        {
+                            "id": "captions-live",
+                            "alt_id": [
+                                "x1-2-4-captions-live"
+                            ],
+                            "num": "1.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "字幕（直播）",
+                            "text": "为所有直播的音频内容，在同步媒体中提供字幕"
+                        },
+                        {
+                            "id": "audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-5-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "音频描述（预录）",
+                            "text": "为所有预录的视频内容，在同步媒体中提供音频描述"
+                        },
+                        {
+                            "id": "sign-language-prerecorded",
+                            "alt_id": [
+                                "x1-2-6-sign-language-prerecorded"
+                            ],
+                            "num": "1.2.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "手语（预录）",
+                            "text": "要为同步媒体里所有预录的音频内容提供手语翻译。"
+                        },
+                        {
+                            "id": "extended-audio-description-prerecorded",
+                            "alt_id": [
+                                "x1-2-7-extended-audio-description-prerecorded"
+                            ],
+                            "num": "1.2.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "扩展音频描述（预录）",
+                            "text": "前景音频描述不足以传达视频意思时，可通过暂停，把同步媒体里所有预录的视频内容扩展音频描述 提供出来。"
+                        },
+                        {
+                            "id": "media-alternative-prerecorded",
+                            "alt_id": [
+                                "x1-2-8-media-alternative-prerecorded"
+                            ],
+                            "num": "1.2.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "替代媒体（预录）",
+                            "text": "为所有预录的同步媒体和所有预录的纯视频媒体提供时基媒体的替代 。"
+                        },
+                        {
+                            "id": "audio-only-live",
+                            "alt_id": [
+                                "x1-2-9-audio-only-live"
+                            ],
+                            "num": "1.2.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "纯音频（直播）",
+                            "text": "要为现场直播的纯音频内容提供时基媒体的替代，以呈现等同信息。"
+                        }
+                    ]
+                },
+                {
+                    "id": "adaptable",
+                    "alt_id": [
+                        "x1-3-adaptable"
+                    ],
+                    "num": "1.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "适应性",
+                    "text": "创建可用不同方式呈现的内容（例如简单的布局），而不会丢失信息或结构。",
+                    "successcriteria": [
+                        {
+                            "id": "info-and-relationships",
+                            "alt_id": [
+                                "x1-3-1-info-and-relationships"
+                            ],
+                            "num": "1.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "信息和关系",
+                            "text": "通过呈现传达的信息、结构、和关系，可以编程式确定或在文本中得到。"
+                        },
+                        {
+                            "id": "meaningful-sequence",
+                            "alt_id": [
+                                "x1-3-2-meaningful-sequence"
+                            ],
+                            "num": "1.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "有含义的顺序",
+                            "text": "当呈现出来的内容其顺序影响其含义，可以通过编程式确定其正确的阅读顺序。"
+                        },
+                        {
+                            "id": "sensory-characteristics",
+                            "alt_id": [
+                                "x1-3-3-sensory-characteristics"
+                            ],
+                            "num": "1.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "感官特性",
+                            "text": "用于理解内容和操作内容的指示，应该不完全依赖于组件的感官特性，如形状、大小、视觉位置、方向、或声音。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "请参考颜色相关的要求，参见准则 1.4."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "orientation",
+                            "alt_id": [
+                                "x1-3-4-orientation"
+                            ],
+                            "num": "1.3.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "定位",
+                            "text": "不应该将内容的视图和操作限定为单一的显示方向，例如纵向或横向，除非使用特定的显示方向是必要的。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "特定显示方向可能必要的示例是银行支票，钢琴应用，投影仪或电视的幻灯片，或二进制显示方向不适用的虚拟现实内容。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-input-purpose",
+                            "alt_id": [
+                                "x1-3-5-identify-input-purpose"
+                            ],
+                            "num": "1.3.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "明确输入目的",
+                            "text": "用于收集用户信息的每个输入框的目的可以在以下情况下编程式确定：",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "输入字段的用途在“用户界面组件的输入目的”部分有定义；"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "使用支持识别表单输入数据的预期含义的技术来实现内容。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identify-purpose",
+                            "alt_id": [
+                                "x1-3-6-identify-purpose"
+                            ],
+                            "num": "1.3.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "明确目的",
+                            "text": "在使用标记语言实现的内容中，用户界面组件、图标及区域的用途可以编程式确定。"
+                        }
+                    ]
+                },
+                {
+                    "id": "distinguishable",
+                    "alt_id": [
+                        "x1-4-distinguishable"
+                    ],
+                    "num": "1.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "可辨别性",
+                    "text": "使用户更容易看到和听到内容，包括把背景和前景分开。",
+                    "successcriteria": [
+                        {
+                            "id": "use-of-color",
+                            "alt_id": [
+                                "x1-4-1-use-of-color"
+                            ],
+                            "num": "1.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "颜色用途",
+                            "text": "颜色并不是作为传达信息、表明动作、提示响应或区分视觉元素的唯一视觉手段。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "此成功标准专门解决颜色感知的问题。准则 1.3已覆盖其他形式的感知，包括编程式访问颜色和其他视觉呈现的编码。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "audio-control",
+                            "alt_id": [
+                                "x1-4-2-audio-control"
+                            ],
+                            "num": "1.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "音频控制",
+                            "text": "如果网页音频自动播放超过3秒钟，提供一个机制用以暂停或停止音频，或者控制独立于全局系统音量的音频音量。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "由于任何不符合此成功标准的内容可干扰用户使用整个页面的能力，所有网页内容（不论是否符合其他成功标准）必须符合这项成功标准。参见一致性要求5：不干扰。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-minimum",
+                            "alt_id": [
+                                "x1-4-3-contrast-minimum"
+                            ],
+                            "num": "1.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "对比度（最小）",
+                            "text": "文本视觉呈现以及文本图像至少要有4.5:1的对比度, 以下部分除外：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "大文本",
+                                            "text": "大号文本以及大文本图像至少有3:1的对比度;"
+                                        },
+                                        {
+                                            "handle": "附属内容",
+                                            "text": "文本或文本图像是未激活的用户界面组件部分, 或者只是一个纯粹的装饰,或者对任何人不可见，或者只是包含其他重要可视内容的图片一部分，此文本或文本图像没有对比要求。"
+                                        },
+                                        {
+                                            "handle": "商标",
+                                            "text": "文本作为标志或品牌名称的一部分，没有最低对比要求。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "resize-text",
+                            "alt_id": [
+                                "x1-4-4-resize-text"
+                            ],
+                            "num": "1.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "调整文本",
+                            "text": "除了字幕和文本图像外，文本大小不需要辅助技术就可以放大至200%，且没有内容或功能损失。"
+                        },
+                        {
+                            "id": "images-of-text",
+                            "alt_id": [
+                                "x1-4-5-images-of-text"
+                            ],
+                            "num": "1.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "文本图像",
+                            "text": "如果正在使用的技术可以达到视觉效果，应使用文本传达信息而不用文本图像，以下部分除外：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "定制",
+                                            "text": "文本图像可根据用户要求进行视觉定制；"
+                                        },
+                                        {
+                                            "handle": "必需",
+                                            "text": "文本的特殊呈现对要传达的信息是必需的。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "商标（文本作为标志或品牌名称的一部分）被认为是必需的。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-enhanced",
+                            "alt_id": [
+                                "x1-4-6-contrast-enhanced"
+                            ],
+                            "num": "1.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "对比度（加强）",
+                            "text": "文本视觉呈现以及文本图像至少有 7:1的对比度以下部分除外：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "大文本",
+                                            "text": "大号文本以及大文本图像至少有 4.5:1的对比度;"
+                                        },
+                                        {
+                                            "handle": "附属内容",
+                                            "text": "文本或文本图像是未激活的用户界面组件部分, 或者只是一个纯粹的装饰, 或者对任何人不可见，或者只是包含其他重要可视内容的图片一部分，此文本或文本图像没有对比要求。"
+                                        },
+                                        {
+                                            "handle": "商标",
+                                            "text": "文本作为标志或品牌名称的一部分，没有最低对比要求。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "low-or-no-background-audio",
+                            "alt_id": [
+                                "x1-4-7-low-or-no-background-audio"
+                            ],
+                            "num": "1.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "低背景音或无背景音",
+                            "text": "对于预录的纯音频内容， (1) 前景音频主要包含说话内容, (2) 不是音频验证码或音频标志，以及(3) 不发声，主要用音乐表达，如唱歌或说唱，以下部分至少有一为真:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "无背景",
+                                            "text": "音频不包含背景声音。"
+                                        },
+                                        {
+                                            "handle": "关闭",
+                                            "text": "背景声音可以被关闭。"
+                                        },
+                                        {
+                                            "handle": "20分贝",
+                                            "text": "背景声音至少比前景说话内容低20分贝，持续仅一两秒的偶发性声音除外。 注：根据 “分贝”的定义，满足这一要求的背景声音将比前景说话内容大约安静4倍。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "根据 “分贝”的定义，满足这一要求的背景声音将比前景说话内容大约安静4倍。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "visual-presentation",
+                            "alt_id": [
+                                "x1-4-8-visual-presentation"
+                            ],
+                            "num": "1.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "视觉呈现",
+                            "text": "对于文本块的视觉呈现，提供一个机制以实现以下目标:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "用户可以选择前景色和背景色。"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "宽度不超过80个字符或符号（如果是中日韩字体，不超过40个）。"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "文本不能调整（即左对齐和右对齐）。"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "段落里的行间距（行隔）至少是1.5倍行距，段落间距至少比行间距大1.5倍。"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "不使用辅助技术可将文本大小放大200%，并且在全屏窗口的情况下不需要用户水平滚动就可以阅读一行文本。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "images-of-text-no-exception",
+                            "alt_id": [
+                                "x1-4-9-images-of-text-no-exception"
+                            ],
+                            "num": "1.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "文本图像（没有例外）",
+                            "text": "文本图像只能用于纯粹的装饰或此文本的特殊呈现对要传达的信息是必需。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注： 1",
+                                    "text": "商标（文本是一个标志或品牌名称的一部分）被认为是必需的。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "reflow",
+                            "alt_id": [
+                                "x1-4-10-reflow"
+                            ],
+                            "num": "1.4.10",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "反复滚动",
+                            "text": "内容可以在不丢失信息或功能，且在下面两种规格里无需滑动滚动条的情况下呈现：",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "宽度相当于320个CSS像素时垂直滚动内容;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "高度相当于256个CSS像素时水平滚动内容。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "320个CSS像素相当于起始窗口宽度为1280CSS像素在400%放大后的宽度。对于设计为水平滚动的Web内容（例如，使用垂直文本），256像素相当于起始窗口为1024像素在400%放大后的高度。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 2",
+                                    "text": "需要二维布局的内容的示例是图像，地图，图表，视频，游戏，演示文稿，数据表和界面，其中在操纵内容时必须保持工具栏在视图中。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "non-text-contrast",
+                            "alt_id": [
+                                "x1-4-11-non-text-contrast"
+                            ],
+                            "num": "1.4.11",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "非文本对比",
+                            "text": "以下内容在视觉呈现时，与相邻颜色的对比度至少为3：1：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "用户界面组件",
+                                            "text": "识别用户界面组件和状态所需的可视化信息，除非活动组件或组件的外观由用户代理确定且未被作者修改;"
+                                        },
+                                        {
+                                            "handle": "图形图像",
+                                            "text": "理解内容所必需的图形部分，除非图形的某种特定呈现对所传达的信息至关重要。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "text-spacing",
+                            "alt_id": [
+                                "x1-4-12-text-spacing"
+                            ],
+                            "num": "1.4.12",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "文本间距",
+                            "text": "在使用支持以下文本样式属性的标记语言实现的内容中，通过设置以下所有内容并且不更改其他样式属性，不会丢失任何内容或功能：",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "行高（行间距）至少为字体大小的1.5倍;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "将段落间距设置为字体大小的至少2倍;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "字母间距（跟踪）至少为字体大小的0.12倍;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "字间距至少为字体大小的0.16倍。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "content-on-hover-or-focus",
+                            "alt_id": [
+                                "x1-4-13-content-on-hover-or-focus"
+                            ],
+                            "num": "1.4.13",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "悬停或焦点内容",
+                            "text": "当收到、之后移除指针悬停或键盘焦点时，所触发的附加内容也从可见、之后变为隐藏。在这种情况下，以下为真：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "可清除的",
+                                            "text": "除非附加内容传达输入错误或不掩盖或替换其他内容，否则可以使用一种机制来关闭附加内容而不移动指针悬停或键盘焦点;"
+                                        },
+                                        {
+                                            "handle": "可悬停的(",
+                                            "text": "如果指针悬停可以触发额外内容，那么指针可以从附加内容上挪开，而附加内容不会消失;"
+                                        },
+                                        {
+                                            "handle": "持久性的",
+                                            "text": "在用户移除或解除指针悬停和键盘焦点、或附加内容不再有效之前，附加内容都要保持可见。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "由用户代理控制的附加内容的示例包括通过使用HTML标题 属性创建的浏览器工具提示。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 2",
+                                    "text": "在悬停和焦点上显示的自定义工具提示，子菜单和其他非模式弹出窗口是此标准涵盖的其他内容的示例。"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "operable",
+            "alt_id": [
+                "x2-operable"
+            ],
+            "num": "2",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "可操作性",
+            "text": "用户界面组件和导航必须可操作。",
+            "guidelines": [
+                {
+                    "id": "keyboard-accessible",
+                    "alt_id": [
+                        "x2-1-keyboard-accessible"
+                    ],
+                    "num": "2.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "键盘可访问",
+                    "text": "使所有功能都能通过键盘来操作。",
+                    "successcriteria": [
+                        {
+                            "id": "keyboard",
+                            "alt_id": [
+                                "x2-1-1-keyboard"
+                            ],
+                            "num": "2.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "键盘",
+                            "text": "内容的所有功能都可以通过键盘接口实现操作并且没有对每次键击做特定时限要求。除非底层功能是依赖用户的移动路径并且不做为端点的输入方法。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "这种例外涉及到底层功能，而非输入技巧。例如，使用手写来输入文本，这种输入技巧（手写）需要路径依赖式输入，但底层功能（文本输入）不需要这种输入技巧。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 2",
+                                    "text": "不禁止也不应阻止提供鼠标输入或除键盘操作以外的其他输入方法。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-keyboard-trap",
+                            "alt_id": [
+                                "x2-1-2-no-keyboard-trap"
+                            ],
+                            "num": "2.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "无键盘陷阱",
+                            "text": "如果可使用键盘接口能将焦点到移动到某网页组件上，那么可以只使用键盘接口操作也可以将焦点从当前组件移开，如果需要未修改的方向键或Tab键或其它标准退出方式以外的操作，要告知用户离开焦点的方法。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "由于任何不符合此成功标准的内容可干扰用户使用整个页面的能力，网页上所有内容（无论是否满足其他成功标准）必须符合这个成功标准。参见一致性要求5：不干涉."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "keyboard-no-exception",
+                            "alt_id": [
+                                "x2-1-3-keyboard-no-exception"
+                            ],
+                            "num": "2.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "键盘（没有例外）",
+                            "text": "内容的所有功能可通过键盘接口实现操作并且没有对每次键击做特定时限要求。"
+                        },
+                        {
+                            "id": "character-key-shortcuts",
+                            "alt_id": [
+                                "x2-1-4-character-key-shortcuts"
+                            ],
+                            "num": "2.1.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "字符键快捷键",
+                            "text": "如果仅使用字母（包括大写和小写字母），标点符号，数字或符号字符在内容中实现键盘快捷键，则至少满足下列条件之一：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "关掉",
+                                            "text": "有一种机制可以关闭快捷方式;"
+                                        },
+                                        {
+                                            "handle": "重映射",
+                                            "text": "可以使用一种机制重新映射快捷方式以使用一个或多个不可打印的键盘字符（例如Ctrl，Alt等）;"
+                                        },
+                                        {
+                                            "handle": "仅在焦点上有效",
+                                            "text": "用户界面组件的键盘快捷键仅在该组件具有焦点时才处于活动状态。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "enough-time",
+                    "alt_id": [
+                        "x2-2-enough-time"
+                    ],
+                    "num": "2.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "充足的时间",
+                    "text": "为用户提供足够的时间用以阅读和使用内容。",
+                    "successcriteria": [
+                        {
+                            "id": "timing-adjustable",
+                            "alt_id": [
+                                "x2-2-1-timing-adjustable"
+                            ],
+                            "num": "2.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "定时可调",
+                            "text": "对于由内容设置的每一个时间限制，以下部分至少有个一为真：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "关闭",
+                                            "text": "允许用户达到时间期限之前，关闭时间限制；或"
+                                        },
+                                        {
+                                            "handle": "调整",
+                                            "text": "允许用户达到时间期限前，调整时间限制。调整范围要放宽，至少是默认设置长度的10倍；或"
+                                        },
+                                        {
+                                            "handle": "延长",
+                                            "text": "在超时之前向用户发出警告，并给用户至少20秒的时间，使用户可以通过简单的动作来延长时间（例如“按空格键”），并允许用户延长期限至少10次；或"
+                                        },
+                                        {
+                                            "handle": "实时特例",
+                                            "text": "时间限制是一个实时事件（例如拍卖）的必要部分，可能没有时间限制的替代方法；或"
+                                        },
+                                        {
+                                            "handle": "必需特例",
+                                            "text": "时间限制是必需的，延长时限将导致行为失效；或"
+                                        },
+                                        {
+                                            "handle": "20小时特例",
+                                            "text": "时间限制超过20个小时。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "此成功标准有助于确保用户可以在因时间限制导致内容或者上下文发生意外变化的情况下完成任务。 此成功标准应结合成功标准 3.2.1来考虑，成功标准3.2.1对内容或上下文的变化做出限制。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pause-stop-hide",
+                            "alt_id": [
+                                "x2-2-2-pause-stop-hide"
+                            ],
+                            "num": "2.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "暂停、停止、隐藏",
+                            "text": "对于运动、闪烁、滚动或自动更新的信息，以下部分全部为真：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "运动、闪烁、滚动",
+                                            "text": "任何运动、闪烁或滚动的信息（1）自动启动，（2）持续时间超过5秒钟，（3）与其他内容同时呈现。对于这些信息，提供一个机制可使用户暂停，停止或隐藏，除非运动、闪烁、或滚动是某个行为的必需部分；以及"
+                                        },
+                                        {
+                                            "handle": "自动更新",
+                                            "text": "任何自动更新的信息（1）自动启动（2）与其他内容同时呈现。对于这些信息，提供一个机制可使用户暂停、停止、或隐藏，或控制更新的频率，除非自动更新是某个行为的必需部分。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "关于闪烁或闪光的内容要求，参见准则 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 2",
+                                    "text": "由于任何不符合此成功标准的内容可干扰用户使用整个页面的能力，网页上所有内容（无论是否满足其他成功标准）必须符合这个成功标准。参见一致性要求5：不干涉."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 3",
+                                    "text": "通过软件定期更新的内容，或者传输到用户代理的内容，不需要保留或呈现暂停启动和恢复呈现之间生成或收到的信息，因为这可能没有技术可行性，而且许多情况下这样做可能会产生误导。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 4",
+                                    "text": "发生在预载入阶段或类似情况下的动画, 在该阶段如果没发生与用户交互的情况或没有指示进程，就可能让用户感到困惑，或导致他们认为内容被固定或被破坏，这点是很重要的。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "no-timing",
+                            "alt_id": [
+                                "x2-2-3-no-timing"
+                            ],
+                            "num": "2.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "无定时",
+                            "text": "定时不是一个事件或内容呈现行为的必需部分，非交互同步媒体和实时事件除外。."
+                        },
+                        {
+                            "id": "interruptions",
+                            "alt_id": [
+                                "x2-2-4-interruptions"
+                            ],
+                            "num": "2.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "中断",
+                            "text": "中断可以由用户推迟或禁止，紧急中断除外。"
+                        },
+                        {
+                            "id": "re-authenticating",
+                            "alt_id": [
+                                "x2-2-5-re-authenticating"
+                            ],
+                            "num": "2.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "重新认证",
+                            "text": "当认证的会话到期时，重新验证后，用户的行为可以继续并且不丢失数据。"
+                        },
+                        {
+                            "id": "timeouts",
+                            "alt_id": [
+                                "x2-2-6-timeouts"
+                            ],
+                            "num": "2.2.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "超时",
+                            "text": "当持续时间内的用户不活动将导致用户数据丢失时需要向用户发出警告，除非在用户不进行任何操作时依旧为用户保存数据超过20个小时。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "在用户身份验证之前和保留用户数据之前，隐私法规可能需要明确的用户同意。如果用户是未成年人，则可能不会在大多数司法管辖区，国家或地区征求明确同意。在考虑将数据保存作为满足此成功标准的方法时，建议咨询隐私专业人士和法律顾问。"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "seizures-and-physical-reactions",
+                    "alt_id": [
+                        "x2-3-seizures-and-physical-reactions"
+                    ],
+                    "num": "2.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "癫痫和身体反应",
+                    "text": "不要设计会导致癫痫发作或身体反应的内容。",
+                    "successcriteria": [
+                        {
+                            "id": "three-flashes-or-below-threshold",
+                            "alt_id": [
+                                "x2-3-1-three-flashes-or-below-threshold"
+                            ],
+                            "num": "2.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "闪光三次或低于阈值",
+                            "text": "网页不包含任何闪光超过3次/秒的内容，或闪光低于一般闪光和红色闪光阈值。.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注 1",
+                                    "text": "由于任何不符合此成功标准的内容可干扰用户使用整个页面的能力，网页上所有的内容（无论是否满足其他成功标准）必须符合此成功标准。参见一致性要求5：不干涉。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "three-flashes",
+                            "alt_id": [
+                                "x2-3-2-three-flashes"
+                            ],
+                            "num": "2.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "闪光三次",
+                            "text": "网页不包含任何闪光超过3次/秒的内容。"
+                        },
+                        {
+                            "id": "animation-from-interactions",
+                            "alt_id": [
+                                "x2-3-3-animation-from-interactions"
+                            ],
+                            "num": "2.3.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "交互动画",
+                            "text": "除非动画对于功能或传达的信息至关重要，否则可以禁用由交互触发的交互式动画。"
+                        }
+                    ]
+                },
+                {
+                    "id": "navigable",
+                    "alt_id": [
+                        "x2-4-navigable"
+                    ],
+                    "num": "2.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "可导航性",
+                    "text": "提供帮助用户导航、查找内容、并确定其位置的方法。",
+                    "successcriteria": [
+                        {
+                            "id": "bypass-blocks",
+                            "alt_id": [
+                                "x2-4-1-bypass-blocks"
+                            ],
+                            "num": "2.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "绕过模块",
+                            "text": "提供一种机制以跳过在多个网页中重复出现的内容模块。"
+                        },
+                        {
+                            "id": "page-titled",
+                            "alt_id": [
+                                "x2-4-2-page-titled"
+                            ],
+                            "num": "2.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "网页标题",
+                            "text": "网页提供标题，以描述主题或用途。"
+                        },
+                        {
+                            "id": "focus-order",
+                            "alt_id": [
+                                "x2-4-3-focus-order"
+                            ],
+                            "num": "2.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "聚焦顺序",
+                            "text": "如果网页可以顺序导航，并且导航顺序影响含义和操作，可聚焦的组件需要以保持其含义和可操作的顺序接受聚焦。"
+                        },
+                        {
+                            "id": "link-purpose-in-context",
+                            "alt_id": [
+                                "x2-4-4-link-purpose-in-context"
+                            ],
+                            "num": "2.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "链接目的（在上下文里）",
+                            "text": "每个链接目的的确定可通过：单独的链接文本，或者是链接文本联系其编程式确定的连接上下文除非链接的目的也会困惑普通用户。"
+                        },
+                        {
+                            "id": "multiple-ways",
+                            "alt_id": [
+                                "x2-4-5-multiple-ways"
+                            ],
+                            "num": "2.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "多种方法",
+                            "text": "用一种以上的方法在网页集中定位网页除非网页是流程的结果或流程的某个步骤"
+                        },
+                        {
+                            "id": "headings-and-labels",
+                            "alt_id": [
+                                "x2-4-6-headings-and-labels"
+                            ],
+                            "num": "2.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "标题和标签",
+                            "text": "标题和标签说明主题或目的。"
+                        },
+                        {
+                            "id": "focus-visible",
+                            "alt_id": [
+                                "x2-4-7-focus-visible"
+                            ],
+                            "num": "2.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "焦点可见",
+                            "text": "任何键盘可操作的用户界面应有一套操作模式，在该模式里键盘焦点指示是可见的。"
+                        },
+                        {
+                            "id": "location",
+                            "alt_id": [
+                                "x2-4-8-location"
+                            ],
+                            "num": "2.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "定位",
+                            "text": "网页集里关于用户定位的信息是有效的。"
+                        },
+                        {
+                            "id": "link-purpose-link-only",
+                            "alt_id": [
+                                "x2-4-9-link-purpose-link-only"
+                            ],
+                            "num": "2.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "链接目的（只针对链接）",
+                            "text": "提供一个机制允许只从链接文本来识别每个连接目的。除非链接目的也会困惑用户。"
+                        },
+                        {
+                            "id": "section-headings",
+                            "alt_id": [
+                                "x2-4-10-section-headings"
+                            ],
+                            "num": "2.4.10",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "章节标题",
+                            "text": "用章节标题组织内容。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注 1",
+                                    "text": "一般情况下使用“标题”，标题包括名称以及其他为不同内容类型添加标题的方法。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注 2",
+                                    "text": "此成功标准包含了关于创建网页的部分，而不是关于用户界面组件的部分。 用户界面组件的部分在成功标准4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "input-modalities",
+                    "alt_id": [
+                        "x2-5-input-modalities"
+                    ],
+                    "num": "2.5",
+                    "handle": "输入方式",
+                    "text": "通过键盘以外的各种输入，用户可以更轻松地操作功能。",
+                    "successcriteria": [
+                        {
+                            "id": "pointer-gestures",
+                            "alt_id": [
+                                "x2-5-1-pointer-gestures"
+                            ],
+                            "num": "2.5.1",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "指针手势",
+                            "text": "除非基于多点或基于路径的手势是必要的，否则使用多点或基于路径的手势进行操作的所有功能都可以使用单一指针操作而无需基于路径的手势。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "此要求适用于解释指针操作的Web内容（即，这不适用于操作用户代理或辅助技术所需的操作）。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pointer-cancellation",
+                            "alt_id": [
+                                "x2-5-2-pointer-cancellation"
+                            ],
+                            "num": "2.5.2",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "指针取消",
+                            "text": "在以下情况中，可以使用单一指针操作的功能：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "没有向下事件",
+                                            "text": "指针的向下事件不用于执行函数的任何部分;"
+                                        },
+                                        {
+                                            "handle": "终止或撤销",
+                                            "text": "该函数的完成是在向上事件上完成的，并且有一种机制可以在完成之前中止该函数或在完成之后撤消该函数;"
+                                        },
+                                        {
+                                            "handle": "逆转",
+                                            "text": "上行事件逆转了前一次事件的任何结果;"
+                                        },
+                                        {
+                                            "handle": "必要",
+                                            "text": "完成下行事件的必要功能。"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "模拟键盘或数字小键盘按键的功能被认为是必不可少的。"
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "注意 2",
+                                    "text": "此要求适用于解释指针操作的Web内容（即，这不适用于操作用户代理或辅助技术所需的操作）。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "label-in-name",
+                            "alt_id": [
+                                "x2-5-3-label-in-name"
+                            ],
+                            "num": "2.5.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "名称中的标签",
+                            "text": "对于包含文本或文本图像的标签的用户界面组件，名称包含可视化显示的文本。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注意 1",
+                                    "text": "最佳做法是将标签文本放在名称的开头。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "motion-actuation",
+                            "alt_id": [
+                                "x2-5-4-motion-actuation"
+                            ],
+                            "num": "2.5.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "运动驱动",
+                            "text": "可以通过设备运动或用户运动操作的功能也可以由用户界面组件操作，并且可以禁用对运动的响应以防止意外启动，除非在以下情况下：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "支持的接口",
+                                            "text": "该动作用于通过可访问性支持的界面操作功能;"
+                                        },
+                                        {
+                                            "handle": "必要",
+                                            "text": "该动作对于该功能至关重要，这样做会使活动无效。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "target-size",
+                            "alt_id": [
+                                "x2-5-5-target-size"
+                            ],
+                            "num": "2.5.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "目标尺寸",
+                            "text": "除以下情况外，指针输入的目标尺寸至少为44×44CSS像素点：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "等效",
+                                            "text": "可通过等同的链接或在同一页面上控制的目标至少要44×44个CSS像素点；"
+                                        },
+                                        {
+                                            "handle": "一致性",
+                                            "text": "目标是句子或文本块;"
+                                        },
+                                        {
+                                            "handle": "用户代理控制",
+                                            "text": "目标的大小由用户代理确定，并且不会被作者修改;"
+                                        },
+                                        {
+                                            "handle": "基本要素",
+                                            "text": "目标的特定表述对于所传达的信息至关重要。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "concurrent-input-mechanisms",
+                            "alt_id": [
+                                "x2-5-6-concurrent-input-mechanisms"
+                            ],
+                            "num": "2.5.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "并发输入机制",
+                            "text": "内容不应限制使用平台上可用的输入方法，除非限制是必需的。例如需要确保内容的安全性，或者需要尊重用户设置。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "understandable",
+            "alt_id": [
+                "x3-understandable"
+            ],
+            "num": "3",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "可理解性§",
+            "text": "信息和用户界面操作必须是可理解的。",
+            "guidelines": [
+                {
+                    "id": "readable",
+                    "alt_id": [
+                        "x3-1-readable"
+                    ],
+                    "num": "3.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "可读性",
+                    "text": "使文本内容可读，可理解。",
+                    "successcriteria": [
+                        {
+                            "id": "language-of-page",
+                            "alt_id": [
+                                "x3-1-1-language-of-page"
+                            ],
+                            "num": "3.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "网页语言",
+                            "text": "每个网页的默认人类语言可以编程式确定。"
+                        },
+                        {
+                            "id": "language-of-parts",
+                            "alt_id": [
+                                "x3-1-2-language-of-parts"
+                            ],
+                            "num": "3.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "局部语言",
+                            "text": "内容里每个段落或短语的人类语言可以编程式确定，除了文本中专有名词、术语、不确定语言的词汇、已经融入到本地语言的词语或短语。"
+                        },
+                        {
+                            "id": "unusual-words",
+                            "alt_id": [
+                                "x3-1-3-unusual-words"
+                            ],
+                            "num": "3.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "特殊单词",
+                            "text": "若单词或短语被特定或者有限制的方式使用，包括成语和术语，则提供一个机制确定这些单词或短语的具体定义。"
+                        },
+                        {
+                            "id": "abbreviations",
+                            "alt_id": [
+                                "x3-1-4-abbreviations"
+                            ],
+                            "num": "3.1.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "缩写",
+                            "text": "提供一个机制用于确定缩写词的扩展形式或含义。"
+                        },
+                        {
+                            "id": "reading-level",
+                            "alt_id": [
+                                "x3-1-5-reading-level"
+                            ],
+                            "num": "3.1.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "阅读水平",
+                            "text": "当文本中排除专有名词、标题，仍需要初中教育水平以上的阅读能力时， 提供补充内容，或者提供不高于初中教育水平既能阅读的版本。"
+                        },
+                        {
+                            "id": "pronunciation",
+                            "alt_id": [
+                                "x3-1-6-pronunciation"
+                            ],
+                            "num": "3.1.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "发音",
+                            "text": "若单词没有发音就无法理解单词含义，则提供一个机制用于确定单词的具体发音。"
+                        }
+                    ]
+                },
+                {
+                    "id": "predictable",
+                    "alt_id": [
+                        "x3-2-predictable"
+                    ],
+                    "num": "3.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "可预测性",
+                    "text": "让网页以可预见的方式呈现和操作。",
+                    "successcriteria": [
+                        {
+                            "id": "on-focus",
+                            "alt_id": [
+                                "x3-2-1-on-focus"
+                            ],
+                            "num": "3.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "焦点",
+                            "text": "当任何用户界面组件接收焦点时，不会引起上下文变化。"
+                        },
+                        {
+                            "id": "on-input",
+                            "alt_id": [
+                                "x3-2-2-on-input"
+                            ],
+                            "num": "3.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "输入",
+                            "text": "更改任何用户界面组件设置不会自动导致上下文变化，除非用户使用组件前已被告知该行为。"
+                        },
+                        {
+                            "id": "consistent-navigation",
+                            "alt_id": [
+                                "x3-2-3-consistent-navigation"
+                            ],
+                            "num": "3.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "一致性导航",
+                            "text": "对于在网页集里多个网页中重复出现的导航机制，每次出现时都应保持同样的相对顺序，除非是由用户引起的顺序变化。"
+                        },
+                        {
+                            "id": "consistent-identification",
+                            "alt_id": [
+                                "x3-2-4-consistent-identification"
+                            ],
+                            "num": "3.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "一致性标识",
+                            "text": "网页集里相同功能的组件可被一致性标识。"
+                        },
+                        {
+                            "id": "change-on-request",
+                            "alt_id": [
+                                "x3-2-5-change-on-request"
+                            ],
+                            "num": "3.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "请求变化",
+                            "text": "上下文变化只能由用户请求来启动，或者提供一个可关闭这种变化的机制。"
+                        }
+                    ]
+                },
+                {
+                    "id": "input-assistance",
+                    "alt_id": [
+                        "x3-3-input-assistance"
+                    ],
+                    "num": "3.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "辅助输入",
+                    "text": "帮助用户避免和纠正错误。",
+                    "successcriteria": [
+                        {
+                            "id": "error-identification",
+                            "alt_id": [
+                                "x3-3-1-error-identification"
+                            ],
+                            "num": "3.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "错误标识",
+                            "text": "如果输入错误能够被自动发现，错误类型应能被标识，并且用文本描述给用户。"
+                        },
+                        {
+                            "id": "labels-or-instructions",
+                            "alt_id": [
+                                "x3-3-2-labels-or-instructions"
+                            ],
+                            "num": "3.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "标签或说明",
+                            "text": "当需要用户输入内容时，要给出标签或说明。"
+                        },
+                        {
+                            "id": "error-suggestion",
+                            "alt_id": [
+                                "x3-3-3-error-suggestion"
+                            ],
+                            "num": "3.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "错误建议",
+                            "text": "如果输入错误能够被自动发现，且修改建议已知，则提供建议给用户，除非它会危及安全或影响内容目的。"
+                        },
+                        {
+                            "id": "error-prevention-legal-financial-data",
+                            "alt_id": [
+                                "x3-3-4-error-prevention-legal-financial-data"
+                            ],
+                            "num": "3.3.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "错误预防（法律、金融、数据）",
+                            "text": "对于用户操作将引起法律承诺或或者金融交易的网页、修改或删除数据存储系统里的用户可控数据的网页、提交用户测试响应的网页等，对于这些网页，以下部分至少有一为真：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "可逆",
+                                            "text": "提交是可逆的。"
+                                        },
+                                        {
+                                            "handle": "检查",
+                                            "text": "用户输入的数据将被检查是否有输入错误，并为用户提供一个改正错误的机会。"
+                                        },
+                                        {
+                                            "handle": "确认",
+                                            "text": "提供一个机制用于最后提交之前审查、确认和纠正信息。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "help",
+                            "alt_id": [
+                                "x3-3-5-help"
+                            ],
+                            "num": "3.3.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "帮助",
+                            "text": "上下文相关的帮助是可用的."
+                        },
+                        {
+                            "id": "error-prevention-all",
+                            "alt_id": [
+                                "x3-3-6-error-prevention-all"
+                            ],
+                            "num": "3.3.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "错误预防（全部）",
+                            "text": "对于要求用户提交信息的网页，以下部分至少有一为真：",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "可逆",
+                                            "text": "提交是可逆的。"
+                                        },
+                                        {
+                                            "handle": "检查",
+                                            "text": "用户输入的数据将被检查是否有输入错误，并为用户提供一个改正错误的机会。"
+                                        },
+                                        {
+                                            "handle": "确认",
+                                            "text": "提供一个机制用于最后提交之前审查、确认和纠正信息。"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "robust",
+            "alt_id": [
+                "x4-robust"
+            ],
+            "num": "4",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "鲁棒性§",
+            "text": "内容必须健壮到可信地被种类繁多的用户代理(包括辅助技术)所解释。",
+            "guidelines": [
+                {
+                    "id": "compatible",
+                    "alt_id": [
+                        "x4-1-compatible"
+                    ],
+                    "num": "4.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "兼容",
+                    "text": "最大化兼容当前和未来的用户代理(包括辅助技术)。",
+                    "successcriteria": [
+                        {
+                            "id": "parsing",
+                            "alt_id": [
+                                "x4-1-1-parsing"
+                            ],
+                            "num": "4.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "解析",
+                            "text": "使用标记语言实现的内容，元素要有完整的开始和结束标签，元素根据其规格进行嵌套，元素不包含重复的属性，任何ID都是唯一的，除非规范允许这些特性。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注 1",
+                                    "text": "缺少关键特性的开始和结束标签是不完整的，比如一个右尖括号或不匹配的属性值引用标记。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "name-role-value",
+                            "alt_id": [
+                                "x4-1-2-name-role-value"
+                            ],
+                            "num": "4.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "名称，角色，值",
+                            "text": "对于所有用户界面组件（包括但不限于：表单元素，链接和由脚本生成的组件），名称和角色可以编程式确定；可由用户设置的状态、属性和值可以编程式设置；这些变化通知对用户代理包括辅助技术有效。",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "注 1",
+                                    "text": "此成功标准主要用于Web作者开发或编写自己的用户界面组件。比如根据规范使用标准HTML控件时，标准HTML控件已经满足这一成功标准。"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "status-messages",
+                            "alt_id": [
+                                "x4-1-3-status-messages"
+                            ],
+                            "num": "4.1.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "状态信息",
+                            "text": "在使用标记语言实现的内容中，状态消息可以通过角色或属性以编程方式确定，使得它们可以通过辅助技术呈现给用户而无需获得焦点。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

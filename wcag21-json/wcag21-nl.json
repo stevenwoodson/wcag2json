@@ -1,0 +1,1993 @@
+{
+    "principles": [
+        {
+            "id": "waarneembaar",
+            "alt_id": [
+                "x1-waarneembaar"
+            ],
+            "num": "1",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Waarneembaar",
+            "text": "\n        Informatie en componenten van de gebruikersinterface moeten toonbaar\n        zijn aan gebruikers op voor hen waarneembare wijze.\n      ",
+            "guidelines": [
+                {
+                    "id": "tekstalternatieven",
+                    "alt_id": [
+                        "x1-1-tekstalternatieven"
+                    ],
+                    "num": "1.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Tekstalternatieven",
+                    "text": "\n          Lever tekstalternatieven voor alle niet-tekstuele content, zodat die\n          veranderd kan worden in andere vormen die mensen nodig hebben, zoals\n          grote letters, braille, spraak, symbolen of eenvoudigere taal.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "niet-tekstuele-content",
+                            "alt_id": [
+                                "x1-1-1-niet-tekstuele-content"
+                            ],
+                            "num": "1.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Niet-tekstuele content",
+                            "text": "Alle niet-tekstuele content die aan de gebruiker wordt gepresenteerd, heeft een tekstalternatief dat een gelijkwaardig doel dient, behalve voor de hierna vermelde situaties.",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Bedieningselementen, invoer",
+                                            "text": "Als niet-tekstuele content een bedieningselement is of gebruikersinvoer accepteert, dan heeft deze een naam die het doel ervan beschrijft. (We verwijzen naar succescriterium 4.1.2 voor aanvullende eisen ten aanzien van bedieningselementen en content die gebruikersinvoer accepteren.)"
+                                        },
+                                        {
+                                            "handle": "Op tijd gebaseerde media",
+                                            "text": "Als niet-tekstuele content op tijd gebaseerde media is, dan leveren tekstalternatieven ten minste een beschrijving van de niet-tekstuele content. (We verwijzen naar Richtlijn 1.2 voor aanvullende eisen ten aanzien van media.)"
+                                        },
+                                        {
+                                            "handle": "Test",
+                                            "text": "Als niet-tekstuele content een test of oefening is die, als ze door middel van tekst gepresenteerd wordt onjuist zou zijn, dan leveren tekstalternatieven ten minste een beschrijving van de niet-tekstuele content."
+                                        },
+                                        {
+                                            "handle": "Zintuiglijk",
+                                            "text": "Als niet-tekstuele content primair is bedoeld om een specifieke zintuiglijke ervaring te creëren, dan leveren tekstalternatieven ten minste een beschrijving van de niet-tekstuele content."
+                                        },
+                                        {
+                                            "handle": "\n              CAPTCHA\n            ",
+                                            "text": "Als het doel van niet-tekstuele content is om te bevestigen dat content wordt gebruikt door een persoon in plaats van een computer, dan worden tekstalternatieven geleverd die het doel van de niet-tekstuele content identificeren en beschrijven. En er worden alternatieve vormen van CAPTCHA aangeboden gebruikmakend van uitvoermodes voor verschillende soorten van zintuiglijke perceptie om tegemoet te komen aan verschillende functiebeperkingen."
+                                        },
+                                        {
+                                            "handle": "Decoratie, opmaak, onzichtbaar",
+                                            "text": "Als niet-tekstuele content puur decoratief is, slechts voor visuele opmaak wordt gebruikt, of niet aan gebruikers wordt gerepresenteerd, dan wordt het op zo'n manier geïmplementeerd dat het genegeerd kan worden door hulptechnologie."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "op-tijd-gebaseerde-media",
+                    "alt_id": [
+                        "x1-2-op-tijd-gebaseerde-media"
+                    ],
+                    "num": "1.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Op tijd gebaseerde media",
+                    "text": "\n          Lever alternatieven voor op tijd gebaseerde media.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "louter-geluid-en-louter-videobeeld-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-1-louter-geluid-en-louter-videobeeld-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Louter-geluid en louter-videobeeld (vooraf opgenomen)",
+                            "text": "Voor media met vooraf opgenomen louter-geluid en vooraf opgenomen louter-videobeeld is het volgende waar, behalve als de audio of video een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Vooraf opgenomen louter-geluid",
+                                            "text": "Er wordt een alternatief geleverd voor op tijd gebaseerde media dat equivalente informatie geeft voor vooraf opgenomen louter-geluid content."
+                                        },
+                                        {
+                                            "handle": "Vooraf opgenomen louter-videobeeld",
+                                            "text": "Er wordt een alternatief geleverd voor op tijd gebaseerde media of een geluidsspoor dat equivalente informatie geeft voor vooraf opgenomen louter-videobeeld content."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ondertitels-voor-doven-en-slechthorenden-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-2-ondertitels-voor-doven-en-slechthorenden-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Ondertitels voor doven en slechthorenden (vooraf opgenomen)",
+                            "text": "Er worden ondertitels voor doven en slechthorenden geleverd voor alle vooraf opgenomen audiocontent in gesynchroniseerde media, behalve als het mediabestand een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld."
+                        },
+                        {
+                            "id": "audiodescriptie-of-media-alternatief-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-3-audiodescriptie-of-media-alternatief-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Audiodescriptie of media-alternatief (vooraf opgenomen)",
+                            "text": "Er wordt een alternatief geleverd voor op tijd gebaseerde media of audiodescriptie van de vooraf opgenomen videocontent geleverd voor gesynchroniseerde media, behalve als het mediabestand een media-alternatief voor tekst is en duidelijk als zodanig is gelabeld."
+                        },
+                        {
+                            "id": "ondertitels-voor-doven-en-slechthorenden-live",
+                            "alt_id": [
+                                "x1-2-4-ondertitels-voor-doven-en-slechthorenden-live"
+                            ],
+                            "num": "1.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Ondertitels voor doven en slechthorenden (live)",
+                            "text": "Er worden ondertitels voor doven en slechthorenden geleverd voor alle live audiocontent in gesynchroniseerde media."
+                        },
+                        {
+                            "id": "audiodescriptie-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-5-audiodescriptie-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Audiodescriptie (vooraf opgenomen)",
+                            "text": "Er wordt een audiodescriptie geleverd voor alle vooraf opgenomen videocontent in gesynchroniseerde media."
+                        },
+                        {
+                            "id": "gebarentaal-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-6-gebarentaal-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Gebarentaal (vooraf opgenomen)",
+                            "text": "Er wordt een gebarentaalvertolking geleverd voor alle vooraf opgenomen audiocontent in gesynchroniseerde media."
+                        },
+                        {
+                            "id": "verlengde-audiodescriptie-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-7-verlengde-audiodescriptie-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Verlengde audiodescriptie (vooraf opgenomen)",
+                            "text": "Waar pauzes in voorgrondgeluid onvoldoende zijn om audiodescripties toe te passen om de boodschap van de video over te brengen, wordt een verlengde audiodescriptie geleverd voor alle vooraf opgenomen videocontent in gesynchroniseerde media."
+                        },
+                        {
+                            "id": "media-alternatief-vooraf-opgenomen",
+                            "alt_id": [
+                                "x1-2-8-media-alternatief-vooraf-opgenomen"
+                            ],
+                            "num": "1.2.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Media-alternatief (vooraf opgenomen)",
+                            "text": "Er wordt een alternatief geleverd voor op tijd gebaseerde media voor alle vooraf opgenomen gesynchroniseerde media en voor alle vooraf opgenomen louter-videobeeld media."
+                        },
+                        {
+                            "id": "louter-geluid-live",
+                            "alt_id": [
+                                "x1-2-9-louter-geluid-live"
+                            ],
+                            "num": "1.2.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Louter-geluid (live)",
+                            "text": "Er wordt een alternatief geleverd voor op tijd gebaseerde media dat equivalente informatie presenteert voor live louter-geluid content."
+                        }
+                    ]
+                },
+                {
+                    "id": "aanpasbaar",
+                    "alt_id": [
+                        "x1-3-aanpasbaar"
+                    ],
+                    "num": "1.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Aanpasbaar",
+                    "text": "\n          Creëer content die op verschillende manieren gepresenteerd kan worden\n          (bijvoorbeeld eenvoudiger lay-out) zonder verlies van informatie of\n          structuur.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "info-en-relaties",
+                            "alt_id": [
+                                "x1-3-1-info-en-relaties"
+                            ],
+                            "num": "1.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Info en relaties",
+                            "text": "Informatie, structuur en relaties overgebracht door presentatie kunnen door software bepaald worden of zijn beschikbaar in tekst."
+                        },
+                        {
+                            "id": "betekenisvolle-volgorde",
+                            "alt_id": [
+                                "x1-3-2-betekenisvolle-volgorde"
+                            ],
+                            "num": "1.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Betekenisvolle volgorde",
+                            "text": "Als de volgorde waarin content wordt gepresenteerd van invloed is op zijn betekenis, kan een correcte leesvolgorde door software bepaald worden."
+                        },
+                        {
+                            "id": "zintuiglijke-eigenschappen",
+                            "alt_id": [
+                                "x1-3-3-zintuiglijke-eigenschappen"
+                            ],
+                            "num": "1.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Zintuiglijke eigenschappen",
+                            "text": "Instructies die geleverd worden om content te begrijpen en te bedienen zijn niet alleen afhankelijk van zintuiglijke eigenschappen van componenten zoals vorm, kleur, omvang, visuele locatie, oriëntatie of geluid.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Voor eisen met betrekking tot kleur zie Richtlijn 1.4."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "weergavestand",
+                            "alt_id": [
+                                "x1-3-4-weergavestand"
+                            ],
+                            "num": "1.3.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Weergavestand",
+                            "text": "De content beperkt de weergave en bediening niet tot een enkele presentatie-oriëntatie, zoals staand of liggend, tenzij een specifieke presentatie-oriëntatie essentieel is.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Voorbeelden waarbij een specifieke presentatie-oriëntatie essentieel kan zijn: een acceptgiro, een piano applicatie, dia’s voor een projector of televisiescherm, of Virtual Reality waarbij de weergavestand van de content niet noodzakelijkerwijs beperkt is tot staand of liggend."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identificeer-het-doel-van-de-input",
+                            "alt_id": [
+                                "x1-3-5-identificeer-het-doel-van-de-input"
+                            ],
+                            "num": "1.3.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Identificeer het doel van de input",
+                            "text": "Het doel van elk invoerveld waarmee informatie van de gebruiker wordt verzameld, kan door software bepaald worden wanneer:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Het invoerveld een doel dient dat is geïdentificeerd in de paragraaf Inputdoelen voor Componenten van de Gebruikersinterface; en"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "De content wordt geïmplementeerd met behulp van technologieën die ondersteuning bieden bij het identificeren van de verwachte betekenis van formulier-invoergegevens."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "identificeer-het-doel",
+                            "alt_id": [
+                                "x1-3-6-identificeer-het-doel"
+                            ],
+                            "num": "1.3.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Identificeer het doel",
+                            "text": "In content die is geïmplementeerd met opmaaktalen, kan het doel van de componenten van de gebruikersinterface, pictogrammen en regio's door software bepaald worden."
+                        }
+                    ]
+                },
+                {
+                    "id": "onderscheidbaar",
+                    "alt_id": [
+                        "x1-4-onderscheidbaar"
+                    ],
+                    "num": "1.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Onderscheidbaar",
+                    "text": "\n          Maak het voor gebruikers gemakkelijker om content te horen en te zien,\n          waaronder scheiding van voorgrond en achtergrond.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "gebruik-van-kleur",
+                            "alt_id": [
+                                "x1-4-1-gebruik-van-kleur"
+                            ],
+                            "num": "1.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Gebruik van kleur",
+                            "text": "Kleur wordt niet als het enige visuele middel gebruikt om informatie over te brengen, een actie aan te geven, tot een reactie op te roepen of een visueel element te onderscheiden.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Dit succescriterium richt zich specifiek op kleurperceptie. Andere vormen van perceptie worden behandeld in Richtlijn 1.3 inclusief softwarematige toegang tot kleur en andere codering van visuele presentatie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "geluidsbediening",
+                            "alt_id": [
+                                "x1-4-2-geluidsbediening"
+                            ],
+                            "num": "1.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Geluidsbediening",
+                            "text": "Als een geluidsweergave op een webpagina automatisch meer dan 3 seconden speelt, is er of een mechanisme beschikbaar om de geluidsweergave te pauzeren of te stoppen, of er is een mechanisme beschikbaar om het geluidsvolume onafhankelijk van het overall systeemvolume te regelen.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Omdat content die niet aan dit succescriterium voldoet het vermogen van een gebruiker om de hele pagina te gebruiken kan belemmeren, moet alle content op de webpagina (of die nu wel of niet gebruikt wordt om aan andere succescriteria te voldoen) aan dit succescriterium voldoen. Zie Conformiteitseis 5: Niet-interferentie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-minimum",
+                            "alt_id": [
+                                "x1-4-3-contrast-minimum"
+                            ],
+                            "num": "1.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Contrast (minimum)",
+                            "text": "De visuele weergave van tekst en afbeeldingen van tekst heeft een contrastverhouding van ten minste 4,5:1, behalve in de volgende gevallen:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Grote tekst",
+                                            "text": "Grote tekst en afbeeldingen van grote tekst hebben een contrastverhouding van ten minste 3:1;"
+                                        },
+                                        {
+                                            "handle": "Incidenteel",
+                                            "text": "Tekst of afbeeldingen van tekst die deel zijn van een inactieve component van de gebruikersinterface, die puur decoratief zijn, die voor niemand zichtbaar zijn, of die onderdeel zijn van een afbeelding die significant andere visuele content bevat, hebben geen contrasteis."
+                                        },
+                                        {
+                                            "handle": "Woordmerken",
+                                            "text": "Tekst die onderdeel is van een logo of merknaam heeft geen contrasteis."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "herschalen-van-tekst",
+                            "alt_id": [
+                                "x1-4-4-herschalen-van-tekst"
+                            ],
+                            "num": "1.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Herschalen van tekst",
+                            "text": "Behalve voor ondertitels voor doven en slechthorenden en afbeeldingen van tekst, kan tekst zonder hulptechnologie tot 200% geschaald worden zonder verlies van content of functionaliteit."
+                        },
+                        {
+                            "id": "afbeeldingen-van-tekst",
+                            "alt_id": [
+                                "x1-4-5-afbeeldingen-van-tekst"
+                            ],
+                            "num": "1.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Afbeeldingen van tekst",
+                            "text": "Als de gebruikte technologieën de visuele weergave tot stand kunnen brengen, wordt tekst gebruikt in plaats van afbeeldingen van tekst om informatie over te brengen, behalve in de volgende gevallen:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Aanpasbaar",
+                                            "text": "De afbeelding van tekst kan visueel aangepast worden aan de eisen van de gebruiker;"
+                                        },
+                                        {
+                                            "handle": "Essentieel",
+                                            "text": "Een specifieke weergave van tekst is essentieel voor de informatie die wordt overgebracht."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Woordmerken (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-versterkt",
+                            "alt_id": [
+                                "x1-4-6-contrast-versterkt"
+                            ],
+                            "num": "1.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Contrast (versterkt)",
+                            "text": "De visuele weergave van tekst en afbeeldingen van tekst heeft een contrastverhouding van ten minste 7:1, behalve in de volgende gevallen:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Grote tekst",
+                                            "text": "Grote tekst en afbeeldingen van grote tekst hebben een contrastverhouding van ten minste 4,5:1;"
+                                        },
+                                        {
+                                            "handle": "Incidenteel",
+                                            "text": "Tekst of afbeeldingen van tekst die onderdeel zijn van een inactieve componenten van de gebruikersinterface, die puur decoratief zijn, die voor niemand zichtbaar zijn, of die onderdeel zijn van een afbeelding die significant andere visuele content bevat, hebben geen contrasteis."
+                                        },
+                                        {
+                                            "handle": "Woordmerken",
+                                            "text": "Tekst die onderdeel is van een logo of merknaam heeft geen contrasteis."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "weinig-of-geen-achtergrondgeluid",
+                            "alt_id": [
+                                "x1-4-7-weinig-of-geen-achtergrondgeluid"
+                            ],
+                            "num": "1.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Weinig of geen achtergrondgeluid",
+                            "text": "Voor vooraf opgenomen louter-geluidcontent die (1) voornamelijk spraak op de voorgrond bevat, (2) geen geluids-CAPTCHA of audiologo is, en (3) geen vocalisatie is die primair bedoeld is als muzikale expressie zoals zingen of rappen, is ten minste één van de volgende zaken waar:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Geen achtergrond:",
+                                            "text": "De geluidsopname bevat geen achtergrondgeluiden."
+                                        },
+                                        {
+                                            "handle": "Uitzetten",
+                                            "text": "De achtergrondgeluiden kunnen uitgezet worden."
+                                        },
+                                        {
+                                            "handle": "20 dB",
+                                            "text": "De achtergrondgeluiden zijn ten minste 20 decibel lager dan spraak content die op de voorgrond klinkt, met uitzondering van incidentele geluiden die slechts één of twee seconden duren. Noot Uit de definitie van \"decibel\" volgt dat achtergrondgeluid dat aan deze eis voldoet ongeveer vier keer zachter klinkt dan de spraak content op de voorgrond."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Uit de definitie van \"decibel\" volgt dat achtergrondgeluid dat aan deze eis voldoet ongeveer vier keer zachter klinkt dan de spraak content op de voorgrond."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "visuele-weergave",
+                            "alt_id": [
+                                "x1-4-8-visuele-weergave"
+                            ],
+                            "num": "1.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Visuele weergave",
+                            "text": "Voor de visuele weergave van tekstblokken is een mechanisme beschikbaar om het volgende te realiseren:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Voor- en achtergrondkleuren kunnen door de gebruiker worden gekozen."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "De breedte is niet meer dan 80 karakters of tekens (40 in het geval van CJK)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekst is niet uitgevuld (uitgelijnd naar linker- en rechterkantlijnen)."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Regelafstand is ten minste 1,5 spatie binnen alinea's en alinea-afstand is ten minste 1,5 keer zo groot als de regelafstand."
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Tekst kan zonder hulptechnologie herschaald worden tot 200% op een zodanige manier dat de gebruiker niet horizontaal hoeft te scrollen om een regel tekst te lezen op een venster even groot als het volle beeld."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "afbeeldingen-van-tekst-geen-uitzondering",
+                            "alt_id": [
+                                "x1-4-9-afbeeldingen-van-tekst-geen-uitzondering"
+                            ],
+                            "num": "1.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Afbeeldingen van tekst (geen uitzondering)",
+                            "text": "Afbeeldingen van tekst worden alleen puur decoratief gebruikt, of daar waar een specifieke weergave van tekst essentieel is voor de informatie die wordt overgebracht.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Opmerking: woordmerken (tekst die onderdeel is van een logo of merknaam) worden als essentieel beschouwd."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "reflow",
+                            "alt_id": [
+                                "x1-4-10-reflow"
+                            ],
+                            "num": "1.4.10",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Reflow",
+                            "text": "Content kan zonder verlies van informatie of functionaliteit en zonder te moeten scrollen in twee dimensies, worden weergegeven voor:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Verticaal scrollbare content met een breedte gelijkwaardig aan 320 CSS-pixels;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Horizontaal scrollbare content met een hoogte gelijkwaardig aan 256 CSS-pixels;"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "320 CSS-pixels zijn gelijk aan de beginbreedte van een weergavekader van 1280 CSS-pixels bij 400% zoom. Voor webcontent die ontworpen is om horizontaal te scrollen (bijv. bij verticale tekst), zijn de 256 CSS-pixels gelijk aan de beginbreedte van een weergavekader van 1024 CSS-pixels bij 400% zoom."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Voorbeelden van content die een tweedimensionale lay-out vereisen, zijn afbeeldingen, kaarten, schema's, video's, games, presentaties, gegevenstabellen en interfaces waarbij de werkbalken zichtbaar moeten blijven tijdens het manipuleren van de content."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "contrast-van-niet-tekstuele-content",
+                            "alt_id": [
+                                "x1-4-11-contrast-van-niet-tekstuele-content"
+                            ],
+                            "num": "1.4.11",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Contrast van niet-tekstuele content",
+                            "text": "De visuele weergave van het volgende heeft een contrastverhouding van ten minste 3:1 ten opzichte van aangrenzende kleuren:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Componenten van de gebruikersinterface",
+                                            "text": "Visuele informatie die vereist is om componenten van de gebruikersinterface en statussen te identificeren, met uitzondering van inactieve componenten of componenten waarvan de weergave van de component wordt bepaald door de user agent en niet wordt aangepast door de auteur;"
+                                        },
+                                        {
+                                            "handle": "Grafische objecten",
+                                            "text": "Delen van afbeeldingen die vereist zijn om de content te begrijpen, behalve wanneer een specifieke weergave van afbeeldingen essentieel is voor de informatie die wordt overgebracht."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "tekstafstand",
+                            "alt_id": [
+                                "x1-4-12-tekstafstand"
+                            ],
+                            "num": "1.4.12",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Tekstafstand",
+                            "text": "Bij content die wordt geïmplementeerd met opmaaktalen die de volgende stijleigenschappen voor tekst ondersteunen, is er geen sprake van verlies van content of functionaliteit door het instellen van alle volgende, en door het niet wijzigen van andere stijleigenschappen:",
+                            "details": [
+                                {
+                                    "type": "olist",
+                                    "items": [
+                                        {
+                                            "handle": "",
+                                            "text": "Regelhoogte (regelafstand) naar ten minste 1,5 keer de lettergrootte;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Afstand tussen alinea's naar ten minste 2 keer de lettergrootte;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Letterafstand (spatiëren van letters) naar ten minste 0,12 keer de lettergrootte;"
+                                        },
+                                        {
+                                            "handle": "",
+                                            "text": "Spatiëren van woorden naar ten minste 0,16 keer de lettergrootte."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "content-bij-hover-of-focus",
+                            "alt_id": [
+                                "x1-4-13-content-bij-hover-of-focus"
+                            ],
+                            "num": "1.4.13",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Content bij hover of focus",
+                            "text": "Wanneer aanvullende content zichtbaar wordt en daarna weer verborgen, door het gebruik van hover met de aanwijzer of focus met het toetsenbord, gelden de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Sluiten",
+                                            "text": "Er is een mechanisme beschikbaar waarmee de aanvullende content kan worden gesloten zonder de aanwijzer hover of de toetsenbordfocus te verplaatsen, tenzij de aanvullende content een invoerfout communiceert of andere content niet verbergt of vervangt;"
+                                        },
+                                        {
+                                            "handle": "Aanwijsbaar",
+                                            "text": "Wanneer een aanwijzer hover aanvullende content kan activeren, dan kan de aanwijzer over de aanvullende content worden bewogen zonder dat deze verdwijnt;"
+                                        },
+                                        {
+                                            "handle": "Aanhouden",
+                                            "text": "De aanvullende content blijft zichtbaar totdat de oorzaak voor de hover of focus is verwijderd, de gebruiker de content sluit of de informatie niet langer geldig is."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Voorbeelden van aanvullende content die door de user agent wordt bepaald, zijn de browser tooltips die worden gemaakt met behulp van het HTML title attribuut."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Aangepaste tooltips, submenu's en andere niet-modale pop-ups die worden weergegeven bij hover en focus zijn voorbeelden van aanvullende content waarop dit criterium van toepassing is."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bedienbaar",
+            "alt_id": [
+                "x2-bedienbaar"
+            ],
+            "num": "2",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Bedienbaar",
+            "text": "\n        Componenten van de gebruikersinterface en navigatie moeten bedienbaar\n        zijn.\n      ",
+            "guidelines": [
+                {
+                    "id": "toetsenbordtoegankelijk",
+                    "alt_id": [
+                        "x2-1-toetsenbordtoegankelijk"
+                    ],
+                    "num": "2.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Toetsenbordtoegankelijk",
+                    "text": "\n          Maak alle functionaliteit beschikbaar vanaf een toetsenbord.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "toetsenbord",
+                            "alt_id": [
+                                "x2-1-1-toetsenbord"
+                            ],
+                            "num": "2.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Toetsenbord",
+                            "text": "Alle functionaliteit van de content is bedienbaar via een toetsenbordinterface zonder dat afzonderlijke toetsaanslagen aan tijd gebonden zijn, behalve als de onderliggende functie een invoer vereist die afhangt van het pad dat de gebruiker aflegt en niet alleen van de eindpunten.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Deze uitzondering is gerelateerd aan de onderliggende functie, niet aan de invoertechniek. Als we bijvoorbeeld met de hand geschreven tekst invoeren, vereist de invoertechniek (met de hand geschreven tekst) padafhankelijke invoer, maar de onderliggende functie (tekstinvoer) vereist dat niet."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Dit succescriterium verbiedt geen muisinvoer of andere invoermethoden naast de toetsenbordinvoer en wil dit ook niet ontmoedigen."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "geen-toetsenbordval",
+                            "alt_id": [
+                                "x2-1-2-geen-toetsenbordval"
+                            ],
+                            "num": "2.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Geen toetsenbordval",
+                            "text": "Als de toetsenbordfocus met de toetsenbordinterface verplaatst kan worden naar een component van de pagina, dan kan de focus ook met alleen de toetsenbordinterface weer van dat component weg worden bewogen. En, als er meer nodig is dan de standaard pijl- of tabtoetsen of andere standaard methoden om de focus te verplaatsen, dan wordt de gebruiker geïnformeerd over de manier waarop de focus kan worden verplaatst.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Omdat content die niet aan dit succescriterium voldoet het vermogen van een gebruiker om de hele pagina te gebruiken kan belemmeren, moet alle content op de webpagina (ongeacht of deze gebruikt wordt om aan andere succescriteria te voldoen of niet) voldoen aan dit succescriterium. Zie Conformiteitseis 5: Niet-interferentie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "toetsenbord-geen-uitzondering",
+                            "alt_id": [
+                                "x2-1-3-toetsenbord-geen-uitzondering"
+                            ],
+                            "num": "2.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Toetsenbord (geen uitzondering)",
+                            "text": "Alle functionaliteit van de content is bedienbaar via een toetsenbordinterface zonder specifieke timing te vereisen voor de individuele toetsaanslagen"
+                        },
+                        {
+                            "id": "enkel-teken-sneltoetsen",
+                            "alt_id": [
+                                "x2-1-4-enkel-teken-sneltoetsen"
+                            ],
+                            "num": "2.1.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Enkel teken sneltoetsen",
+                            "text": "Wanneer een sneltoets in content wordt geïmplementeerd door alleen letters (inclusief hoofdletters en kleine letters), leestekens, cijfers of symbolen te gebruiken, geldt ten minste één van de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Uitzetten",
+                                            "text": "Er is een mechanisme beschikbaar waarmee de sneltoets kan worden uitgezet;"
+                                        },
+                                        {
+                                            "handle": "Opnieuw toewijzen",
+                                            "text": "Er is een mechanisme beschikbaar om de sneltoets opnieuw toe te wijzen aan één of meerdere niet-afdrukbare tekens (bijv. Ctrl, Alt, enz.);"
+                                        },
+                                        {
+                                            "handle": "Alleen actief bij focus",
+                                            "text": "De sneltoets voor een component van de gebruikersinterface is alleen actief wanneer de betreffende component de focus heeft."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "genoeg-tijd",
+                    "alt_id": [
+                        "x2-2-genoeg-tijd"
+                    ],
+                    "num": "2.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Genoeg tijd",
+                    "text": "\n          Geef gebruikers genoeg tijd om content te lezen en te gebruiken.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "timing-aanpasbaar",
+                            "alt_id": [
+                                "x2-2-1-timing-aanpasbaar"
+                            ],
+                            "num": "2.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Timing aanpasbaar",
+                            "text": "Voor elke tijdslimiet die door de content wordt ingesteld, geldt ten minste één van de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Uitzetten",
+                                            "text": "De gebruiker kan de tijdslimiet uitzetten voordat die wordt bereikt; of"
+                                        },
+                                        {
+                                            "handle": "Aanpassen",
+                                            "text": "De gebruiker mag de tijdslimiet aanpassen voordat deze is verstreken over een bereik van ten minste tien keer de standaardinstelling; of"
+                                        },
+                                        {
+                                            "handle": "Verlengen",
+                                            "text": "De gebruiker wordt gewaarschuwd voor de tijd afloopt en krijgt ten minste 20 seconden om de tijdslimiet met een eenvoudige handeling te verlengen (bijvoorbeeld, \"druk op de spatiebalk\"), en de gebruiker mag de tijdslimiet ten minste tien keer verlengen; of"
+                                        },
+                                        {
+                                            "handle": "Real-time uitzondering:",
+                                            "text": "De tijdslimiet is onderdeel van een realtime gebeurtenis (een veiling bijvoorbeeld) en er is geen alternatief voor de tijdslimiet mogelijk; of"
+                                        },
+                                        {
+                                            "handle": "Essentiële uitzondering:",
+                                            "text": "De tijdslimiet is essentieel en verlenging zou de activiteit ongeldig maken; of"
+                                        },
+                                        {
+                                            "handle": "20 uur uitzondering:",
+                                            "text": "De tijdslimiet is langer dan 20 uur."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Dit succescriterium helpt om ervoor te zorgen dat gebruikers taken kunnen voltooien zonder onverwachte veranderingen in content of context die het resultaat zijn van een tijdslimiet. Dit succescriterium moet in samenhang met Succescriterium 3.2.1 worden beschouwd, dat limieten stelt aan veranderingen van content of context als gevolg van een gebruikersactie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "pauzeren-stoppen-verbergen",
+                            "alt_id": [
+                                "x2-2-2-pauzeren-stoppen-verbergen"
+                            ],
+                            "num": "2.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Pauzeren, stoppen, verbergen",
+                            "text": "Voor alle bewegende, knipperende, scrollende of automatisch actualiserende informatie gelden alle volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Bewegen, knipperen, scrollen:",
+                                            "text": "Voor bewegende, knipperende of scrollende informatie die (1) automatisch start, (2) langer dan vijf seconden duurt, en (3) parallel met andere content wordt getoond, is er een mechanisme voor de gebruiker om dit te pauzeren, te stoppen of te verbergen, tenzij de beweging, knippering of scrolling, onderdeel is van een activiteit waar ze essentieel is en"
+                                        },
+                                        {
+                                            "handle": "Automatisch actualiserend:",
+                                            "text": "Voor elke soort automatisch actualiserende informatie die (1) automatisch start en (2) parallel met andere content wordt gepresenteerd, is er een mechanisme voor de gebruiker om dit te pauzeren, te stoppen of te verbergen of de frequentie van de actualisering in te stellen, tenzij de automatische actualisering onderdeel is van een activiteit waar ze essentieel is."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Voor eisen gerelateerd aan knipperende of flitsende content zie Richtlijn 2.3."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Omdat content die niet aan dit succescriterium voldoet het vermogen van een gebruiker om de hele pagina te gebruiken kan belemmeren, moet alle content op de webpagina (of ze gebruikt wordt om aan andere succescriteria te voldoen of niet) voldoen aan dit succescriterium. Zie conformiteitseis 5: Niet-interferentie."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 3",
+                                    "text": "Van content die periodiek door software wordt geactualiseerd of die naar de user agent wordt verzonden, wordt niet vereist dat ze informatie behoudt of weergeeft die gegenereerd of ontvangen wordt tussen het begin van de pauze en het moment van de hervatting van de weergave, aangezien dit technisch wellicht niet mogelijk is en het in veel situaties misleidend is om dit te doen."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 4",
+                                    "text": "Een animatie die speelt tijdens het laden of een gelijkwaardige situatie, kan als essentieel worden beschouwd als niet tegelijkertijd interactie kan plaatsvinden door alle gebruikers en als het niet aangeven van de voortgang gebruikers zou kunnen verwarren of laten denken dat de content vastgelopen of onvolledig was."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "geen-timing",
+                            "alt_id": [
+                                "x2-2-3-geen-timing"
+                            ],
+                            "num": "2.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Geen timing",
+                            "text": "Timing is geen essentieel onderdeel van de gebeurtenis of activiteit die door de content wordt weergegeven, behalve voor niet-interactieve gesynchroniseerde media en real-time gebeurtenissen."
+                        },
+                        {
+                            "id": "onderbrekingen",
+                            "alt_id": [
+                                "x2-2-4-onderbrekingen"
+                            ],
+                            "num": "2.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Onderbrekingen",
+                            "text": "Onderbrekingen kunnen uitgesteld of uitgezet worden door de gebruiker, behalve onderbrekingen die met een noodsituatie samenhangen."
+                        },
+                        {
+                            "id": "herauthentisering",
+                            "alt_id": [
+                                "x2-2-5-herauthentisering"
+                            ],
+                            "num": "2.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Herauthentisering",
+                            "text": "Als een geauthentiseerde sessie verloopt, kan de gebruiker na herauthentisering de activiteit zonder gegevensverlies voortzetten."
+                        },
+                        {
+                            "id": "time-outs",
+                            "alt_id": [
+                                "x2-2-6-time-outs"
+                            ],
+                            "num": "2.2.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Time-outs",
+                            "text": "Gebruikers worden gewaarschuwd voor een periode van gebruikersinactiviteit die kan leiden tot verlies van gegevens, tenzij de gegevens gedurende meer dan 20 uur worden bewaard wanneer de gebruiker geen actie onderneemt.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Privacyregelgeving vereist mogelijk dat de gebruiker uitdrukkelijk toestemming moet geven alvorens de gebruikersidentificatie mag worden geverifieerd en gebruikersgegevens mogen worden bewaard. Wanneer de gebruiker minderjarig is, mag in de meeste rechtsgebieden, landen of regio's mogelijk niet om uitdrukkelijke toestemming worden gevraagd. Aanbevolen wordt om deskundigen op het gebied van privacy te raadplegen en juridisch advies in te winnen wanneer men het bewaren van gegevens als een mogelijkheid beschouwd om aan dit succescriterium te voldoen."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "toevallen-en-fysieke-reacties",
+                    "alt_id": [
+                        "x2-3-toevallen-en-fysieke-reacties"
+                    ],
+                    "num": "2.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Toevallen en fysieke reacties",
+                    "text": "\n          Ontwerp content niet op een manier waarvan bekend is dat die toevallen\n          of fysieke reacties veroorzaakt.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "drie-flitsen-of-beneden-drempelwaarde",
+                            "alt_id": [
+                                "x2-3-1-drie-flitsen-of-beneden-drempelwaarde"
+                            ],
+                            "num": "2.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Drie flitsen of beneden drempelwaarde",
+                            "text": "Webpagina's bevatten niets wat meer dan drie keer flitst in enige periode van één seconde of de flits is beneden de algemene flits- en rodeflitsdrempelwaarden.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Omdat content die niet aan dit succescriterium voldoet het vermogen van een gebruiker om de hele pagina te gebruiken kan belemmeren, moet alle content op de webpagina (ongeacht of deze gebruikt wordt om aan andere succescriteria te voldoen of niet) voldoen aan dit succescriterium. Zie Conformiteitseis 5: Niet-interferentie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "drie-flitsen",
+                            "alt_id": [
+                                "x2-3-2-drie-flitsen"
+                            ],
+                            "num": "2.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Drie flitsen",
+                            "text": "Webpagina's bevatten niets wat meer dan drie keer flitst in enige periode van één seconde."
+                        },
+                        {
+                            "id": "animatie-uit-interacties",
+                            "alt_id": [
+                                "x2-3-3-animatie-uit-interacties"
+                            ],
+                            "num": "2.3.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Animatie uit interacties",
+                            "text": "Bewegingsanimatie die door interactie wordt geactiveerd, kan worden uitgeschakeld, behalve als de animatie essentieel is voor de functionaliteit of voor de informatie die wordt overgebracht."
+                        }
+                    ]
+                },
+                {
+                    "id": "navigeerbaar",
+                    "alt_id": [
+                        "x2-4-navigeerbaar"
+                    ],
+                    "num": "2.4",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Navigeerbaar",
+                    "text": "\n          Lever manieren om gebruikers te helpen navigeren, content te vinden en\n          te bepalen waar ze zijn.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "blokken-omzeilen",
+                            "alt_id": [
+                                "x2-4-1-blokken-omzeilen"
+                            ],
+                            "num": "2.4.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Blokken omzeilen",
+                            "text": "Er is een mechanisme beschikbaar om blokken content die op meerdere webpagina's worden herhaald te omzeilen."
+                        },
+                        {
+                            "id": "paginatitel",
+                            "alt_id": [
+                                "x2-4-2-paginatitel"
+                            ],
+                            "num": "2.4.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Paginatitel",
+                            "text": "Webpagina's hebben titels die het onderwerp of doel beschrijven."
+                        },
+                        {
+                            "id": "focus-volgorde",
+                            "alt_id": [
+                                "x2-4-3-focus-volgorde"
+                            ],
+                            "num": "2.4.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Focus volgorde",
+                            "text": "Als in webpagina's sequentieel genavigeerd kan worden en de navigatiesequenties hebben invloed op de betekenis of het gebruik, dan krijgen focusbare componenten de focus in de juiste volgorde waardoor betekenis en bedienbaarheid behouden blijft."
+                        },
+                        {
+                            "id": "linkdoel-in-context",
+                            "alt_id": [
+                                "x2-4-4-linkdoel-in-context"
+                            ],
+                            "num": "2.4.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Linkdoel (in context)",
+                            "text": "Het linkdoel kan bepaald worden uit enkel de linktekst of uit de linktekst samen met zijn door software bepaalde linkcontext, behalve daar waar het doel van de link een dubbelzinnige betekenis kan hebben voor gebruikers in het algemeen."
+                        },
+                        {
+                            "id": "meerdere-manieren",
+                            "alt_id": [
+                                "x2-4-5-meerdere-manieren"
+                            ],
+                            "num": "2.4.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Meerdere manieren",
+                            "text": "Er is meer dan één manier beschikbaar om een webpagina binnen een verzameling webpagina's te vinden, behalve wanneer de webpagina het resultaat is van, of een stap in, een proces."
+                        },
+                        {
+                            "id": "koppen-en-labels",
+                            "alt_id": [
+                                "x2-4-6-koppen-en-labels"
+                            ],
+                            "num": "2.4.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Koppen en labels",
+                            "text": "Koppen en labels beschrijven het onderwerp of doel."
+                        },
+                        {
+                            "id": "focus-zichtbaar",
+                            "alt_id": [
+                                "x2-4-7-focus-zichtbaar"
+                            ],
+                            "num": "2.4.7",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Focus zichtbaar",
+                            "text": "Elke gebruikersinterface die met een toetsenbord te bedienen is, heeft een bedieningswijze waarbij de indicator van de toetsenbordfocus zichtbaar is."
+                        },
+                        {
+                            "id": "locatie",
+                            "alt_id": [
+                                "x2-4-8-locatie"
+                            ],
+                            "num": "2.4.8",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Locatie",
+                            "text": "Informatie over de locatie van de gebruiker binnen een verzameling webpagina's is beschikbaar."
+                        },
+                        {
+                            "id": "linkdoel-alleen-link",
+                            "alt_id": [
+                                "x2-4-9-linkdoel-alleen-link"
+                            ],
+                            "num": "2.4.9",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Linkdoel (alleen link)",
+                            "text": "Er is een mechanisme beschikbaar waarmee het doel van elke link bepaald kan worden op basis van alleen de linktekst, behalve waar het doel van de link dubbelzinnig voor gebruikers in het algemeen zou zijn."
+                        },
+                        {
+                            "id": "paragraafkoppen",
+                            "alt_id": [
+                                "x2-4-10-paragraafkoppen"
+                            ],
+                            "num": "2.4.10",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Paragraafkoppen",
+                            "text": "Paragraaf koppen worden gebruikt om de content te structureren.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "\"Kop\" wordt in algemene zin gebruikt met inbegrip van titels en andere manieren om een kop aan verschillende soorten content te geven."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Dit succescriterium betreft paragrafen binnen de tekst, niet componenten van de gebruikersinterface. Componenten van de gebruikersinterface vallen onder Succescriterium 4.1.2."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "input-modaliteiten",
+                    "alt_id": [
+                        "x2-5-input-modaliteiten"
+                    ],
+                    "num": "2.5",
+                    "handle": "Input Modaliteiten",
+                    "text": "\n          Maak het eenvoudiger voor gebruikers om de functionaliteit te bedienen\n          met andere vormen van invoer dan alleen het toetsenbord.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "aanwijzergebaren",
+                            "alt_id": [
+                                "x2-5-1-aanwijzergebaren"
+                            ],
+                            "num": "2.5.1",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Aanwijzergebaren",
+                            "text": "Alle functionaliteit waarmee bij de bediening gebruik wordt gemaakt van meerpunts- of padgebaseerde gebaren, kan worden bediend met een enkele aanwijzer zonder een padgebaseerd gebaar, tenzij een meerpunts- of padgebaseerd gebaar essentieel is.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Deze eis is van toepassing op webcontent die acties met de aanwijzer interpreteert (NB: dit geldt niet voor acties die vereist zijn om de user agent of hulptechnologie te bedienen)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "aanwijzerannulering",
+                            "alt_id": [
+                                "x2-5-2-aanwijzerannulering"
+                            ],
+                            "num": "2.5.2",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Aanwijzerannulering",
+                            "text": "Voor functionaliteit die kan worden bediend met een enkele aanwijzer, geldt ten minste één van de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Geen down-event",
+                                            "text": "Het down-event van de aanwijzer wordt niet gebruikt om enig onderdeel van de functie uit te voeren;"
+                                        },
+                                        {
+                                            "handle": "Afbreken of ongedaan maken",
+                                            "text": "De functie wordt voltooid door het up-event en er is een mechanisme beschikbaar om de functie af te breken voordat deze wordt voltooid of om de functie ongedaan te maken als deze is voltooid;"
+                                        },
+                                        {
+                                            "handle": "Up reversal",
+                                            "text": "Met het up-event wordt elk resultaat van het voorgaande down-event ongedaan gemaakt;"
+                                        },
+                                        {
+                                            "handle": "Essentieel",
+                                            "text": "Het voltooien van de functie met het down-event is essentieel."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Functies die het indrukken van een toets op het toetsenbord of het numeriek toetsenbord nabootsen, worden als essentieel beschouwd."
+                                },
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 2",
+                                    "text": "Deze eis is van toepassing op webcontent die acties met de aanwijzer interpreteert (dus dit geldt niet voor acties die vereist zijn om de user agent of hulptechnologie te bedienen)."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "label-in-naam",
+                            "alt_id": [
+                                "x2-5-3-label-in-naam"
+                            ],
+                            "num": "2.5.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Label in naam",
+                            "text": "Bij componenten van de gebruikersinterface met labels die tekst of afbeeldingen van tekst bevatten, bevat de naam de tekst die visueel wordt weergegeven.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Een best practice is om de naam te laten beginnen met de tekst van het label."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "bewegingsactivering",
+                            "alt_id": [
+                                "x2-5-4-bewegingsactivering"
+                            ],
+                            "num": "2.5.4",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bewegingsactivering",
+                            "text": "Functionaliteit die kan worden bediend door de beweging van een apparaat of beweging van een gebruiker, kan ook worden bediend met componenten van de gebruikersinterface. De reactie op de beweging kan worden uitgeschakeld om onbedoelde activering te voorkomen, behalve wanneer:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Ondersteunde interface",
+                                            "text": "De beweging wordt gebruikt om de functionaliteit te bedienen via een door toegankelijkheid ondersteunde interface;"
+                                        },
+                                        {
+                                            "handle": "Essentieel",
+                                            "text": "De beweging is essentieel voor de functie en wanneer de reactie op de beweging wordt uitgeschakeld, wordt de activiteit ongeldig gemaakt."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "grootte-van-het-aanwijsgebied",
+                            "alt_id": [
+                                "x2-5-5-grootte-van-het-aanwijsgebied"
+                            ],
+                            "num": "2.5.5",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Grootte van het aanwijsgebied",
+                            "text": "De grootte van het doelgebied voor aanwijzerinvoer is ten minste 44 bij 44 CSS-pixels, behalve in de volgende gevallen:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Gelijkwaardig",
+                                            "text": "Het doel is beschikbaar via een gelijkwaardige link of een bedieningselement van ten minste 44 bij 44 CSS-pixels op dezelfde pagina;"
+                                        },
+                                        {
+                                            "handle": "Inline",
+                                            "text": "Het doel bevindt zich in een regel of tekstblok;"
+                                        },
+                                        {
+                                            "handle": "User agent control",
+                                            "text": "De doelgrootte wordt bepaald door de user agent en wordt niet aangepast door de auteur."
+                                        },
+                                        {
+                                            "handle": "Essentieel",
+                                            "text": "Een specifieke weergave van het doel is essentieel voor de informatie die wordt overgebracht."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "input-gelijktijdige-invoermechanismen",
+                            "alt_id": [
+                                "x2-5-6-input-gelijktijdige-invoermechanismen"
+                            ],
+                            "num": "2.5.6",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Input gelijktijdige invoermechanismen",
+                            "text": "Webcontent beperkt niet het gebruik van de invoermanieren die op een platform beschikbaar zijn, behalve wanneer de beperking essentieel is, deze vereist is om de beveiliging van de content te garanderen of deze vereist is om gebruikersinstellingen te beschermen."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "begrijpelijk",
+            "alt_id": [
+                "x3-begrijpelijk"
+            ],
+            "num": "3",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Begrijpelijk",
+            "text": "\n        Informatie en de bediening van de gebruikersinterface moeten\n        begrijpelijk zijn.\n      ",
+            "guidelines": [
+                {
+                    "id": "leesbaar",
+                    "alt_id": [
+                        "x3-1-leesbaar"
+                    ],
+                    "num": "3.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Leesbaar",
+                    "text": "\n          Maak tekstcontent leesbaar en begrijpelijk.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "taal-van-de-pagina",
+                            "alt_id": [
+                                "x3-1-1-taal-van-de-pagina"
+                            ],
+                            "num": "3.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Taal van de pagina",
+                            "text": "De standaard menselijke taal van diverse webpagina's kan door software bepaald worden."
+                        },
+                        {
+                            "id": "taal-van-onderdelen",
+                            "alt_id": [
+                                "x3-1-2-taal-van-onderdelen"
+                            ],
+                            "num": "3.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Taal van onderdelen",
+                            "text": "De menselijke taal van elke passage of zin in de content kan door software bepaald worden, behalve waar het gaat om eigennamen, technische termen, woorden uit een onbepaalde taal en woorden of zinsdelen die deel zijn gaan uitmaken van het jargon van de onmiddellijk omringende tekst."
+                        },
+                        {
+                            "id": "ongebruikelijke-woorden",
+                            "alt_id": [
+                                "x3-1-3-ongebruikelijke-woorden"
+                            ],
+                            "num": "3.1.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Ongebruikelijke woorden",
+                            "text": "Er is een mechanisme beschikbaar voor de identificatie van specifieke definities van woorden of zinsdelen die op een ongebruikelijke of beperkte manier gebruikt worden, inclusief idiomatische uitdrukkingen en jargon."
+                        },
+                        {
+                            "id": "afkortingen",
+                            "alt_id": [
+                                "x3-1-4-afkortingen"
+                            ],
+                            "num": "3.1.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Afkortingen",
+                            "text": "Er is een mechanisme beschikbaar voor de identificatie van de voluit geschreven vorm of betekenis van afkortingen."
+                        },
+                        {
+                            "id": "leesniveau",
+                            "alt_id": [
+                                "x3-1-5-leesniveau"
+                            ],
+                            "num": "3.1.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Leesniveau",
+                            "text": "Als tekst, nadat eigennamen en titels verwijderd zijn, een leesvaardigheid vereist die hoger is dan het lager middelbaar onderwijsniveau, dan is aanvullende content beschikbaar, of er is een versie beschikbaar die geen leesvaardigheid vereist die hoger is dan het lager middelbaar onderwijsniveau."
+                        },
+                        {
+                            "id": "uitspraak",
+                            "alt_id": [
+                                "x3-1-6-uitspraak"
+                            ],
+                            "num": "3.1.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Uitspraak",
+                            "text": "Er is een mechanisme beschikbaar voor het vaststellen van de specifieke uitspraak van woorden indien de betekenis van de woorden in de context dubbelzinnig is zonder kennis van de uitspraak."
+                        }
+                    ]
+                },
+                {
+                    "id": "voorspelbaar",
+                    "alt_id": [
+                        "x3-2-voorspelbaar"
+                    ],
+                    "num": "3.2",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Voorspelbaar",
+                    "text": "\n          Maak het uiterlijk en de bediening van webpagina's voorspelbaar.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "bij-focus",
+                            "alt_id": [
+                                "x3-2-1-bij-focus"
+                            ],
+                            "num": "3.2.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bij focus",
+                            "text": "Als een component van de gebruikersinterface de focus krijgt, dan veroorzaakt dat geen contextwijziging."
+                        },
+                        {
+                            "id": "bij-input",
+                            "alt_id": [
+                                "x3-2-2-bij-input"
+                            ],
+                            "num": "3.2.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Bij input",
+                            "text": "Verandering van de instelling van een component van de gebruikersinterface veroorzaakt niet automatisch een contextwijziging, tenzij de gebruiker geïnformeerd is over het gedrag vóór het gebruik van de component."
+                        },
+                        {
+                            "id": "consistente-navigatie",
+                            "alt_id": [
+                                "x3-2-3-consistente-navigatie"
+                            ],
+                            "num": "3.2.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Consistente navigatie",
+                            "text": "Navigatiemechanismen, die op meerdere webpagina's binnen een verzameling webpagina's herhaald worden, komen elke keer dat ze worden herhaald in dezelfde relatieve volgorde voor, tenzij een verandering wordt geïnitieerd door de gebruiker."
+                        },
+                        {
+                            "id": "consistente-identificatie",
+                            "alt_id": [
+                                "x3-2-4-consistente-identificatie"
+                            ],
+                            "num": "3.2.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Consistente identificatie",
+                            "text": "Componenten die dezelfde functionaliteit hebben binnen een verzameling webpagina's worden consistent geïdentificeerd."
+                        },
+                        {
+                            "id": "verandering-op-verzoek",
+                            "alt_id": [
+                                "x3-2-5-verandering-op-verzoek"
+                            ],
+                            "num": "3.2.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Verandering op verzoek",
+                            "text": "Contextwijzigingen worden alleen geïnitieerd op verzoek van de gebruiker of er is een mechanisme beschikbaar om zulke veranderingen uit te zetten."
+                        }
+                    ]
+                },
+                {
+                    "id": "assistentie-bij-invoer",
+                    "alt_id": [
+                        "x3-3-assistentie-bij-invoer"
+                    ],
+                    "num": "3.3",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Assistentie bij invoer",
+                    "text": "\n          Help gebruikers om fouten te vermijden en ze te verbeteren.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "foutidentificatie",
+                            "alt_id": [
+                                "x3-3-1-foutidentificatie"
+                            ],
+                            "num": "3.3.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Foutidentificatie",
+                            "text": "Als een invoerfout automatisch ontdekt wordt, dan wordt het onderdeel waar de fout zit geïdentificeerd en wordt de fout tekstueel aan de gebruiker meegedeeld."
+                        },
+                        {
+                            "id": "labels-of-instructies",
+                            "alt_id": [
+                                "x3-3-2-labels-of-instructies"
+                            ],
+                            "num": "3.3.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Labels of instructies",
+                            "text": "Als de content gebruikersinvoer vereist, dan worden labels of instructies geleverd."
+                        },
+                        {
+                            "id": "foutsuggestie",
+                            "alt_id": [
+                                "x3-3-3-foutsuggestie"
+                            ],
+                            "num": "3.3.3",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Foutsuggestie",
+                            "text": "Als een invoerfout automatisch ontdekt wordt en suggesties voor verbetering bekend zijn, dan worden de suggesties aan de gebruiker geleverd, tenzij dit de beveiliging of het doel van de content in gevaar zou brengen."
+                        },
+                        {
+                            "id": "foutpreventie-wettelijk-financieel-gegevens",
+                            "alt_id": [
+                                "x3-3-4-foutpreventie-wettelijk-financieel-gegevens"
+                            ],
+                            "num": "3.3.4",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Foutpreventie (wettelijk, financieel, gegevens)",
+                            "text": "Voor webpagina's die wettelijke verplichtingen of financiële transacties voor de gebruiker uitvoeren, die, door gebruikers bedienbaar gegevens in gegevensopslagplaatsen verwijderen of wijzigen, of die antwoorden van de gebruiker verzenden, geldt ten minste één van de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Omkeerbaar",
+                                            "text": "Verzendingen kunnen ongedaan gemaakt worden."
+                                        },
+                                        {
+                                            "handle": "Gecontroleerd",
+                                            "text": "Door de gebruiker ingevoerde gegevens worden gecontroleerd op invoerfouten en de gebruiker wordt de mogelijkheid gegeven om ze te verbeteren."
+                                        },
+                                        {
+                                            "handle": "Bevestigd",
+                                            "text": "Er is een mechanisme beschikbaar voor het beoordelen, bevestigen en verbeteren van informatie voordat de verzending wordt voltooid."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "hulp",
+                            "alt_id": [
+                                "x3-3-5-hulp"
+                            ],
+                            "num": "3.3.5",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Hulp",
+                            "text": "Contextgevoelige hulp is beschikbaar."
+                        },
+                        {
+                            "id": "foutpreventie-alle",
+                            "alt_id": [
+                                "x3-3-6-foutpreventie-alle"
+                            ],
+                            "num": "3.3.6",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AAA",
+                            "handle": "Foutpreventie (alle)",
+                            "text": "Voor webpagina's die vereisen dat de gebruiker informatie invoert en verzendt, geldt ten minste één van de volgende zaken:",
+                            "details": [
+                                {
+                                    "type": "ulist",
+                                    "items": [
+                                        {
+                                            "handle": "Omkeerbaar",
+                                            "text": "Verzendingen kunnen ongedaan gemaakt worden."
+                                        },
+                                        {
+                                            "handle": "Gecontroleerd",
+                                            "text": "Door de gebruiker ingevoerde gegevens worden gecontroleerd op invoerfouten en de gebruiker wordt de mogelijkheid gegeven om ze te verbeteren."
+                                        },
+                                        {
+                                            "handle": "Bevestigd",
+                                            "text": "Er is een mechanisme beschikbaar voor het beoordelen, bevestigen en verbeteren van informatie voordat de verzending wordt voltooid."
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "robuust",
+            "alt_id": [
+                "x4-robuust"
+            ],
+            "num": "4",
+            "versions": [
+                "2.0",
+                "2.1",
+                "2.2"
+            ],
+            "handle": "Robuust",
+            "text": "\n        Content moet voldoende robuust zijn om betrouwbaar geïnterpreteerd te\n        kunnen worden door een breed scala van user agents, met inbegrip van\n        hulptechnologieën.\n      ",
+            "guidelines": [
+                {
+                    "id": "compatibel",
+                    "alt_id": [
+                        "x4-1-compatibel"
+                    ],
+                    "num": "4.1",
+                    "versions": [
+                        "2.0",
+                        "2.1",
+                        "2.2"
+                    ],
+                    "handle": "Compatibel",
+                    "text": "\n          Maximaliseer compatibiliteit met huidige en toekomstige user agents,\n          met inbegrip van hulptechnologieën.\n        ",
+                    "successcriteria": [
+                        {
+                            "id": "parsen",
+                            "alt_id": [
+                                "x4-1-1-parsen"
+                            ],
+                            "num": "4.1.1",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Parsen",
+                            "text": "In content die geïmplementeerd is met opmaaktalen hebben elementen volledige begin- en eindtags, zijn elementen genest volgens hun specificatie, bevatten elementen geen dubbele attributen en zijn alle ID's uniek, behalve waar de specificatie deze eigenschappen toelaat.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Begin- en eindtags die een cruciaal karakter in hun formatie missen, zoals een sluithaak of een verkeerd gebruikt aanhalingsteken voor een attribuutwaarde, zijn niet volledig."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "naam-rol-waarde",
+                            "alt_id": [
+                                "x4-1-2-naam-rol-waarde"
+                            ],
+                            "num": "4.1.2",
+                            "versions": [
+                                "2.0",
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "A",
+                            "handle": "Naam, rol, waarde",
+                            "text": "Voor alle componenten van de gebruikersinterface (inclusief, maar niet uitsluitend voor formulierelementen, links en door scripts gegenereerde componenten), kunnen de naam (name) en rol (role) door software bepaald worden; toestanden (states), eigenschappen (properties) en waarden (values) die door de gebruiker ingesteld kunnen worden, kunnen door software ingesteld worden; en kennisgeving van veranderingen in deze items is beschikbaar voor user agents, met inbegrip van hulptechnologieën.",
+                            "details": [
+                                {
+                                    "type": "note",
+                                    "handle": "Noot 1",
+                                    "text": "Dit succescriterium is primair voor webauteurs die hun eigen componenten van de gebruikersinterface ontwikkelen of scripten. Standaard bedieningselementen in HTML bijvoorbeeld voldoen al aan dit succescriterium als ze gebruikt worden volgens specificatie."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "statusberichten",
+                            "alt_id": [
+                                "x4-1-3-statusberichten"
+                            ],
+                            "num": "4.1.3",
+                            "versions": [
+                                "2.1",
+                                "2.2"
+                            ],
+                            "level": "AA",
+                            "handle": "Statusberichten",
+                            "text": "In content die is geïmplementeerd met opmaaktalen kunnen statusberichten door software bepaald worden met behulp van rol (role) of eigenschappen (properties), zodat hulptechnologieën de berichten aan de gebruiker kunnen presenteren zonder dat ze de focus krijgen."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
